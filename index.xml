@@ -18,5 +18,15 @@
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://your_domain.com/projects/tik-tak-toe/feature.png" />
     </item>
     
+    <item>
+      <title>Arch Install Guide</title>
+      <link>https://your_domain.com/posts/arch-install-guide/</link>
+      <pubDate>Thu, 05 May 2022 14:50:36 -0500</pubDate>
+      
+      <guid>https://your_domain.com/posts/arch-install-guide/</guid>
+      <description>Preinstallation&gt; Preinstallation # Update system clock&gt; Update system clock # $ timedatectl set-ntp true</description>
+      
+    </item>
+    
   </channel>
 </rss>
