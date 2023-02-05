@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>🔥 Andrew&#39;s bonfire</title>
-    <link>https://your_domain.com/</link>
-    <description>Recent content on 🔥 Andrew&#39;s bonfire</description>
+    <title>Projects on 🔥 Andrew&#39;s bonfire</title>
+    <link>https://your_domain.com/projects/</link>
+    <description>Recent content in Projects on 🔥 Andrew&#39;s bonfire</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2023 Andrew Priestley</copyright>
-    <lastBuildDate>Sun, 05 Feb 2023 13:41:18 -0500</lastBuildDate><atom:link href="https://your_domain.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Feb 2023 13:41:18 -0500</lastBuildDate><atom:link href="https://your_domain.com/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tik Tak Toe</title>
       <link>https://your_domain.com/projects/tik-tak-toe/</link>
@@ -15,7 +15,6 @@
       
       <guid>https://your_domain.com/projects/tik-tak-toe/</guid>
       <description> </description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://your_domain.com/projects/tik-tak-toe/feature.png" />
     </item>
     
   </channel>
