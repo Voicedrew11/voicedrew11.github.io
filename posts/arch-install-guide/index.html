@@ -95,7 +95,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "400"
+    "wordCount": "750"
   }]
   </script>
 
@@ -533,6 +533,15 @@
       </ul>
     </li>
     <li><a href="#install-the-bootloader">Install the bootloader</a></li>
+    <li><a href="#post-installation">Post-installation</a>
+      <ul>
+        <li><a href="#networkmanager">NetworkManager</a></li>
+        <li><a href="#add-a-user-account">Add a user account</a></li>
+        <li><a href="#installing-a-gui">Installing a GUI</a></li>
+        <li><a href="#gpu-drivers-nvidia">GPU drivers (Nvidia)</a></li>
+        <li><a href="#gpu-drivers-amd">GPU drivers (AMD)</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -566,6 +575,15 @@
       </ul>
     </li>
     <li><a href="#install-the-bootloader">Install the bootloader</a></li>
+    <li><a href="#post-installation">Post-installation</a>
+      <ul>
+        <li><a href="#networkmanager">NetworkManager</a></li>
+        <li><a href="#add-a-user-account">Add a user account</a></li>
+        <li><a href="#installing-a-gui">Installing a GUI</a></li>
+        <li><a href="#gpu-drivers-nvidia">GPU drivers (Nvidia)</a></li>
+        <li><a href="#gpu-drivers-amd">GPU drivers (AMD)</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -774,6 +792,90 @@
 <p>Create a grub config file using:</p>
 <p><code>$ grub-mkconfig -o /boot/grub/grub.cfg</code></p>
 <p>At this point, feel free to type exit and then reboot&hellip; hopefully your installation has been successful.</p>
+<div id="post-installation" class="anchor">Post-installation></div>
+<h2 class="relative group">Post-installation 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#post-installation" aria-label="Anchor">#</a></span>        
+    
+</h2><div id="networkmanager" class="anchor">NetworkManager></div>
+<h3 class="relative group">NetworkManager 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#networkmanager" aria-label="Anchor">#</a></span>        
+    
+</h3><p>Enable the previously installed networkmanager with:</p>
+<p><code>$ systemctl enable NetworkManager</code></p>
+<div id="add-a-user-account" class="anchor">Add a user account></div>
+<h3 class="relative group">Add a user account 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#add-a-user-account" aria-label="Anchor">#</a></span>        
+    
+</h3><p>Although you can use your computer with just a root user, it makes far more sense to add a personal user account:</p>
+<p><code>$ useradd -m -G wheel -s /bin/bash username</code></p>
+<ul>
+<li>
+<p><code>-m</code> makes creates a home directory for the user</p>
+</li>
+<li>
+<p><code>-G</code> adds the user to a group</p>
+</li>
+<li>
+<p><code>-S</code> determines the startup shell of the user</p>
+</li>
+</ul>
+<p>Create a password for the new user:</p>
+<p><code>$ passwd username</code></p>
+<p>Enable the wheel group, which will allow users within to use sudo:</p>
+<pre tabindex="0"><code>$ EDITOR=nano visudo`
+
+## Uncomment to allow members of group wheel to execute any command
+%wheel all=(ALL) ALL
+</code></pre><p>Note. if you have vim installed, EDITOR=nano is not necissary</p>
+<div id="installing-a-gui" class="anchor">Installing a GUI></div>
+<h3 class="relative group">Installing a GUI 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#installing-a-gui" aria-label="Anchor">#</a></span>        
+    
+</h3><p>There are many options afforded to you as when choosing a graphical user interface; you can pick a fully featured desktop environment, or a simple window manager you have to configure yourself.  Refer to the <a href="https://wiki.archlinux.org/title/Desktop_environment#List_of_desktop_environments"   target="_blank">
+    Arch wiki page</a> on desktop enviroments for help choosing and installing a DE.</p>
+<p>If you chose a desktop environment, it is likely that a display manager was included.  Start it automatically on next boot with:</p>
+<p><code>$ systemctl enable displaymanager</code></p>
+<ul>
+<li><code>gdm</code> is the default display manger for Gnome</li>
+<li><code>sddm</code> is the default display manager of KDE and LXQt</li>
+<li><code>lxdm</code> is the default display manager of LXDE</li>
+</ul>
+<p>You can reboot to start the display manager, or start the display manager with:</p>
+<p><code>$ systemctl start displaymanager</code></p>
+<div id="gpu-drivers-nvidia" class="anchor">GPU drivers (Nvidia)></div>
+<h3 class="relative group">GPU drivers (Nvidia) 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#gpu-drivers-nvidia" aria-label="Anchor">#</a></span>        
+    
+</h3><p>Use lspci to figure out which GPU and drivers you have (if you do not already know):</p>
+<p><code>$ lspci -k | grep -A 2 -E &quot;(VGA|3D)&quot;</code></p>
+<p>If your card uses the Maxwell architecture or newer, install the nvidia package with:</p>
+<p><code>$ sudo pacman -S nvidia</code></p>
+<div id="gpu-drivers-amd" class="anchor">GPU drivers (AMD)></div>
+<h3 class="relative group">GPU drivers (AMD) 
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#gpu-drivers-amd" aria-label="Anchor">#</a></span>        
+    
+</h3><p>Use lspci to figure out which GPU and drivers you have (if you do not already know):</p>
+<p><code>$ lspci -k | grep -A 2 -E &quot;(VGA|3D)&quot;</code></p>
+<p>Install the AMD gpu drivers with:</p>
+<p><code>$ sudo pacman -S mesa</code></p>
 
         </br></br>
         
