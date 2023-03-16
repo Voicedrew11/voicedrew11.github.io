@@ -1,0 +1,68 @@
+@font-face {
+	font-family: 'JetBrains';
+	src:'https://fonts.googleapis.com/css?family=JetBrains Mono';
+}
+
+body {
+background-color: #1e1e2e;
+margin: 20px;
+padding: 20px;
+font-family: 'JetBrains Mono';
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+h1 {
+color: #fab387;
+font-size: 32px;
+font-weight: bold;
+margin: 5px;
+text-align:left;
+}
+
+h2 {
+color: #a6e3a1;
+}
+
+p {
+color: #b4befe;
+}
+
+dt {
+color: #cba6f7;
+font-weight: bold;
+} dd {
+color: #b4befe;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 10px;
+	max-width: 600px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.container2 {
+max-width: 560px;
+margin: 0 auto;
+}
+
+.left-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.right-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-top: 40px;	
+	
+}
+
