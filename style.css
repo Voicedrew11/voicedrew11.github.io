@@ -33,7 +33,9 @@ a {
 text-decoration: none;
 color: #cba6f7;
 }
-
+a:hover {
+color: #f38ba8;
+}
 dt {
 font-weight: bold;
 } dd {
