@@ -29,8 +29,12 @@ p {
 color: #b4befe;
 }
 
-dt {
+a {
+text-decoration: none;
 color: #cba6f7;
+}
+
+dt {
 font-weight: bold;
 } dd {
 color: #b4befe;
