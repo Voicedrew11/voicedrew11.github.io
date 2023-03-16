@@ -55,6 +55,7 @@ text-decoration: none;
 color: #cba6f7;
 font-weight: bold;
 } a:hover {
+cursor: pointer;
 color: #f38ba8;
 }
 
@@ -80,7 +81,7 @@ margin: 0 auto;
 
 .linkcontainer {
 column-count: 3;
-max-width: 560px;
+max-width: 600px;
 column-gap: 40px;
 }
 .left-column {

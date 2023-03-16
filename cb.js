@@ -1,3 +1,5 @@
 function copyToClipboard() {
-navigator.clipboard.writeText("Voicedrew11#1727");
+	if (navigator.clipboard) {
+		navigator.clipboard.writeText("Voicedrew11#1727");
+	}
 }
