@@ -3,6 +3,17 @@
 	src:'https://fonts.googleapis.com/css?family=JetBrains Mono';
 }
 
+@font-face {
+  font-family: 'Nerd Font';
+  src: url('fonts/Nerd.ttf') format('truetype');
+}
+
+.icon {
+  font-family: 'Nerd Font';
+color: #a6e3a1;
+font-weight: normal;
+}
+
 body {
 background-color: #1e1e2e;
 margin: 20px;
