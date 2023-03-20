@@ -1,15 +1,228 @@
 <!doctype html>
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>A Basic HTML5 Template</title>
-  <link rel="stylesheet" href="../style.css">
+<html>
+	<head>
+    	<meta charset="utf-8">
+    	<title>Voicedrew.XYZ</title>
+		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+		<script src="cb.js"></script>
 
-</head>
+    	<link rel="stylesheet" href="../style.css">
+		<style>
+			h3 {color: #fab387;}
+			h2 {color: #a6e3a1;}
+		</style>
+
+	</head>
 
 <body>
-	<h2>Arch Linux Install Guide</h2>
-</body>
-</html>
+	<div class="container2">
+	<h2 id="preinstallation">Preinstallation</h2>
+<h3 id="update-system-clock">Update system clock</h3>
+<p><pre>
+$ timedatectl set-ntp true
+</pre></p>
+<h3 id="partition-the-disks">Partition the disks</h3>
+<p>Use the TUI tool to partition your disk in the GPT format:</p>
+<p><pre>
+$ cfdisk
+</pre></p>
+<p>For an installation, you need at least:</p>
+<ul>
+<li>a 100Mb boot partition</li>
+<li>a root partition</li>
+<li>a swap partition (optional)</li>
+</ul>
+<p>To list your partitions, use:</p>
+<p><pre>
+$ lsblk
+</pre></p>
+<h3 id="format-the-partitions">Format the partitions</h3>
+<p>Format the root partition into the ext4 format:</p>
+<p><pre>
+$ mkfs.ext4 /dev/root_partition
+</pre></p>
+<p>Format the boot partition:</p>
+<p><pre>
+$ mkfs.fat -F 32 /dev/boot_partition
+</pre></p>
+<p>Make the swap partition:</p>
+<p><pre>
+$ mkswap /dev/swap_partition
+</pre></p>
+<h3 id="mount-the-partitions">Mount the partitions</h3>
+<p>Mount the root partition onto /mnt:</p>
+<p><pre>
+$ mount /dev/root_partition /mnt
+</pre></p>
+<p>Mount the boot partition, and create the EFI directory:</p>
+<p><pre>
+$ mount --mkdir /dev/boot_partition /mnt/boot/efi
+</pre></p>
+<p>Start the swap  volume:</p>
+<p><pre>
+$ swapon /dev/swap_partition
+</pre></p>
+<p>Ensure the partitions are mounted with:</p>
+<p><pre>
+$ lsblk
+</pre></p>
+<h2 id="installation">Installation</h2>
+<h3 id="install-essential-packages">Install essential packages</h3>
+<p>Install essential packages using the pacstrap command:</p>
+<p><pre>
+$ pacstrap /mnt base linux linux-firmware networkmanager nano base-devel sof-firmware grub efibootmgr
+</pre></p>
+<ul>
+<li><pre>
+base-devel
+</pre> contains packages necessary for building packages, required for the AUR</li>
+<li><pre>
+networkmanager
+</pre> is necessary for internet connection post install</li>
+<li><pre>
+nano
+</pre> is a text editor, replace as necessary</li>
+<li><pre>
+sof-firmware
+</pre> is required for some soundcards</li>
+<li><pre>
+grub
+</pre> is a bootloader, replace as required</li>
+<li><pre>
+efibootmgr
+</pre> allows grub to work on EFI systems</li>
+<li><pre>
+os-prober
+</pre> allows grub to recognize other operating systems</li>
+</ul>
+<h3 id="genfstab">Genfstab</h3>
+<p>Generate fstab file:</p>
+<p><pre>
+$ genfstab -U /mnt &gt;&gt; /mnt/etc/fstab
+</pre></p>
+<p><pre>
+cat /mnt/etc/fstab
+</pre> to check for errors</p>
+<p>Pro-tip. Use tmux to split your terminal and type out this command while waiting for your pacstrap to finish</p>
+<h3 id="arch-chroot">Arch-chroot</h3>
+<p>Change root to /mnt:</p>
+<p><pre>
+$ arch-chroot /mnt
+</pre></p>
+<h3 id="time-zone">Time zone</h3>
+<p>Set the time zone:</p>
+<p><pre>
+$ ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
+</pre></p>
+<p>Generate /etc/adjtime:</p>
+<p><pre>
+$ hwclock --systohc
+</pre></p>
+<h3 id="locale">Locale</h3>
+<p>Edit /etc/locale.gen and uncomment your preferred localization ( for example, en_US.UTF-8 UTF-8):</p>
+<p><pre>
+$ nano /etc/locale.gen
+</pre></p>
+<p>Create locale.conf, and add your localization, substitute as necessary:</p>
+<p><pre>
+$ echo &quot;LANG=en_US.UTF-8&quot; &gt;&gt; /etc/locale.conf
+</pre></p>
+<h3 id="set-your-hostname">Set your hostname</h3>
+<p>Create the hostname file, and add a name to the file:</p>
+<p><pre>
+$ nano /etc/hostname
+</pre></p>
+<h3 id="root-user">Root user</h3>
+<p>Create a password for the root user:</p>
+<p><pre>
+$ passwd
+</pre></p>
+<h2 id="install-the-bootloader">Install the bootloader</h2>
+<p>Install the grub bootloader using:</p>
+<p><pre>
+$ grub-install /dev/disk_with_partitions
+</pre></p>
+<p>Create a grub config file using:</p>
+<p><pre>
+$ grub-mkconfig -o /boot/grub/grub.cfg
+</pre></p>
+<p>At this point, feel free to type exit and then reboot... hopefully your installation has been successful.</p>
+<h2 id="post-installation">Post-installation</h2>
+<h3 id="networkmanager">NetworkManager</h3>
+<p>Enable the previously installed networkmanager with:</p>
+<p><pre>
+$ systemctl enable NetworkManager
+</pre></p>
+<h3 id="add-a-user-account">Add a user account</h3>
+<p>Although you can use your computer with just a root user, it makes far more sense to add a personal user account:</p>
+<p><pre>
+$ useradd -m -G wheel -s /bin/bash username
+</pre></p>
+<ul>
+<li><p><pre>
+-m
+</pre> makes creates a home directory for the user</p>
+</li>
+<li><p><pre>
+-G
+</pre> adds the user to a group</p>
+</li>
+<li><p><pre>
+-S
+</pre> determines the startup shell of the user</p>
+</li>
+</ul>
+<p>Create a password for the new user:</p>
+<p><pre>
+$ passwd username
+</pre></p>
+<p>Enable the wheel group, which will allow users within to use sudo:</p>
+<pre><code>$ EDITOR=nano visudo`
 
+## Uncomment <span class="hljs-keyword">to</span> allow members <span class="hljs-keyword">of</span> <span class="hljs-keyword">group</span> wheel <span class="hljs-keyword">to</span> execute any command
+%wheel <span class="hljs-keyword">all</span>=(<span class="hljs-keyword">ALL</span>) <span class="hljs-keyword">ALL</span>
+</code></pre><p>Note. if you have vim installed, EDITOR=nano is not necissary</p>
+<h3 id="installing-a-gui">Installing a GUI</h3>
+<p>There are many options afforded to you as when choosing a graphical user interface; you can pick a fully featured desktop environment, or a simple window manager you have to configure yourself.  Refer to the <a href="https://wiki.archlinux.org/title/Desktop_environment#List_of_desktop_environments">Arch wiki page</a> on desktop enviroments for help choosing and installing a DE.</p>
+<p>If you chose a desktop environment, it is likely that a display manager was included.  Start it automatically on next boot with:</p>
+<p><pre>
+$ systemctl enable displaymanager
+</pre></p>
+<ul>
+<li><pre>
+gdm
+</pre> is the default display manger for Gnome</li>
+<li><pre>
+sddm
+</pre> is the default display manager of KDE and LXQt</li>
+<li><pre>
+lxdm
+</pre> is the default display manager of LXDE</li>
+</ul>
+<p>You can reboot to start the display manager, or start the display manager with:</p>
+<p><pre>
+$ systemctl start displaymanager
+</pre></p>
+<h3 id="gpu-drivers-nvidia-">GPU drivers (Nvidia)</h3>
+<p>Use lspci to figure out which GPU and drivers you have (if you do not already know):</p>
+<p><pre>
+$ lspci -k | grep -A 2 -E &quot;(VGA|3D)&quot;
+</pre></p>
+<p>If your card uses the Maxwell architecture or newer, install the nvidia package with:</p>
+<p><pre>
+$ sudo pacman -S nvidia
+</pre></p>
+<h3 id="gpu-drivers-amd-">GPU drivers (AMD)</h3>
+<p>Use lspci to figure out which GPU and drivers you have (if you do not already know):</p>
+<p><pre>
+$ lspci -k | grep -A 2 -E &quot;(VGA|3D)&quot;
+</pre></p>
+<p>Install the AMD gpu drivers with:</p>
+<p><pre>
+$ sudo pacman -S mesa
+</pre></p>
+
+<center><h2><a href="../index.html">Return Home</a></h2></center>
+	</div>
+</body>	

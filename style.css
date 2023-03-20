@@ -60,6 +60,18 @@ font-weight: bold;
 color: #b4befe;
 }
 
+pre {
+  background-color: #11111b;
+color: #a6e3a1;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  line-height: 1.5;
+  overflow-x: auto;
+}
+	
+
+
 .container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
