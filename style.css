@@ -1,9 +1,4 @@
 @font-face {
-	font-family: 'JetBrains Mono';
-	src:'fonts/Nerd.ttf';
-}
-
-@font-face {
   font-family: 'Nerd Font';
   src: url('fonts/Nerd.ttf') format('truetype');
 }
@@ -84,6 +79,8 @@ column-count: 3;
 max-width: 600px;
 column-gap: 40px;
 }
+
+
 .left-column {
 	display: flex;
 	flex-direction: column;
