@@ -1,110 +1,54 @@
-@font-face {
-  font-family: 'Nerd Font';
-  src: url('fonts/Nerd.ttf') format('truetype');
-}
-
-.icon {
-font-family: 'Nerd Font';
-color: #a6e3a1;
-font-weight: normal;
-font-size: 26px;
-}
-
 body {
-background-color: #1e1e2e;
-margin: 20px;
-padding: 20px;
-font-family: 'JetBrains Mono';
-flex-direction: column;
-justify-content: center;
-align-items: center;
+background-image: url('images/CDE.png'); 
+ background-size: 100% 100%;
+ background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+header {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
-color: #fab387;
-font-size: 32px;
-font-weight: bold;
-margin: 5px;
-text-align:left;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
 }
 
-h2 {
-color: #a6e3a1;
+h3 {
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
 }
 
-p {
-color: #b4befe;
-}
 
 ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-li {
-list-style:none;
-}
-
-a {
-text-decoration: none;
-color: #cba6f7;
-font-weight: bold;
-} a:hover {
-cursor: pointer;
-color: #f38ba8;
+  columns: 3;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  column-gap: 60px;
+  max-width: 600px;
 }
 
-dt {
-font-weight: bold;
-} dd {
-color: #b4befe;
+.ulcontainer {
+  display: flex;
+  justify-content: center;
 }
-
-pre {
-  background-color: #11111b;
-color: #a6e3a1;
-  padding: 1em;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  line-height: 1.5;
-  overflow-x: auto;
-}
-	
-
-
 .container {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-column-gap: 10px;
-	max-width: 600px;
-	margin: 0 auto;
-	margin-top: 10px;
+  display: flex;
+margin: 0 auto; /* Center the container horizontally */
+  justify-content: center;
 }
 
-.container2 {
-max-width: 560px;
-margin: 0 auto;
+#fg {
+background-color: #c0c0c0;
+width: 80%; /* Set the width of the container to 100% */
+max-width: 600px; 
+margin: 0 auto; /* Center the container horizontally */
+padding: 20px;
+margin-top: 50px;
+border: 5px solid #ffffff; 
+border-color:#FFFFFF #808080 #808080 #FFFFFF;
 }
-
-.linkcontainer {
-column-count: 3;
-max-width: 600px;
-column-gap: 40px;
-}
-
-
-.left-column {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.right-column {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
-	margin-top: 40px;	
-}
-
