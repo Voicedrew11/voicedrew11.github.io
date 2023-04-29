@@ -69,3 +69,24 @@ border-color:#FFFFFF #808080 #808080 #FFFFFF;
   margin-left: 5px;
 
 }
+
+ .column {
+  float: left;
+  width: 50%;
+  min-width: 300px;
+ }
+
+.column > p {
+margin-left: 5px;
+padding: 5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+	margin: 15px;
+}
