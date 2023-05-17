@@ -14,9 +14,31 @@ header {
   justify-content: center;
 }
 
-.banner {
+.sidebar {
+  width: 20%; /* Adjust the width as needed */
+  max-width: 200px;
+  background-color: #c0c0c0;
+  border: 3px solid #ffffff; 
+  border-color:#FFFFFF #808080 #808080 #FFFFFF;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.sidebar a {
+  display: block;
+  padding: 0 10px; 
+  text-decoration: none;
+  color: #333;
+}
+
+
+.basecontainer {
+  display: flex;
+  margin: 0 auto;
+  max-width: 800px;
 
 }
+
 
 h1 {
   margin: 0;
@@ -44,7 +66,6 @@ ul {
 }
 .container {
   display: flex;
-margin: 0 auto; /* Center the container horizontally */
   justify-content: center;
 }
 
@@ -53,7 +74,7 @@ background-color: #c0c0c0;
 width: 80%; /* Set the width of the container to 100% */
 max-width: 600px; 
 margin: 0 auto; /* Center the container horizontally */
-padding: 1px;
+padding: 1px 0;
 margin-top: 50px;
 border: 3px solid #ffffff; 
 border-color:#FFFFFF #808080 #808080 #FFFFFF;
@@ -93,7 +114,7 @@ padding: 5px;
 }
 
 img {
-	margin-top: 15px;
+  margin-top: 15px;
 }
 
 dt {
