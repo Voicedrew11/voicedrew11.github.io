@@ -1,11 +1,16 @@
 @font-face {font-family:"W95FA";src:url("W95FA.eot?") format("eot"),url("W95FA.woff") format("woff"),url("W95FA.ttf") format("truetype"),url("W95FA.svg#W95FARegular") format("svg");font-weight:normal;font-style:normal;}
 
-body {
+/*body {
 background-image: url('images/CDE.png'); 
  background-size: 100% 100%;
  background-attachment: fixed;
   background-repeat: no-repeat;
   font-family: "W95FA";
+}*/
+body {
+background-image: url('images/bowling.png'); 
+background-repeat: repeat;
+font-family: "W95FA";
 }
 
 header {
