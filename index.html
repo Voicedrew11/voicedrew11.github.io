@@ -11,6 +11,7 @@
 <script type="text/javascript">
 		function changeBackground() {
 			document.body.style.background = 'url(images/CDE.png) repeat';
+		
 		}
 
 		function BlueMode() {
@@ -20,11 +21,20 @@
 </script>
 
 <header>
-	<h1 style="font-size: 76px;
-	color: rgb(255, 255, 255);
-	text-align: left; text-shadow:
-	2px 2px black;">
-		VOICEDREW.XYZ</h1>
+
+<script>
+window.onload = function() {
+   const headerImages = ["images/header1.png","images/header2.png"];
+
+   const randomIndex = Math.floor(Math.random() * headerImages.length);
+   const headerImage = document.getElementById("header-image");
+   headerImage.src = headerImages[randomIndex];
+};
+
+</script>
+<img id="header-image" src="">
+
+<!--<img src="images/banner.png">-->
 </header>
 
 <body>
@@ -64,7 +74,7 @@
 						My name is Andrew; A computer science student harboring in the mysterious land of Canada.
 						Every day I wake up, salute my portrait of the King, and then ride to school on my moose.
 						I spend my time writing funky software, playing silly games, and watching anime. This website
-						is what I have instead of a twitter page. I encourage you to follow my example and do the same.
+						is what I have instead of a twitter page. It would be cool if you made one too.
 						Every personal site takes a little power away from the big social media sites, and makes the web
 						a more interesting place.
 

@@ -14,9 +14,15 @@ font-family: "W95FA";
 }
 
 header {
-  margin-top: 50px;
   display: flex;
-  justify-content: center;
+  max-width: 780px;
+  max-height: 360px;
+border: 3px solid #ffffff; 
+border-color:#FFFFFF #808080 #808080 #FFFFFF;
+margin: 0 auto;
+}
+header > img {
+margin-top: auto;
 }
 
 .sidebar {
@@ -26,7 +32,7 @@ header {
   border: 3px solid #ffffff; 
   border-color:#FFFFFF #808080 #808080 #FFFFFF;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .sidebar a {
@@ -82,7 +88,7 @@ width: 80%; /* Set the width of the container to 100% */
 max-width: 600px; 
 margin: 0 auto; /* Center the container horizontally */
 padding: 1px 0;
-margin-top: 50px;
+margin-top: 10px;
 border: 3px solid #ffffff; 
 border-color:#FFFFFF #808080 #808080 #FFFFFF;
 }
