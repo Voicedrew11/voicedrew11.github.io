@@ -8,33 +8,38 @@
 	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 
+
 <script type="text/javascript">
-		function changeBackground() {
-			document.body.style.background = 'url(images/CDE.png) repeat';
-		
-		}
+	function changeBackground() {
+		document.body.style.background = 'url(images/CDE.png) repeat';
+
+	}
 </script>
 
 <header>
 
-<script>
-window.onload = function() {
-   const headerImages = ["images/banner.png","images/banner1.png"];
+	<script>
+		window.onload = function () {
+			const headerImages = ["images/banner.png", "images/banner1.png"];
 
-   const randomIndex = Math.floor(Math.random() * headerImages.length);
-   const headerImage = document.getElementById("header-image");
-   headerImage.src = headerImages[randomIndex];
-};
+			const randomIndex = Math.floor(Math.random() * headerImages.length);
+			const headerImage = document.getElementById("header-image");
+			headerImage.src = headerImages[randomIndex];
+		};
 
-</script>
-<img id="header-image" src="">
+	</script>
+	<img id="header-image" src="">
 
-<!--<img src="images/banner.png">-->
+	<!--<img src="images/banner.png">-->
 </header>
 
 <body>
 
-<img class="right-image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ec9489a9-7ab2-4273-b19f-448f7fe8419d/dd1d31d-eb1ba1e4-6e9c-4a38-987a-4c2374512369.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VjOTQ4OWE5LTdhYjItNDI3My1iMTlmLTQ0OGY3ZmU4NDE5ZFwvZGQxZDMxZC1lYjFiYTFlNC02ZTljLTRhMzgtOTg3YS00YzIzNzQ1MTIzNjkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.S0wMg5m3duoJ2QWhtaWd71VrZOsGniDUeSggOETxLgA" >
+
+	<img id="Emilia" class="right-image"
+		src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ec9489a9-7ab2-4273-b19f-448f7fe8419d/dd1d31d-eb1ba1e4-6e9c-4a38-987a-4c2374512369.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VjOTQ4OWE5LTdhYjItNDI3My1iMTlmLTQ0OGY3ZmU4NDE5ZFwvZGQxZDMxZC1lYjFiYTFlNC02ZTljLTRhMzgtOTg3YS00YzIzNzQ1MTIzNjkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.S0wMg5m3duoJ2QWhtaWd71VrZOsGniDUeSggOETxLgA">
+	<audio id="myAudio" src="https://files.catbox.moe/j0dr0l.mp3" preload="auto" style="display: none;"></audio>
+
 
 	<div class="basecontainer">
 		<div class="sidebar">
@@ -51,7 +56,7 @@ window.onload = function() {
 
 		<div id="fg">
 			<div class="title-bar">
-				<h3 onclick="changeBackground();" >About Me</h3>
+				<h3 onclick="changeBackground();">About Me</h3>
 			</div>
 
 			<div class="row">
@@ -78,8 +83,20 @@ window.onload = function() {
 		</div>
 	</div>
 
-	
+
 	<br>
+
+<script>
+document.getElementById('Emilia').addEventListener('click', function() {
+
+  var audio = document.getElementById('myAudio');
+	if (audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+  }	
+});
+</script>
 
 </body>
 <footer>

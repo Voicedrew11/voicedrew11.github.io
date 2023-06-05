@@ -141,6 +141,7 @@ margin-right: 15px;
   right: 0; /* Adjust the right position as needed */
   z-index: -1; /* Set a higher z-index to ensure the image appears above other elements */
 width: 25%; 
+cursor:pointer;
 }
 
 .dark-mode {
