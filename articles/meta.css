@@ -4,11 +4,12 @@ body {
   font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
-header {
-  position: absolute;
-  right: 0;
+header img {
+position: absolute;
+max-width: 50%;
+top: 0;
+right: 0;
 }
-
 p {
   color: #cdd6f4;
 }

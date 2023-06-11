@@ -8,7 +8,7 @@ background-image: url('images/CDE.png');
   font-family: "W95FA";
 }*/
 body {
-background-image: url('images/bowling.png'); 
+background-color: #008080;
 background-repeat: repeat;
 font-family: "W95FA";
 }
@@ -146,4 +146,11 @@ cursor:pointer;
 
 .dark-mode {
 font-family: Arial, Helvetica, sans-serif; 
+}
+
+footer {
+  position: absolute;
+  bottom: 2px;
+  left: 2px;
+  padding-left: 5px;
 }
