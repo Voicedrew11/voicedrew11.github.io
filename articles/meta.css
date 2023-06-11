@@ -1,0 +1,39 @@
+body {
+  color: white;
+  background-image: url('https://falsememories.neocities.org/tiles/space.gif');
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+header {
+  position: absolute;
+  right: 0;
+}
+
+p {
+  color: #cdd6f4;
+}
+hr {
+  border-top: 1px solid #a6e3a1;
+}
+a {
+  color: #cba6f7;
+}
+a:hover {
+  color: #b4befe;
+}
+.foreground {
+    margin-left: 15%;
+    margin-right: 50%;
+    max-width: 35%;
+    background-color: #1e1e2e;
+    border-left: 1px solid #a6e3a1;
+    border-right: 1px solid #a6e3a1;
+    height: 100%;
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
