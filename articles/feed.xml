@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Voicedrew.xyz</title>
+        <description>Speratic, utterly deranged thoughts.</description>
+        <link>https://www.voicedrew.xyx/</link>
+        <lastBuildDate>Sat, 12 Jun 2023 00:00:00 GMT</lastBuildDate>
+        <pubDate>Sat, 12 Jun 2023 00:00:00 GMT</pubDate>
+        <ttl>60</ttl>
+        <item>
+            <title>Polyphasic Sleeping</title>
+            <description>Get more time out of every day by using polyphasic sleep techniques.</description>
+            <link>https://voicedrew.xyz/articles/polyphase/polyphase.html</link>
+            <pubDate>Sat, 12 Jun 2023 00:00:00 GMT</pubDate>
+        </item>
+        <!-- Add more <item> elements for additional content -->
+    </channel>
+</rss>
