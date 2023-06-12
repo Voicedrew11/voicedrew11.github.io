@@ -16,11 +16,17 @@ p {
 hr {
   border-top: 1px solid #a6e3a1;
 }
+
+h2{
+  color: #cba6f7;
+}
 a {
   color: #cba6f7;
+  text-decoration: none;
 }
 a:hover {
   color: #b4befe;
+  text-decoration: underline
 }
 .foreground {
     margin-left: 15%;
