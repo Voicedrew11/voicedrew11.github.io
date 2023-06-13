@@ -13,7 +13,16 @@ h1 {
 
 }
 
+.badgebox {
+    margin: 0 auto;
+    max-width: 460px;
+
+
+}
+
 .container {
+    position: relative;
+    height: 100%;
     max-width: 70%;
     background-color: teal;
     outline: black;
@@ -21,5 +30,5 @@ h1 {
     margin: 0 auto;
     border-left: 2px solid #ffa500;
     border-right: 2px solid #ffa500;
-    height: 100%;
+
 }

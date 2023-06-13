@@ -21,9 +21,9 @@ var ringName = 'Travelers of Agora Road';
 var ringID = 'tag-webring';
 
 //should the widget include a link to an index page?
-var useIndex = false;
+var useIndex = true;
 //the full URL of the index page. if you're not using one, you don't have to specify anything here
-var indexPage = 'https://example.com/index.html';
+var indexPage = 'https://voicedrew.xyz/wr/tag.html';
 
 //should the widget include a random button?
 var useRandom = true;
