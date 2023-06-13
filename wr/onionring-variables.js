@@ -13,6 +13,7 @@ var sites = [
 'https://i330.dev',
 'https://idelides.neocities.org/',
 'https://risingthumb.xyz/',
+'https://foreverliketh.is/',
 ];
 
 //the name of the ring
