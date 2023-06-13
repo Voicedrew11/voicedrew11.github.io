@@ -16,13 +16,19 @@
   background-size: cover;
   margin: 0 auto; /* centers the widget */
   color: pink;
-  border-style: solid 
+  border-style: solid; 
+  text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
+				-1px -1px 0 #000;
   
   
 }
 
+#tag-webring table strong {
+  color: orange;
 
-
+}
 #tag-webring table a {
   color: pink;
   text-decoration: none;
