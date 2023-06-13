@@ -7,8 +7,9 @@
 
 //the full URLs of all the sites in the ring
 var sites = [
+'https://forum.agoraroad.com/index.php',
 'https://voicedrew.xyz/',
-'https://sites.google.com/view/filozofia-blog-zloha/domov ',
+'https://myyolo1999.blogspot.com/p/ja.html',
 ];
 
 //the name of the ring

@@ -1,0 +1,25 @@
+body {
+    background-image: url("https://wallpapercave.com/dwp1x/wp6444732.jpg");
+    margin: 0 auto;
+}
+
+h1 {
+    color: orange;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				-1px -1px 0 #000;
+    text-align: center;
+
+}
+
+.container {
+    max-width: 70%;
+    background-color: teal;
+    outline: black;
+    padding: 15px;
+    margin: 0 auto;
+    border-left: 2px solid #ffa500;
+    border-right: 2px solid #ffa500;
+    height: 100%;
+}
