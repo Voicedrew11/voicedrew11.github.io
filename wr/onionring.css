@@ -12,20 +12,23 @@
 }
 
 #tag-webring table {
-  background-image: url("https://voicedrew.xyz/wr/bg.jpg"); /* makes the background pure white */
+  background-image: url("https://wallpapercave.com/dwp1x/wp6444730.jpg"); /* makes the background pure white */
+  background-size: cover;
   margin: 0 auto; /* centers the widget */
-  color: white;
-  border-style: solid
+  color: pink;
+  border-style: solid 
   
   
 }
 
+
+
 #tag-webring table a {
-  color: white;
+  color: pink;
   text-decoration: none;
 }
 #tag-webring table a:hover {
-  color: cyan;
+  color: white;
   text-decoration: underline;
 }
 
