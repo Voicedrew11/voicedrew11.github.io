@@ -1,6 +1,7 @@
 body {
     background-image: url("https://wallpapercave.com/dwp1x/wp6444732.jpg");
     margin: 0 auto;
+
 }
 
 h1 {
@@ -28,7 +29,42 @@ h1 {
     outline: black;
     padding: 15px;
     margin: 0 auto;
-    border-left: 2px solid #ffa500;
-    border-right: 2px solid #ffa500;
+    border-left: 5px solid #ffa500;
+    border-right: 5px solid #ffa500;
+        position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 
+}
+
+li {
+      line-height: 20px;
+      margin: 10px 0;
+}
+
+pre {
+    color: orange;
+}
+
+.criteria {
+
+    max-width: 80%;
+    margin: 0 auto;:w
+
+}
+
+.criteria ol  {
+     font-family: Arial, sans-serif;
+
+    color: pink;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				-1px -1px 0 #000;
+}
+
+.criteria a {
+     color: orange;
 }
