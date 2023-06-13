@@ -8,11 +8,25 @@
 #tag-webring {
   margin: 0 auto;
   padding: 15px; /* creates some space around the widget */
+  
 }
 
 #tag-webring table {
   background-image: url("https://voicedrew.xyz/wr/bg.jpg"); /* makes the background pure white */
   margin: 0 auto; /* centers the widget */
+  color: white;
+  border-style: solid
+  
+  
+}
+
+#tag-webring table a {
+  color: white;
+  text-decoration: none;
+}
+#tag-webring table a:hover {
+  color: cyan;
+  text-decoration: underline;
 }
 
 #tag-webring table tr td {
