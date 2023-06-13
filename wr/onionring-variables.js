@@ -12,6 +12,7 @@ var sites = [
 'https://myyolo1999.blogspot.com/p/ja.html',
 'https://i330.dev',
 'https://idelides.neocities.org/',
+'https://risingthumb.xyz/',
 ];
 
 //the name of the ring
