@@ -8,9 +8,7 @@
 //the full URLs of all the sites in the ring
 var sites = [
 'https://voicedrew.xyz/',
-'https://example.com/',
-'https://example.com/',
-'https://example.com/'
+'https://sites.google.com/view/filozofia-blog-zloha/domov ',
 ];
 
 //the name of the ring
