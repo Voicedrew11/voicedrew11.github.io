@@ -10,6 +10,8 @@ var sites = [
 'https://forum.agoraroad.com/index.php',
 'https://voicedrew.xyz/',
 'https://myyolo1999.blogspot.com/p/ja.html',
+'https://i330.dev',
+'https://idelides.neocities.org/',
 ];
 
 //the name of the ring
