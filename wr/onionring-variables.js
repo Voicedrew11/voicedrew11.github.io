@@ -15,6 +15,7 @@ var sites = [
 'https://risingthumb.xyz/',
 'https://foreverliketh.is/',
 'https://whitevhs.xyz/',
+'https://h00.neocities.org/',
 ];
 
 //the name of the ring
