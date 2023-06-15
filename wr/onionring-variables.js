@@ -16,6 +16,7 @@ var sites = [
 'https://foreverliketh.is/',
 'https://whitevhs.xyz/',
 'https://h00.neocities.org/',
+'https://www.zeropointfool.com/',
 ];
 
 //the name of the ring
