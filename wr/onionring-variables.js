@@ -17,6 +17,8 @@ var sites = [
 'https://whitevhs.xyz/',
 'https://h00.neocities.org/',
 'https://www.zeropointfool.com/',
+'https://nuedge.ichi.city/',
+'https://tilde.team/~zinricky/',
 ];
 
 //the name of the ring
