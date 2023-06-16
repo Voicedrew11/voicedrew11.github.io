@@ -19,6 +19,8 @@ var sites = [
 'https://www.zeropointfool.com/',
 'https://nuedge.ichi.city/',
 'https://tilde.team/~zinricky/',
+'https://sizeof.cat/',
+'https://aralsheart.ichi.city/',
 ];
 
 //the name of the ring
