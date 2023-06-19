@@ -21,6 +21,7 @@ var sites = [
 'https://tilde.team/~zinricky/',
 'https://sizeof.cat/',
 'https://aralsheart.ichi.city/',
+'https://wkyk.neocities.org/',
 ];
 
 //the name of the ring

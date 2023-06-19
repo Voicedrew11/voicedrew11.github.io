@@ -27,7 +27,8 @@ h1 {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    max-width: 30%;
+    width: 30%;
+    min-width: 420px;
     background-color: teal;
     padding: 15px;
     margin: 0 auto;
