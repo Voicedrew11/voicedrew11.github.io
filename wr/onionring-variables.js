@@ -22,6 +22,7 @@ var sites = [
 'https://sizeof.cat/',
 'https://aralsheart.ichi.city/',
 'https://wkyk.neocities.org/',
+'https://walrus-island.neocities.org/',
 ];
 
 //the name of the ring
