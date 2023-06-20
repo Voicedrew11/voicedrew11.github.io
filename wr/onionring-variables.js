@@ -23,6 +23,7 @@ var sites = [
 'https://aralsheart.ichi.city/',
 'https://wkyk.neocities.org/',
 'https://walrus-island.neocities.org/',
+'https://freckleskies.neocities.org/',
 ];
 
 //the name of the ring
