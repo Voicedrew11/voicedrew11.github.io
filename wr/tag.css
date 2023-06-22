@@ -91,7 +91,7 @@ pre {
 				-1px -1px 0 #000;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1080px) {
   .dragbox {
     margin: 0 auto;
     position: static;
