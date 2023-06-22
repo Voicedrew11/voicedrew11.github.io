@@ -64,10 +64,7 @@
 
 			<a href="https://freckleskies.neocities.org/"><img src="https://freckleskies.neocities.org/img/btn/skybutton.gif"></a>
 
-			<div id='tag-webring'>
-				<script type="text/javascript" src="https://voicedrew.xyz/wr/onionring-variables.js"></script>
-				<script type="text/javascript" src="https://voicedrew.xyz/wr/onionring-widget.js"></script>
-			</div>
+
 		</div>
 	</div>
 
@@ -103,8 +100,19 @@
 		<p>You can <a href="#" id="export-opml">download a dynamically-generated OPML file</a>
 with all the feeds of the webring members.</p>
 		</div>
-
 	</div>
+
+		<div style="left: 50vw;top: 70vh;" class="dragbox">
+			<div class="dragbox-header">
+			Widget
+			</div>
+			<div id='tag-webring'>
+				<script type="text/javascript" src="https://voicedrew.xyz/wr/onionring-variables.js"></script>
+				<script type="text/javascript" src="https://voicedrew.xyz/wr/onionring-widget.js"></script>
+			</div>
+		</div>
+
+
 </body>
 
 <script>
@@ -162,6 +170,25 @@ function dragElement(elmnt) {
     document.onmouseup = null;
     document.onmousemove = null;
   }
+}
+
+var highestZIndex = 0;
+
+// Get all the div elements
+var divs = document.getElementsByClassName("dragbox");
+
+// Attach a click event listener to each div
+for (var i = 0; i < divs.length; i++) {
+  divs[i].addEventListener("mousedown", bringToFront);
+}
+
+// Function to bring the clicked div to the front
+function bringToFront() {
+  // Increment the highestZIndex variable
+  highestZIndex++;
+
+  // Set the clicked div's z-index to the highest value
+  this.style.zIndex = highestZIndex;
 }
 </script>
 
