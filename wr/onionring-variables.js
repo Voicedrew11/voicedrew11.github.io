@@ -24,6 +24,7 @@ var sites = [
 'https://wkyk.neocities.org/',
 'https://walrus-island.neocities.org/',
 'https://freckleskies.neocities.org/',
+'https://microbyte.neocities.org/',
 ];
 
 //the name of the ring

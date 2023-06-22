@@ -49,8 +49,8 @@ right: 0;
   color: #fff;
   padding-left: 5px;
 }
-    
-}
+
+
 
 li {
       line-height: 20px;
@@ -91,25 +91,54 @@ pre {
 				-1px -1px 0 #000;
 }
 
-@media only screen and (max-device-width: 767px) {
-    .container {
-        max-width: 90%;
-        font-size: 32px;
-    }
-    .badgebox {
-    max-width: 700px;
-    }
-    .badgebox img {
-    transform: scale(1.5);
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 20px
+@media (max-width: 800px) {
+  .dragbox {
+    margin: 0 auto;
+    position: static;
+    display: flex;
+     flex-direction: column;
+    width: 90vw;
+    min-width: auto;
+    margin-bottom: 20px;
+    background-color: teal;
+    border: 5px solid #ffa500;
+    box-shadow: 3px 3px rgba(0,0,0,0.5);
   }
 
+  .dragbox-header {
+
+    cursor: default;
+
+  }
 
 }
+
+.fcont {
+  display: flex;
+}
+
+.icobox {
+width: 64px;
+height: 64px;
+color: white;
+text-shadow: 1px 2px black;
+font-size: 12px;
+text-align: center;
+padding: 10px;
+}
+
+.icobox img{
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+  text-align: center;
+}
+.icobox p {
+  margin-top: 0px;
+}
+
     
-body::before{
+body.scanlines-animation::before{
     content: "";
     display: block;
     position: fixed;

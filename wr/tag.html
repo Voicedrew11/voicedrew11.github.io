@@ -13,8 +13,26 @@
  <script src="onionring-variables.js"></script>
 
 
-<body>
+<body class="scanlines-animation">
 
+<div class="fcont">
+	<div onclick="toggleAnimation()" class="icobox">
+	<img src="https://d2w9rnfcy7mm78.cloudfront.net/11073643/original_2c96dc59f77fa143432abf110179389b.png?1615173126?bc=0">
+	<p>Disable vfx</p>
+	</div>
+
+		<div id="webamp-icon" class="icobox">
+	<img src="https://fileswin.com/wp-content/uploads/2017/07/Winamp-Logo-68x68.png.webp">
+	<p>Winamp</p>
+	</div>
+</div>
+
+	<script>
+	function toggleAnimation() {
+  const bodyElement = document.body;
+  bodyElement.classList.toggle('scanlines-animation');
+}
+	</script>
 
 	<div class="dragbox">
 		<div class="dragbox-header">
@@ -64,6 +82,8 @@
 
 			<a href="https://freckleskies.neocities.org/"><img src="https://freckleskies.neocities.org/img/btn/skybutton.gif"></a>
 
+			<a href="https://microbyte.neocities.org"><img src="https://microbyte.neocities.org/88x31.png" alt="88x31"></a>
+
 
 		</div>
 	</div>
@@ -111,6 +131,22 @@ with all the feeds of the webring members.</p>
 				<script type="text/javascript" src="https://voicedrew.xyz/wr/onionring-widget.js"></script>
 			</div>
 		</div>
+
+	<!--	<div id="app"></div>
+<script src="https://unpkg.com/webamp"></script>
+<script>
+    const app = document.getElementById("app")
+    const webamp = new Webamp();
+    webamp.renderWhenReady(app);
+
+	const icon = document.getElementById('webamp-icon');
+
+webamp.onClose(() => {
+    icon.addEventListener('click', () => {
+        webamp.reopen();
+    });
+})
+</script>-->
 
 
 </body>
