@@ -53,9 +53,6 @@ section a {
   overflow-y: scroll;
 }
 
-.listbox {
-  column-count: 4;
-}
 
 section a:hover {
 background-color:  #8e77c1;
@@ -94,7 +91,12 @@ body::before{
   grid-template-rows: 1fr;
     gap: 0px 15px;
 }
-
+.listwrapper {
+    display: grid;
+  grid-template-columns: 50% 1fr;
+  grid-template-rows: 1fr;
+    gap: 0px 15px;
+}
 ul {
   list-style: square;
 }

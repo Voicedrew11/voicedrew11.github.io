@@ -13,12 +13,18 @@
  <script src="onionring-variables.js"></script>
 
 
-<body class="crt">
+<body>
 
 
-	<div class="container">
+	<div class="dragbox">
+		<div class="dragbox-header">
+		 Travelers of Agora Road
+		</div>
+
 	<h1 style="margin: 0 auto">Travelers of Agora Road</h1>
+
 	<p style="text-align: center; padding-bottom: 25px; margin: 0 auto;">There are currently <span id="itemCount">0</span> members of this webring</p>
+
 		<div class="badgebox">
 			<a href="https://forum.agoraroad.com/"><img alt="Agora Road" src="https://forum.agoraroad.com/data/addonflare/awardsystem/icons/180.gif"></a>
 
@@ -62,10 +68,13 @@
 				<script type="text/javascript" src="https://voicedrew.xyz/wr/onionring-variables.js"></script>
 				<script type="text/javascript" src="https://voicedrew.xyz/wr/onionring-widget.js"></script>
 			</div>
-
 		</div>
+	</div>
 
-
+	<div style="right: 5px;" class="dragbox">
+		<div class="dragbox-header">
+		 How can I join?
+		</div>
 
 		<div class="criteria">
 
@@ -105,11 +114,63 @@ var element = document.getElementById('itemCount');
 element.textContent = itemCount;
 </script>
 
-<!--<img src="https://forum.agoraroad.com/index.php?media/agoraboogie-gif.20658/full"
+<script>
+dragElements(document.getElementsByClassName("dragbox"));
+
+function dragElements(elements) {
+  for (var i = 0; i < elements.length; i++) {
+    dragElement(elements[i]);
+  }
+}
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (elmnt.querySelector(".dragbox-header")) {
+    // if present, the header is where you move the DIV from:
+    elmnt.querySelector(".dragbox-header").onmousedown = dragMouseDown;
+  } else {
+    // otherwise, move the DIV from anywhere inside the DIV:
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    // stop moving when mouse button is released:
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+</script>
+
+<!--
+<img src="https://forum.agoraroad.com/index.php?media/agoraboogie-gif.20658/full"
 		style="
 		position: absolute;
 		left: 0;
 		bottom: 0;
 		pointer-events: none;
 		">
-		-->
+-->

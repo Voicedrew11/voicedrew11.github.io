@@ -35,7 +35,7 @@ a:hover {
     background-color: #1e1e2e;
     border-left: 1px solid #a6e3a1;
     border-right: 1px solid #a6e3a1;
-    height: 100%;
+    height: 100vh;
     position: absolute;
   top: 0;
   bottom: 0;
