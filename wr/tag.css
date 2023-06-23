@@ -103,13 +103,41 @@ pre {
     background-color: teal;
     border: 5px solid #ffa500;
     box-shadow: 3px 3px rgba(0,0,0,0.5);
+    font-size: 36px;
+
+
   }
 
   .dragbox-header {
-
     cursor: default;
-
   }
+
+  h1 {
+    font-size: 56px;
+  }
+  p {
+    font-size: 36px;
+  }
+
+  li {
+      line-height: 1.5;
+  }
+
+  img {
+width: 176px;
+height: 62px;
+  }
+
+  .badgebox {
+    margin: 0 auto;
+    max-width: 80%;
+    padding-bottom: 15px;
+}
+
+
+.icobox {
+  z-index: -1;
+}
 
 }
 
