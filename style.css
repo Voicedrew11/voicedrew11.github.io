@@ -120,6 +120,10 @@ margin-left: 5px;
 padding: 5px;
 }
 
+.column img {
+  max-width: 285px;
+}
+
 .row:after {
   content: "";
   display: table;
@@ -149,6 +153,71 @@ footer {
   bottom: 2px;
   left: 2px;
   padding-left: 5px;
+}
+
+@media (max-width: 1080px) {
+   .basecontainer {
+  flex-direction: column;
+  max-width: 100%;
+  width: auto;
+  font-size: 35px;
+  margin-left: 2px;
+  margin-right: 5px;
+}
+
+
+#fg {
+  width: 100%;
+  max-width: none;
+
+}
+
+.column img {
+  max-width: 100%;
+  border: 9px;
+  border-style: inset;
+
+}
+
+.column {
+  float: none;
+  width: auto;
+}
+
+
+footer {
+  display: none;
+}
+
+header {
+  max-width: 1080px;
+  margin-bottom: 15px
+}
+
+header img {
+width: 100vw;
+}
+#Emilia {
+  display: none;
+}
+
+.sidebar {
+  position: auto; /* Fix the header position */
+  width: 100%;
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: center;
+
+  max-width: 100%;
+  margin: 0 auto;
+  padding: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.sidebar .title-bar {
+  display: none;
+}
+
+
 }
 
 body::before{
