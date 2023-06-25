@@ -25,7 +25,10 @@ var sites = [
 'https://walrus-island.neocities.org/',
 'https://freckleskies.neocities.org/',
 'https://microbyte.neocities.org/',
+'https://dorgon.neocities.org/',
 ];
+
+// 'https://nhkcafe.neocities.org/',
 
 //the name of the ring
 var ringName = 'Travelers of Agora Road';

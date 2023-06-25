@@ -149,7 +149,7 @@ cursor:pointer;
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 2px;
   left: 2px;
   padding-left: 5px;
