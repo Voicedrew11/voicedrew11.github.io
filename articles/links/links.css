@@ -51,6 +51,7 @@ section a {
 .badgebox {
   max-height: 50vh;
   overflow-y: scroll;
+  padding-bottom: 15px;
 }
 
 
@@ -99,4 +100,30 @@ body::before{
 }
 ul {
   list-style: square;
+}
+
+@media (max-width: 1080px) {
+
+  section {
+    width: 90vw;
+    font-size: 46px;
+  }
+
+  section img {
+    width: 440px;
+    height: 155px;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    grid-template-columns: 1fr; /* Change the column template to a single column */
+    grid-template-rows: auto; /* Reset the row template to the default auto value */
+    gap: 15px; /* Adjust the gap between items */
+
+  }
+
+  textarea {
+    display: none;
+  }
+
 }
