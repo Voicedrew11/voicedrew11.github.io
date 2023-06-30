@@ -4,7 +4,6 @@
         <title>Voicedrew.xyz</title>
         <description>Speratic, utterly deranged thoughts.</description>
         <link>https://www.voicedrew.xyz/</link>
-        <atom:link href="https://www.voicedrew.xyz/rss.xml" rel="self" type="application/rss+xml" />
         <ttl>60</ttl>
         <item>
             <title>Polyphasic Sleeping</title>
