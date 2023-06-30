@@ -4,38 +4,42 @@
         <title>Voicedrew.xyz</title>
         <description>Speratic, utterly deranged thoughts.</description>
         <link>https://www.voicedrew.xyz/</link>
-        <lastBuildDate>Sat, 15 Jun 2023 00:00:00 GMT</lastBuildDate>
-        <pubDate>Sat, 12 Jun 2023 00:00:00 GMT</pubDate>
+        <atom:link href="https://www.voicedrew.xyz/rss.xml" rel="self" type="application/rss+xml" />
         <ttl>60</ttl>
         <item>
             <title>Polyphasic Sleeping</title>
             <description>Get more time out of every day by using polyphasic sleep techniques.</description>
             <link>https://voicedrew.xyz/articles/polyphase/polyphase.html</link>
-            <pubDate>Sat, 12 Jun 2023 00:00:00 GMT</pubDate>
+            <guid>https://voicedrew.xyz/articles/polyphase/polyphase.html</guid>
+            <pubDate>Mon, 12 Jun 2023 00:00:00 EST</pubDate>
         </item>
         <!-- Add more <item> elements for additional content -->
         <item>
             <title>What is 5/10 exactly?</title>
             <description>Insane ramblings about the meaning of 'average'.</description>
             <link>https://voicedrew.xyz/articles/average.html</link>
+            <guid>https://voicedrew.xyz/articles/average.html</guid>
             <pubDate>Mon, 12 Jun 2023 03:30:00 EST</pubDate>
         </item>
         <item>
             <title>Acer Aspire Vero (Antichrist)</title>
             <description>The only thing more stupid than making a laptop out of cheap recycled plastic is the idea that anyone would buy it.</description>
             <link>https://voicedrew.xyz/articles/vero.html</link>
+            <guid>https://voicedrew.xyz/articles/vero.html</guid>
             <pubDate>Wed, 14 Jun 2023 22:53:00 EST</pubDate>
         </item>
         <item>
             <title>Paradisus-Paradoxum Collection</title>
             <description>It's an undeniable fact that i'm the worlds biggest fan of MYTH &amp; ROID's hit 2016 single Paradisus-Paradoxum. I've listened to it multiple times every day for around 2.5 years. Naturally, I have come across many covers and variations on the original, for which I have contained on this webpage</description>
             <link>https://voicedrew.xyz/articles/paradoxum.html</link>
+            <guid>https://voicedrew.xyz/articles/paradoxum.html</guid>
             <pubDate>Fri, 23 Jun 2023 20:30:00 EST</pubDate>
         </item>
         <item>
             <title>How I Created the Travelers of Agora Road Webring</title>
             <description>The Travelers of Agora Road webring has grown to 20 members, so I thought I would explain the process of creating it, along with the resources I used.</description>
             <link>https://voicedrew.xyz/articles/travelers.html</link>
+            <guid>https://voicedrew.xyz/articles/travelers.html</guid>
             <pubDate>Fri, 30 Jun 2023 11:05:00 EST</pubDate>
         </item>
     </channel>
