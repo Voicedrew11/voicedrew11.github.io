@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<title>voicedrew.xyz</title>
+	<link rel="stylesheet" href="meta.css">
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+
+<header>
+	<a href="https://voicedrew.xyz/"><img src="https://voicedrew.xyz/images/bannerT.png"></a>
+</header>
+
+<body class="crt">
+<div class="foreground">
+
+		<h2>How I Created the Travelers of Agora Road Webring</h2>
+		<h3>30/06/2023</h3>
+		<p>The Travelers of Agora Road webring has grown to 20 members, so I thought I would explain the process of creating it, along with the resources I used.
+			<br/>
+			<br/>
+It started when <a href="https://forum.agoraroad.com/index.php?members/%E9%9B%A8%E3%80%81some_porcupine%E3%80%81-%E9%80%83%E3%81%92%E5%87%BA%E3%81%97%E3%81%9F%E5%BE%8C.5424/">Some_Porcupine</a> on Agora asked if I wanted to start a webring. I certainly did, but I also knew nothing about how I might go about doing such a thing. I had various concerns, like: What would we call this webring? What infrastructure would be required to get it working? What criteria would be necessary to join? Where are we getting our graphics from?
+			<br/>
+			<br/>
+I impulsively suggested the name “Travelers of Agora Road”. I don’t regret that name, but I do wonder if it was the best choice. As risingthumb pointed out, it bears a lot of similarity to the list of Agora users listed on the webring page of the site. I was split between this choice and “Macintosh Cafe Webring”, and in the end decided on the former.
+			<br/>
+			<br/>
+The webring system itself could have brought this project to its knees. Fortunately, a very simple framework for this sort of thing already exists called <a href="https://garlic.garden/onionring/">‘onionring.js’</a>. Due to this existing script, I managed to get a basic implementation of the webring done in about 20 minutes on the morning I started.
+			<br/>
+			<br/>
+			<img width=100% src="https://forum.agoraroad.com/index.php?attachments/screenshot_20230613_075953-png.64838/">
+				<br/>
+				<br/>
+Wonderful! It is, however, still quite ugly; a problem which needed to be addressed immediately. Porcupine then came up with this mockup, which inspired the final design.
+				<br/>
+				<br/>
+				<img width=100% src="https://forum.agoraroad.com/index.php?attachments/1686669458919-png.64854/">
+					<br/>
+					<br/>
+After about an hour of fooling around with the widget CSS. I got to our final design:
+					<br/>
+					<br/>
+					<img width=100% src="https://forum.agoraroad.com/index.php?attachments/screenshot_20230613_140631-png.64886/">
+						<br/>
+						<br/>
+With that out of the way, we needed to decide on admission requirements, and potential rules for the webring. An initially proposed rule was zero politics, but this was scraped due to a lack of clarity on what exactly was ‘political’. We decided to trust our members to be reasonable.
+						<br/>
+						<br/>
+I-330 (chad that he is), decided to reimplement the JS components of the webring in PHP. Check out his <a href="https://i330.dev/posts/no_js/">blog post</a> about it.
+						<br/>
+						<br/>
+Finally, I had the idea of aggregating our member’s RSS feeds into a single feed for convenience. Sizeofcat made a script for me that creates a dynamically generated OPML file for this purpose. <a href="https://sizeof.cat/so.cl/1687262601/">Read about that here.</a>
+						<br/>
+						<br/>
+Thank you to all the members, I really enjoy being a ringmaster and hope more great things will come out of this.
+
+		</p>
+
+		<hr>
+		<p>If you are interested in joining, check out the <a href="https://voicedrew.xyz/wr/tag.html">index</a> page for further instruction.</p>
+</div>
+</body>
