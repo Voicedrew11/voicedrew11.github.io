@@ -4,12 +4,102 @@
   <title>st.ream</title>
 </head>
 
+<style>
+:root {
+--emt: #ffffff ;
+--matcha:  #8e77c1;
+}
+
+
+body {
+background-color: var(--emt);
+font-family: Arial, sans-serif;
+
+}
+
+#navbar {
+display: flex;
+background-color: var(--matcha);
+padding: 10px;
+border-style: 1px black;
+border-radius: 5px;
+}
+
+p {
+      background-color: var(--matcha);
+      padding: 10px;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      color: white;
+}
+
+#journal {
+margin: 0 auto;
+max-width: 50vw;
+padding: 10px;
+
+}
+
+#container {
+border: 1px solid black;
+border-radius: 5px;
+}
+
+.icon {
+width: 32px;
+height: 32px;
+-webkit-filter: invert(100%);
+filter: invert(100%);
+padding-left: 10px;
+}
+
+.js-toc {
+position: fixed;
+left: 0;
+margin: 15px;
+}
+
+</style>
+
+<header>
+<div id="navbar">
+    <a href="https://voicedrew.xyz/"><img class="icon" src="icons/home.svg"></a>
+    <a href="https://voicedrew.xyz/"><img class="icon" src="icons/rss.png"></a>
+    <img onclick="fresh()" class="icon" src="icons/list.png">
+</div><br>
+</header>
+
+<nav class="js-toc"></nav>
+
 <body>
-<div id="journal"></div>
-</body>
+<div id="journal" class="js-toc-content"></div>
+
+
 
 <script src="https://cdn.jsdelivr.net/npm/showdown@2.0.3/dist/showdown.min.js"></script>
 <script src="convert.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.min.js"></script>
+
+
+
+<script>
+
+tocbot.init({
+  tocSelector: '.js-toc',
+  contentSelector: '.js-toc-content',
+  headingSelector: 'h1, h2, h3',
+  hasInnerContainers: true,
+});
+
+function fresh() {
+tocbot.refresh();
+};
+</script>
+
+
+</body>
+
+
 
 </html>
 
