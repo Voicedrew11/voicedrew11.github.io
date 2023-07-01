@@ -89,23 +89,7 @@ font-weight: bold;
 
 <script src="https://cdn.jsdelivr.net/npm/showdown@2.0.3/dist/showdown.min.js"></script>
 <script src="convert.js"></script>
-
-<script>
-        tocbot.init({
-          tocSelector: '.js-toc',
-          contentSelector: '.js-toc-content',
-          headingSelector: 'h1, h2, h3',
-          hasInnerContainers: true,
-        });
-function tocRefresh() {
-tocbot.refresh();
-}
-
-setTimeout(tocRefresh, 150);
-
-</script>
-
-
+<script src="toc.js" defer></script>
 </body>
 
 
