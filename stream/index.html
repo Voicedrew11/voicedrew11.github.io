@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>st.ream</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.min.js"></script>
 </head>
 
 <style>
@@ -59,13 +60,25 @@ left: 0;
 margin: 15px;
 }
 
+.js-toc a {
+text-decoration: none;
+color: var(--matcha);
+font-weight: bold;
+}
+.js-toc a:hover {
+text-decoration: none;
+background-color: var(--matcha);
+color: var(--emt);
+font-weight: bold;
+}
+
 </style>
 
 <header>
 <div id="navbar">
     <a href="https://voicedrew.xyz/"><img class="icon" src="icons/home.svg"></a>
     <a href="https://voicedrew.xyz/"><img class="icon" src="icons/rss.png"></a>
-    <img onclick="fresh()" class="icon" src="icons/list.png">
+    <h1 style="margin: 0 auto; color: white;">st.ream</h1>
 </div><br>
 </header>
 
@@ -74,26 +87,22 @@ margin: 15px;
 <body>
 <div id="journal" class="js-toc-content"></div>
 
-
-
 <script src="https://cdn.jsdelivr.net/npm/showdown@2.0.3/dist/showdown.min.js"></script>
 <script src="convert.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.min.js"></script>
-
-
 
 <script>
-
-tocbot.init({
-  tocSelector: '.js-toc',
-  contentSelector: '.js-toc-content',
-  headingSelector: 'h1, h2, h3',
-  hasInnerContainers: true,
-});
-
-function fresh() {
+        tocbot.init({
+          tocSelector: '.js-toc',
+          contentSelector: '.js-toc-content',
+          headingSelector: 'h1, h2, h3',
+          hasInnerContainers: true,
+        });
+function tocRefresh() {
 tocbot.refresh();
-};
+}
+
+setTimeout(tocRefresh, 150);
+
 </script>
 
 
