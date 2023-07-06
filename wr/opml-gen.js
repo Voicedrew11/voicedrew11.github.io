@@ -12,6 +12,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         "https://sizeof.cat/socl.xml",
         "https://freckleskies.neocities.org/rss.xml",
 		"https://microbyte.neocities.org/index.xml",
+		"https://i330.dev/posts.rss",
 	];
 	/* Function that downloads the content of the text parameter to a text
 	   file */
