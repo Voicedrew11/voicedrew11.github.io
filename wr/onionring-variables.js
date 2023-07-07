@@ -42,7 +42,7 @@ var ringID = 'tag-webring';
 //should the widget include a link to an index page?
 var useIndex = true;
 //the full URL of the index page. if you're not using one, you don't have to specify anything here
-var indexPage = 'https://voicedrew.xyz/wr/tag.html';
+var indexPage = 'https://voicedrew.xyz/wr/';
 
 //should the widget include a random button?
 var useRandom = true;
