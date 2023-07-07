@@ -18,6 +18,14 @@ header h1 {
   font-size: 48px;
 }
 
+h1 {
+  color: orange;
+      text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				-1px -1px 0 #000;
+}
+
 footer {
 position: fixed;
 bottom: 0;
@@ -61,6 +69,41 @@ body.scanlines-animation::before{
 	100% {
         background-position: 0px 9px;
 	}
+}
+
+li {
+      line-height: 20px;
+      margin: 10px 0;
+      color: pink;
+         text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				-1px -1px 0 #000;
+}
+
+}
+
+ol  {
+     font-family: Arial, sans-serif;
+
+    color: pink;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				-1px -1px 0 #000;
+}
+
+a {
+     color: orange;
+}
+p  {
+     font-family: Arial, sans-serif;
+
+    color: pink;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				-1px -1px 0 #000;
 }
 
 .hidden {
