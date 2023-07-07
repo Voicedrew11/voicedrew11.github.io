@@ -27,6 +27,8 @@ var sites = [
 'https://microbyte.neocities.org/',
 'https://dorgon.neocities.org/',
 'https://overcrook.club/index.php',
+'https://andrei.xyz/',
+'https://insomniac.ichi.city/',
 ];
 
 // 'https://nhkcafe.neocities.org/',
