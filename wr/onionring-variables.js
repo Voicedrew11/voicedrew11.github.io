@@ -29,6 +29,7 @@ var sites = [
 'https://overcrook.club/index.php',
 'https://andrei.xyz/',
 'https://insomniac.ichi.city/',
+'https://nhkhq.neocities.org/',
 ];
 
 // 'https://nhkcafe.neocities.org/',
