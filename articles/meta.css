@@ -5,8 +5,8 @@ body {
 }
 
 header img {
-position: absolute;
-max-width: 50%;
+position: fixed;
+max-width: 20%;
 top: 0;
 right: 0;
 }
@@ -33,9 +33,7 @@ a:hover {
 }
 
 .foreground {
-    margin-left: 15%;
-    margin-right: 50%;
-    max-width: 35%;
+    max-width: 50%;
     background-color: #1e1e2e;
     border-left: 1px solid #a6e3a1;
     border-right: 1px solid #a6e3a1;
@@ -48,6 +46,7 @@ a:hover {
   padding-left: 20px;
   padding-right: 20px;
   overflow-y: scroll;
+  margin: 0 auto;
 }
 
 body::before{
