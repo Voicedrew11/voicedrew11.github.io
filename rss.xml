@@ -6,14 +6,6 @@
         <link>https://www.voicedrew.xyz/</link>
         <ttl>60</ttl>
         <item>
-            <title>Polyphasic Sleeping</title>
-            <description>Get more time out of every day by using polyphasic sleep techniques.</description>
-            <link>https://voicedrew.xyz/articles/polyphase/polyphase.html</link>
-            <guid>https://voicedrew.xyz/articles/polyphase/polyphase.html</guid>
-            <pubDate>Mon, 12 Jun 2023 00:00:00 EST</pubDate>
-        </item>
-        <!-- Add more <item> elements for additional content -->
-        <item>
             <title>What is 5/10 exactly?</title>
             <description>Insane ramblings about the meaning of 'average'.</description>
             <link>https://voicedrew.xyz/articles/average.html</link>
