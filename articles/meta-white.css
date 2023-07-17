@@ -74,15 +74,6 @@ body::before{
     animation: scanlines-anim 0.7s linear infinite;
 }
 
-.metadiv{
-text-align: center;
-display: flex;
-}
-.metadiv img {
-width: 32px;
-height: 32px;
-}
-
 @keyframes scanlines-anim{
     0% {
 		background-position: 0px 0px;
