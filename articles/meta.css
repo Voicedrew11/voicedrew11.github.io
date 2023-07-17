@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'JetBrains';
     src: url('JetBrainsMono.woff2') format('woff2'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-         url('JetBrainsMono.ttf') format('truetype'); /*  'Helvetica', 'Arial', sans-serif; Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+         url('JetBrainsMono.ttf') format('truetype'); /*   Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }  
 
 body {
   color: #cdd6f4;
   background-image: url('walls/stars.gif');
-  font-family: "JetBrains";
+  font-family: 'JetBrains','Helvetica', 'Arial', sans-serif;;
 }
 
 header img {
