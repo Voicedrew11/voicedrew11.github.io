@@ -30,6 +30,7 @@ var sites = [
 'https://andrei.xyz/',
 'https://insomniac.ichi.city/',
 'https://nhkhq.neocities.org/',
+'https://starbreaker.org/',
 ];
 
 // 'https://nhkcafe.neocities.org/',

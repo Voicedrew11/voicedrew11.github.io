@@ -1,5 +1,6 @@
 body {
-    width: 50vw;
+    font-family: Helvetica, sans-serif;
+    width: 80vw;
     background-image: url("https://sadhost.neocities.org/images/tiles/purpdimond.gif");
     color: white;
 }
