@@ -11,28 +11,27 @@ body {
 background-color: #008080;
 background-repeat: repeat;
 font-family: "W95FA";
+font-size: 133%;
 }
 
-header {
+.center {
   display: flex;
-  max-width: 780px;
-  max-height: 360px;
-border: 3px solid #ffffff; 
-border-color:#FFFFFF #808080 #808080 #FFFFFF;
-margin: 0 auto;
+  justify-content: center;
 }
-header > img {
-margin-top: auto;
+
+#header-image {
+border: 3px solid #ffffff;
+  border-color:#FFFFFF #808080 #808080 #FFFFFF;
 }
 
 .sidebar {
   width: 20%; /* Adjust the width as needed */
-  max-width: 200px;
   background-color: #c0c0c0;
   border: 3px solid #ffffff; 
   border-color:#FFFFFF #808080 #808080 #FFFFFF;
   margin: 0 auto;
   margin-top: 10px;
+  margin-right: 15px;
 }
 
 .sidebar a {
@@ -46,7 +45,7 @@ margin-top: auto;
 .basecontainer {
   display: flex;
   margin: 0 auto;
-  max-width: 800px;
+  width: 1037px;
 
 }
 
@@ -84,9 +83,6 @@ ul {
 
 #fg {
 background-color: #c0c0c0;
-width: 80%; /* Set the width of the container to 100% */
-max-width: 600px; 
-margin: 0 auto; /* Center the container horizontally */
 padding: 1px 0;
 margin-top: 10px;
 border: 3px solid #ffffff; 
@@ -148,12 +144,6 @@ width: 25%;
 cursor:pointer;
 }
 
-footer {
-  position: fixed;
-  bottom: 2px;
-  left: 2px;
-  padding-left: 5px;
-}
 
 @media (max-width: 1080px) {
    .basecontainer {
@@ -189,14 +179,7 @@ footer {
   display: none;
 }
 
-header {
-  max-width: 1080px;
-  margin-bottom: 15px
-}
 
-header img {
-width: 100vw;
-}
 #Emilia {
   display: none;
 }
@@ -218,29 +201,5 @@ width: 100vw;
 }
 
 
-}
 
-body::before{
-    content: "";
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: linear-gradient(rgba(20, 20, 20, 0) 66%, rgba(0, 0, 0, 0.20) 33%);
-    background-size: 100% 3px;
-    z-index: 9999;
-    pointer-events: none;
 
-    animation: scanlines-anim 0.7s linear infinite;
-}
-
-@keyframes scanlines-anim{
-    0% {
-		background-position: 0px 0px;
-	}
-	100% {
-        background-position: 0px 9px;
-	}
-}
