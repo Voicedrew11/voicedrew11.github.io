@@ -14,6 +14,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
 		"https://microbyte.neocities.org/index.xml",
 		"https://i330.dev/posts.rss",
 		"https://starbreaker.org/feed.xml",
+		"http://fetchrss.com/rss/64bb38d853d3b3072d6df25264bb38c9b086ac04a47d6512.xml",
 	];
 	/* Function that downloads the content of the text parameter to a text
 	   file */
