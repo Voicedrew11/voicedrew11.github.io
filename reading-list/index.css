@@ -1,0 +1,42 @@
+body {
+    font-family: Helvetica, sans-serif;
+    width: 50vw;
+    background-image: url("https://sadhost.neocities.org/images/tiles/purpdimond.gif");
+    color: white;
+    font-size: 150%;
+    margin: 0 auto;
+}
+
+h1 {
+text-align: center;
+margin-bottom: 0px;
+}
+
+.smallbox {
+    display: flex;
+    justify-content: center
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+
+
+a {
+    color: cyan;
+    text-decoration: none;
+}
+
+
+.leftimg {
+
+}
+
+.rightimg {
+
+}
