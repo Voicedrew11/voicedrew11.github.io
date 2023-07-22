@@ -45,10 +45,17 @@ border: 3px solid #ffffff;
 .basecontainer {
   display: flex;
   margin: 0 auto;
-  width: 1037px;
+  justify-content: center;
+  width: 1040px;
 
 }
 
+.buttons {
+  display: flex;
+  justify-content: center;
+} .buttons img {
+  margin: 3px;
+}
 
 h1 {
   margin: 0;
