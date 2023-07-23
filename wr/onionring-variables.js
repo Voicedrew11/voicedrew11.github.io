@@ -31,6 +31,7 @@ var sites = [
 'https://insomniac.ichi.city/',
 'https://nhkhq.neocities.org/',
 'https://starbreaker.org/',
+'https://aboboracandy.neocities.org/',
 ];
 
 // 'https://nhkcafe.neocities.org/',
