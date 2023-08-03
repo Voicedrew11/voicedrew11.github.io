@@ -1,0 +1,11 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-image: url("https://sadhost.neocities.org/images/tiles/purpdimond.gif");
+    color: white;
+}
+
+td {
+    padding-right: 30px;
+    border-style: solid;
+    border-width: 2px;
+}
