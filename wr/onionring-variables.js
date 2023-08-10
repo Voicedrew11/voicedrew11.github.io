@@ -32,6 +32,7 @@ var sites = [
 'https://nhkhq.neocities.org/',
 'https://starbreaker.org/',
 'https://aboboracandy.neocities.org/',
+'https://blog.shr4pnel.com',
 ];
 
 // 'https://nhkcafe.neocities.org/',
