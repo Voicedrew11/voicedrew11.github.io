@@ -35,6 +35,7 @@ var sites = [
 'https://blog.shr4pnel.com',
 'https://skeleg.org',
 'https://no56.neocities.org/',
+'http://yuiui.moe/',
 ];
 
 // 'https://nhkcafe.neocities.org/',
