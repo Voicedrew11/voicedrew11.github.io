@@ -34,6 +34,7 @@ var sites = [
 'https://aboboracandy.neocities.org/',
 'https://blog.shr4pnel.com',
 'https://skeleg.org',
+'https://no56.neocities.org/',
 ];
 
 // 'https://nhkcafe.neocities.org/',
