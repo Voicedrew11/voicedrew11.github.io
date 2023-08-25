@@ -37,6 +37,7 @@ var sites = [
 'https://no56.neocities.org/',
 'https://yuiui.moe/',
 'https://dc-blog.neocities.org/',
+'https://splashy.neocities.org/',
 ];
 
 // 'https://nhkcafe.neocities.org/',
