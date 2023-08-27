@@ -147,7 +147,7 @@ margin-right: 15px;
   bottom: 0; /* Adjust the top position as needed */
   right: 0; /* Adjust the right position as needed */
   z-index: -1; /* Set a higher z-index to ensure the image appears above other elements */
-width: 25%; 
+width: 35%;
 cursor:pointer;
 }
 
