@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+  <channel>
+    <title>Your Feed Title</title>
+    <link>http://www.yourwebsite.com</link>
+    <description>Your feed description</description>
+    <language>en-us</language>
+
+    <!-- Add multiple items like this for each article or post -->
+    <item>
+      <title>Schizo-Ramblings About The Trolley Problem</title>
+      <link>https://voicedrew.xyz/articles/trolley-problem.html</link>
+      <description>
+        <![CDATA[
+
+<h1 id="schizo-ramblings-about-the-trolley-problem">Schizo-Ramblings About The Trolley Problem</h1>
+<h3 id="31-08-2023">31/08/2023</h3>
+<p>EFAP, a podcast related to film, game, and critic criticism, recently had its 250th episode; it’s five-year anniversary. I’ve been a big fan of the show for years, so naturally, I tuned in.</p>
+<p>On the show, they played <a href="https://neal.fun/absurd-trolley-problems/">Absurd Trolley Problems</a>... A game where one chooses either to pull or not pull the lever in an increasingly absurd set of trolley problems.</p>
+<p>When they started playing the game, I found it extremely appalling that the cast almost unanimously agreed that diverting the train was the most moral action in the classic trolley problem. Here was my reasoning:</p>
+<p>1) The train heading towards the 5 people is the state of nature.</p>
+<p>2) By pulling, not pulling the lever, I am allowing them to die; not killing them.</p>
+<p>3) Pulling the lever, and the subsequent death of the 1 person, is not the state of the world, but rather a consequence of my direct actions.</p>
+<p>Here is the thought that put a monkey wrench into my reasoning: Is inaction an action? Or rather, ‘is it true that I am not killing anybody when I decide to do nothing?’ Here is the Oxford Dictionary definition of “inaction”</p>
+<blockquote>
+<p>“lack of action where some is expected or appropriate:”</p>
+</blockquote>
+<p>To further illustrate the problem, here is an absurd version of the trolley problem:</p>
+<blockquote>
+<p>"The trolley is headed towards one person. You can pull the lever to divert it to the other track, killing nobody instead. What do you do?"</p>
+</blockquote>
+<p>In this instance, would you not say that by allowing the train to continue in its path, you are killing the person on the tracks through your inaction?</p>
+<h2 id="commission-vs-omission">Commission vs Omission</h2>
+<p>I believe a key part of understanding the trolley problem is understanding the difference between crimes of commission, and crimes of omission. Crimes of commission constitute acts in which evil is caused as a consequence of malice, whereas crimes of omission are evils which are caused by a lack of action.</p>
+<p>My error, then, was not recognizing crimes of omission as crimes at all.</p>
+<h2 id="my-skin-in-the-game">My Skin In The Game</h2>
+<p>Before coming to my previous realization, I believed that pulling the lever constituted a consequentialist action, whereas not pulling the lever was ontological. My ontological belief was essentially, “It is wrong to kill an innocent person, even if it’s a net positive”.</p>
+<p>With the realization that allowing the 5 people to die <em>was</em> actually killing them due to omission, my view has changed on the trolley problem. I now believe ontology and consequentialism play a very mute role in this variation. Truly, if in both situations I am killing people, either by commission or omission, then indeed, the ontological belief that life is sacred, and that it should be preserved in the greatest numbers possible holds supreme.</p>
+<hr>
+<p>This post is a part of <a href="https://forum.agoraroad.com/index.php?threads/agora-road-travelouge-august-blogging.5966/">Agora Road's Travelouge</a>, an effort to promote blogging.</p>
+        ]]>
+      </description>
+      <pubDate>Thu, 31 Aug 2023 23:30:00 EST</pubDate>
+    </item>
+
+    <!-- Add more items here for each new article -->
+
+  </channel>
+
+</rss>
