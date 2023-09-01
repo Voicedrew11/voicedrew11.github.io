@@ -149,6 +149,137 @@
       <pubDate>Thu, 31 Aug 2023 20:00:00 EST</pubDate>
     </item>
 
+    <item>
+      <title>The Importance of Personal Websites</title>
+      <link>https://whitevhs.xyz/articles/2023/08/29/personal-websites</link>
+      <description>
+        <![CDATA[
+
+  <header>
+<h1>The Importance of Personal Websites</h1>
+  </header>
+<hr>
+<p style="color:white" class="meta">29 Aug 2023</p>
+<div class="post">
+<p>My site has been up for just over a year now, and in that time I’ve encountered so many interesting websites, all of them respectively created and maintained by just one person in their free time. Most of them share the same sentiment that having a personal website is liberating, and can be a great way of getting your thoughts and ideas out. Having a place to properly and freely express yourself is critical. Most Big Tech platforms can and will ban whoever they feel like without a moment’s notice, and without reason. After all, it’s in their <a href="https://tosdr.org">Terms of Service</a>. Most of them also require you to use your real identity. You should have the choice to remain anonymous online. While I do believe more people should have their own website, at the same time I understand that it’s not for everyone. If you want to carve out your own space online that you can <em>truly</em> call home, consider creating your own website(s). But before you do, you might ask yourself:</p>
+
+<h2 id="where-do-i-start">Where do I start?</h2>
+<p>This is a great question, but the answer will be different for everyone, as it really depends on what you want to do with your site. I highly recommend checking out <a href="https://forum.agoraroad.com/index.php?threads/the-personal-web.5647/">this thread</a> on Agora Road; it’s what prompted me to write this in the first place. Included in the thread is a list of ways you can start working on your site, which I implore you to peruse through if you’re truly interested in creating your own site. In this post I’m gonna break down my workflow for this site.</p>
+
+<h2 id="the-cost">The cost</h2>
+<p>When I first became interested in hosting my own website, I wanted to do so in a way that would cost me the least amount of shekels. I purchased my domain on <a href="https://epik.com/">Epik</a> for about two dollars. Renewing it does cost more, however (I think it was like $35 to renew it til 2025). Keep in mind, some of the ways you can go about creating your site will NOT require a custom domain, it’s more of an optional thing. Anyway, I remember stumbling on a website hosted with Github Pages. Looking into it, I found out that you can easily host a website on there for free. That led me down the path of using a Static Site Generator (or SSG). By default Github Pages uses the Jekyll SSG so that’s what I went with. Eventually <a href="https://nogithub.codeberg.page/">I migrated all of my code to Gitlab</a> because I’d rather not use a Microsoft owned service. I’ll admit, having very little experience with this sort of thing meant that my first month had a somewhat steep learning curve, with lots of trial and error. I wanted to do everything by hand, and figuring out how to set everything up was confusing at first, for sure. But the more time I took to figure it out, the more I actually understood what I was doing. Sidenote: I still have no idea what I’m doing.</p>
+
+<h2 id="the-code">The code</h2>
+<p>Using an SSG means the actual pipeline for your site is handled for you (of course you have to configure it initially, but it’s a “set it and forget it” kinda thing). You make your changes, commit it, and boom, within a couple minutes your changes are live. Before I realized I can just press F12, edit the HTML or CSS on the site locally, then apply those changes to the actual codebase, I was making the smallest little changes and committing them. DO NOT MAKE THE SAME MISTAKE AS ME. I feel stupid for not realizing it sooner, but the cleaner you can keep your commits, the better. Using an SSG means you can set up layouts for your page, which is handy for not having to include a bunch of redundant code in your index.html files. For example, everything at the top and bottom of my site is included in the layout (header + footer), and all the actual content of the page is injected via liquid tags.</p>
+
+<h2 id="the-possibilities">The possibilities</h2>
+<p>The best part about owning your own site, in my opinion, is just the sheer amount of possibilities there are. The biggest limitations you have are your imagination and ability to produce the necessary code. You can turn it into anything you’d like. In all honesty, you don’t <em>have</em> to write all the code by hand. There are tons of templates and themes out there available for public use, however I personally did not take that route as I wanted to learn how to do it from scratch. Take whatever path you feel is the best for you.</p>
+
+<h2 id="the-downsides">The downsides</h2>
+<p>Of course, the method I chose for hosting my site does have its downsides. One of them being the fact that I’m not self-hosting, and technically I am still at the mercy of Gitlab if they so choose to terminate my account. This does pose a potential problem if the kind of content you want to display on your site goes against their terms. Another downside is the fact it is only a static site, and you don’t have any access to tools like PHP for backend stuff. You’re basically stuck with the limitations that are imposed on you. But hey, it’s gratis (free as in “free beer”) and so far I’ve managed just fine. Again, it all comes down to what you’d like to do with your website.</p>
+
+<p>The importance of these independent spaces online cannot be overstated. They’re essential for a free and open web. It gives me hope to see that this “Old Web Revival” movement exists to some degree. If you are curious about the personal websites that are out there, check out the <a href="https://wiby.me/">Wiby search engine</a>, or search out the various <a href="https://wikiless.org/wiki/Webring">Webrings</a> that exist. Have fun creating and exploring.</p>
+
+<p>-H</p>
+        ]]>
+      </description>
+      <pubDate>Tue, 29 Aug 2023 20:00:00 EST</pubDate>
+    </item>
+
+    <item>
+      <title>The Burden of Life birthed by Lamenting Death.</title>
+      <link>https://risingthumb.xyz/Writing/Articles/The_Burden_of_Life_birthed_by_Lamenting_Death</link>
+      <description>
+        <![CDATA[
+<h1>The Burden of Life birthed by Lamenting Death.
+</h1>
+<p>
+</p>
+<h2>Lament
+</h2>
+<p>
+</p>
+<p>Oh my dear Brothers, that we shall die is to live. But whether we live life, or life lives us- or that we live death, and die to life... death is only an end, of our means.
+</p>
+<p>
+</p>
+<p>Memento Mori, the old saying of Latin. Remember you will die. When your death weighs upon you, as it upon the Camel of Zarathustra's 1st metamorphosis, you stray and steer. You search for comforts to this end. And the end of this, is a discomfort, the denial of life.
+</p>
+<p>
+</p>
+<p>How is it a denial of life? There are first those who ascribe negative value to life. Who preach antinatalism. They deny pleasures of the flesh- sex and reproduction is one pleasure, the creation and raising of a child is another pleasure. Creation, a primal pleasure- as in God's Genesis, in our regenesis. We cry, and wiggle- we decry and sizzle in the boiling hot coals of life's suffering.
+</p>
+<p>
+</p>
+<p>Life is suffering. And to suffer, is to live my friends.
+</p>
+<p>
+</p>
+<p>It is some comfort to say at the end, there is a shining beacon found in the afterlife. In Valhalla for the virtuous warrior. In Heaven for the virtuous imitator of Christ, graced by Christ. All of these are a denial of life, by an affirmation of the afterlife. An affirmation beyond the veil of death. That there is no basis to believe or disbelieve- that Pascal in the self-same wager that affirms and slays his God as believer, has condemned to the herds of other idols. That God competes in the abyss of all other Gods, even those to whom Goodness is Evil to Christians.
+</p>
+<p>
+</p>
+<p>Oh friends, the bells toll each hour. One toll to your booth, the repentance of your sins. Oh God! I cannot see any more graves! I cannot see people pay in life, for their death. Show me something good, something joyous.
+</p>
+<p>
+</p>
+<p>That deaths is an end, the idleness of our bodies. The eternal Sunday. God rested. We rested. And we never wake. It is the end of a week's creation. The end of a life's creation. Our children, our family, our friends weep. All our creation... and all creation wept.
+</p>
+<p>
+</p>
+<p>It is a lament, that death is the primal fear, the basis of denial in our life- so struck dumb with stress, terror, nightmares of the night's mares that come to reap what was sown.
+</p>
+<p>
+</p>
+<h2>Burden
+</h2>
+<p>
+</p>
+<p>That we create our vision of death, is a creation of the burdens. Of the Camel. Of the desire to hold all our responsibility and life upon our back- and in such a simple creation, we weep, lament, and are crushed under them. Unlike Sisyphus, we take no joy in the boulder of life- and deny it. Is there an object to it? Or is it a phantasm of the mind? That haunts our every step with the sickly black tar that coats and crushes everything deep to the depth- that the Camel may bear no more. Painted black.
+</p>
+<p>
+</p>
+<p>I see my burdens painted black, and see no light at the end. That there is death is a corrosion to all Good, all Evil and all Creation. Death is entropy, an ends, and our wills and woulds are a means to this ends- baked, burnt or bastardised.
+</p>
+<p>
+</p>
+<p>All philosophy comes down to the question. Why live? As Camus said "the only philosophical question of any significance is the question of suicide". That we live in an absurdity, that we take our burdens in both hands, and roll it up the hill- knowing Gravity, knowing Entropy, knowing the world is a mocking jester at every turn.
+</p>
+<p>
+</p>
+<p>But even the heavy jester creates joy out of the decks of tragedy, cards of comedy... birth of a dancing star. With such burdens, they can leap with joy and light-footed and heavy with life and vitality.
+</p>
+<p>
+</p>
+<p>Steer clear of these preachers of death, and find bridges to the Übermensch my Brothers. That your lives might be your virtue, and your highest hope kept holy. Memento Mori. Your highest hope is the creation of your second life. The life beyond your death. The creation beyond your life. What passes down your legacy and life, your tribe and world. Seven generations of thick skin have begotten you, and you are their highest hope kept holy- will you defile it in death, or honour in holy life?
+</p>
+        ]]>
+      </description>
+      <pubDate>Mon, 21 Aug 2023 20:00:00 EST</pubDate>
+    </item>
+
+        <item>
+      <title>God Does Not Accept Second Rate Sacrifices</title>
+      <link>https://voicedrew.xyz/articles/try-your-hardest.html</link>
+      <description>
+        <![CDATA[
+
+<h1 id="god-does-not-accept-second-rate-sacrifices">God Does Not Accept Second Rate Sacrifices</h1>
+<h3 id="18-06-2023">18/06/2023</h3>
+<p>This blog post originally started its life as an account of my last year of school, and how because I did not try my best, I got a second rate reward for my minimal efforts. As a began to wrap up that post with a conclusion, I noticed that I was directly contradicting my thesis. Even though I had failed to get into a specific university program, I had also grown tremendously over the year, and so I had nothing to be ashamed about. It is from the ashes of that post that I write this one.</p>
+<p>I propose that you fully commit to what matters to you, since it's much more rewarding to receive full compensation for your complete efforts than to receive no reward, or even punishment, for putting in not enough effort. God, after all, does not accept second-rate sacrifices.</p>
+<p>I’ve recently started going to the gym again. I had been going previously in the year, but I fell off hard around the time school ended. I ended up losing a lot of my muscle, and my body fat shot up; my level of exercise had changed, but my diet had not.</p>
+<p>Before I stopped, I had been going 3 times a week, working the same muscles every time. Biceps, Triceps, Shoulders, and Chest. My diet was almost completely carbohydrates, and not particularly conducive to muscle growth. I did see changes in my body, but they were not fast, nor particularly impressive. It is no wonder then that I stopped. I was not particularly invested in fitness, because I was hardly seeing any of the benefits of that lifestyle.</p>
+<p>I am doing things completely differently this time around. I am putting in the work and making the necessary sacrifices that someone who <em>deserves</em> to have a nice body would make. I cook simple, wholesome, protein rich meals for myself. I’m in the gym 6 days a week, running a push pull legs split. I try to train the same muscles with different, more interesting lifts, such that I won't simply fall into a routine and get bored. I do drop sets to get every last bit of growth I can out of my time.</p>
+<p>It has only been like two weeks, and I can already say, I’m super impressed. I managed to get to the same bench press that took me 4 months previously in an eighth the time. There is none of that dread that I used to feel as a consequence of going three days a week. Now, it is simply a thing I do every day at a specific time, making it very hard to justify skipping workouts. The ends, now, justify the means.</p>
+<p>Few regret failure after an honest effort, but all regret not trying enough and getting exactly what they deserve. </p>
+<hr>
+<p>This post is a part of <a href="https://forum.agoraroad.com/index.php?threads/agora-road-travelouge-august-blogging.5966/">Agora Road's Travelouge</a>, an effort to promote blogging.</p>
+        ]]>
+      </description>
+      <pubDate>Fri, 18 Aug 2023 20:00:00 EST</pubDate>
+    </item>
+
   </channel>
 
 </rss>
