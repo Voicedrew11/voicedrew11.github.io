@@ -13,7 +13,6 @@
       <link>https://voicedrew.xyz/articles/trolley-problem.html</link>
       <description>
         <![CDATA[
-
 <h1 id="schizo-ramblings-about-the-trolley-problem">Schizo-Ramblings About The Trolley Problem</h1>
 <h3 id="31-08-2023">31/08/2023</h3>
 <p>EFAP, a podcast related to film, game, and critic criticism, recently had its 250th episode; it’s five-year anniversary. I’ve been a big fan of the show for years, so naturally, I tuned in.</p>
@@ -41,9 +40,35 @@
 <p>This post is a part of <a href="https://forum.agoraroad.com/index.php?threads/agora-road-travelouge-august-blogging.5966/">Agora Road's Travelouge</a>, an effort to promote blogging.</p>
         ]]>
       </description>
-      <pubDate>Thu, 31 Aug 2023 23:30:00 EST</pubDate>
+      <pubDate>Thu, 31 Aug 2023 22:00:00 EST</pubDate>
     </item>
 
+    <item>
+      <title>Being a "Flip Phone Main"</title>
+      <link>https://whitevhs.xyz/articles/2023/08/31/flip-phone-main</link>
+      <description>
+        <![CDATA[
+  <header>
+<h1>Being a "Flip Phone Main"</h1>
+  </header>
+<hr>
+<p style="color:white" class="meta">31 Aug 2023</p>
+<div class="post">
+<p>Around this time last year, my Samsung Galaxy S8 abruptly stopped working. Either it wouldn’t turn on or the display completely died. Regardless, I needed a quick and affordable replacement phone mainly for work. I really didn’t want another phone as I hardly used my last one but I didn’t have a choice when it came to work, so I settled on a $30 Alcatel flip phone. It runs an operating system called KaiOS, which apparently is a fork of the discontinued FirefoxOS, which is interesting. In this article, I’m gonna talk a bit about the pros and cons of daily driving a flip phone.</p>
+
+<h2 id="the-pros">The Pros</h2>
+<p>Your phone is no longer a potential source of distraction - it is merely a tool for communication or time management. I didn’t spend much time on my phone to begin with, but this really cut it down to only when I needed it, no more and no less. The form factor is quite nice as well, I like the smaller fit of the phone in the hand, and the crisp clap of closing the phone is very satisfying. Having actual tactile buttons on the phone feels nice, though I would prefer to have a “sliding phone” with a full keyboard. The battery life on it is great, which makes sense considering I only use it a few minutes each day. I can go 4-5 days without charging it sometimes, and it’s fully charged within a couple of hours. My phone plan is only $15 a month which is very affordable.</p>
+
+<h2 id="the-cons">The Cons</h2>
+<p>Technologies like SMS/MMS and voice calls over a cellular network are terrible for privacy, as all of the information being transmitted is unencrypted, and is even sold to data brokers and government agencies to spy on you. When you do actually use the phone to send messages, typing on it can be a pain. The predictive text is awful so I disabled it. I can get quick messages across in a snap, but anything of length instantly becomes a chore. With the model of phone I have, there is no option to block numbers, so if there’s a number that keeps harassing me, I’m basically screwed. The phone needs to be restarted frequently, as the OS becomes slow and very unresponsive over time.</p>
+
+<h2 id="the-conclusion">The Conclusion</h2>
+<p>If you’re the kind of person who only uses calls/text sparingly and doesn’t need a constant distraction in their pocket, then consider switching to a flip phone (or more generally a “dumb phone”). If your use case doesn’t quite line up with the limitations, consider using an Android device with a debloated ROM on it, and only use the necessary apps.</p>
+<p>-H</p>
+        ]]>
+      </description>
+      <pubDate>Thu, 31 Aug 2023 20:00:00 EST</pubDate>
+    </item>
     <!-- Add more items here for each new article -->
 
   </channel>
