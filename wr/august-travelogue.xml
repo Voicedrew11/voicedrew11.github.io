@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="https://forum.agoraroad.com/index.php?threads/agora-road-travelouge-august-blogging.5966/">
+    <title>August Travelogue</title>
+    <link href=""/>
+    <updated>2003-12-13T18:30:02Z</updated>
+    <author>
+        <name>Travelers of Agora Road</name>
+    </author>
+    <id>https://forum.agoraroad.com/index.php?threads/agora-road-travelouge-august-blogging/</id>
+    <entry>
+        <title>Schizo-Ramblings About The Trolley Problem</title>
+        <link href="https://voicedrew.xyz/articles/trolley-problem.html"/>
+        <id>https://voicedrew.xyz/articles/trolley-problem.html</id>
+        <content src="https://voicedrew.xyz/articles/trolley-problem.html"/>
+        <updated>2003-12-13T18:30:02Z</updated>
+    </entry>
+</feed>
