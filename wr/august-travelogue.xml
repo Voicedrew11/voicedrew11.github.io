@@ -2,7 +2,6 @@
 <?xml-stylesheet type="text/css" href="rss.css"?>
 <rss version="2.0">
   <channel>
-	  <atom:link href="https://voicedrew.xyz/wr/august-travelogue.xml" rel="self" type="application/rss+xml" />
     <title>August Travelogue</title>
     <link>https://forum.agoraroad.com/index.php?threads/agora-road-travelouge-august-blogging.5966/</link>
     <description>Ecclectic stories from the road.</description>
