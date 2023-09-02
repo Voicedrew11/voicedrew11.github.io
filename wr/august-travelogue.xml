@@ -2,19 +2,77 @@
 <rss version="2.0">
 
 <channel>
-  <title>W3Schools Home Page</title>
-  <link>https://www.w3schools.com</link>
-  <description>Free web building tutorials</description>
+  <title>August Travelogue</title>
+  <link>https://forum.agoraroad.com/index.php?threads/agora-road-travelouge-august-blogging.5966/</link>
+  <description>Ecclectic stories from the road.</description>
+
   <item>
-    <title>RSS Tutorial</title>
-    <link>https://www.w3schools.com/xml/xml_rss.asp</link>
-    <description>New RSS tutorial on W3Schools</description>
+    <title>2023</title>
+    <link>https://foreverliketh.is/blog/2023/</link>
   </item>
   <item>
-    <title>Second Item</title>
-    <link>https://www.w3schools.com/xml/xml_rss.asp</link>
-    <description>New RSS tutorial on W3Schools</description>
+    <title>Tangling files in Emacs Org Mode</title>
+    <link>https://whitevhs.xyz/articles/2023/08/21/emacs-org-mode</link>
+  </item>
+  <item>
+    <title>Obsolete Tech: Flash Video Configurator (2011)</title>
+    <link>https://andrei.xyz/post/obsolete-tech-flash-video-configurator/</link>
+  </item>
+  <item>
+    <title>God Does Not Accept Second Rate Sacrifices</title>
+    <link>https://voicedrew.xyz/articles/try-your-hardest.html</link>
+  </item>
+  <item>
+    <title>Word As Will</title>
+    <link>https://risingthumb.xyz/Writing/Blog/Word_as_will</link>
+  </item>
+  <item>
+    <title>AGORA TRAVELOGUE BLOGPOST MUSINGS</title>
+    <link>https://forum.agoraroad.com/index.php?threads/agora-road-travelouge-august-blogging.5966/post-82632</link>
+  </item>
+  <item>
+    <title>Sven Bømwøllen > a half-assed review + download archive</title>
+    <link>https://andrei.xyz/post/sven-bomwollen-a-half-assed-review/</link>
+  </item>
+  <item>
+    <title>AGORA, NOSTALGIA, LEARNED LAZINESS AND MISTRUST INC.</title>
+    <link>https://forum.agoraroad.com/index.php?threads/agora-road-travelouge-august-blogging.5966/post-82780</link>
+  </item>
+  <item>
+    <title>Personal Websites</title>
+    <link>https://whitevhs.xyz/articles/2023/08/29/personal-websites</link>
+  </item>
+  <item>
+    <title>Reading and Writing, Beauty and Ugliness</title>
+    <link>https://risingthumb.xyz/Writing/Blog/Reading_and_Writing_Beauty_and_Ugliness</link>
+  </item>
+  <item>
+    <title>Wherever You Go</title>
+    <link>https://foreverliketh.is/blog/wherever-you-go/</link>
+  </item>
+  <item>
+    <title>Tehnoton Lira and Some Other Old Memories</title>
+    <link>https://andrei.xyz/post/tehnoton-lira-and-some-other-old-memories/</link>
+  </item>
+  <item>
+    <title>The Burden of Life birthed by Lamenting Death.</title>
+    <link>https://risingthumb.xyz/Writing/Blog/The_burden_of_life_by_lamenting_death</link>
+  </item>
+  <item>
+    <title>Being a "Flip Phone Main"</title>
+    <link>https://whitevhs.xyz/articles/2023/08/31/flip-phone-main
+</link>
+  </item>
+  <item>
+    <title>Ramblings about web-design as escapism. and Those of us who stayed, those of us who remain; Recounts from TFC.</title>
+    <link>https://walrus-island.neocities.org/navigation/blog
+</link>
+  </item>
+  <item>
+    <title>Schizo-Ramblings About The Trolley Problem</title>
+    <link>https://voicedrew.xyz/articles/trolley-problem.html
+</link>
   </item>
 </channel>
 
-</rss> 
+</rss>
