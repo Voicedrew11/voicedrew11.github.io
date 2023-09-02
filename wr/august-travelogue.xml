@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="https://forum.agoraroad.com/index.php?threads/agora-road-travelouge-august-blogging.5966/">
+<feed xmlns="https://www.w3.org/2005/Atom">
     <title>August Travelogue</title>
     <link href=""/>
     <updated>2003-12-13T18:30:02Z</updated>
@@ -11,7 +11,9 @@
         <title>Schizo-Ramblings About The Trolley Problem</title>
         <link href="https://voicedrew.xyz/articles/trolley-problem.html"/>
         <id>https://voicedrew.xyz/articles/trolley-problem.html</id>
-        <content src="https://voicedrew.xyz/articles/trolley-problem.html"/>
-        <updated>2003-12-13T18:30:02Z</updated>
+        <content type="html">
+            <h1>This is a test</h1>
+        </content>
+        <updated>2023-08-31 22:30:02</updated>
     </entry>
 </feed>
