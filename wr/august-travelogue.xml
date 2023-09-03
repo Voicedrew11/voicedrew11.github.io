@@ -2,9 +2,11 @@
 <?xml-stylesheet type="text/css" href="rss.css"?>
 <rss version="2.0">
   <channel>
-    <title>August Travelogue</title>
-    <link>https://forum.agoraroad.com/index.php?threads/agora-road-travelouge-august-blogging.5966/</link>
-    <description>Ecclectic stories from the road.</description>
+    <top>
+      <title>August Travelogue</title>
+      <link>https://forum.agoraroad.com/index.php?threads/agora-road-travelouge-august-blogging.5966/</link>
+      <description>Ecclectic texts from the road... AUGUST edition</description>
+    </top>
     <item>
       <title>2023</title>
       <link>https://foreverliketh.is/blog/2023/</link>
@@ -72,5 +74,7 @@
       <link>https://voicedrew.xyz/articles/trolley-problem.html
 </link>
     </item>
+    <webMaster>Please email Voicedrew11@gmail.com about dead links and other issues with the feed.</webMaster>
+    <language>en-us</language>
   </channel>
 </rss>

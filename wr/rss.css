@@ -1,40 +1,61 @@
-/* Style the overall container */
+
+
+/* Center the list, make it not too wide for desktop users + small margin for phone users */
 rss {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    padding: 20px;
-    display: block;
-}
+    width: 100%;
+    max-width: min(800px, 98vw); /* For desktop users, 800px. For phone users 2vw (0.02 of the viewport) used */
+    margin: auto; /* Centering */
+    background-image: url('https://wallpapercave.com/wp/wp5001624.jpg');
 
-/* Style the individual feed items */
+}
 item {
-    margin-bottom: 20px;
+    display: list-item;
+    list-style-type: none; /* Optional if you want bullet points. Consider disclosure-closed */
+    margin-bottom: 0.2rem; /* Optional */
+    line-height: 40px;
     padding: 10px;
-    background-color: #ffffff;
-    border: 1px solid #e0e0e0;
-    border-radius: 5px;
+    background: pink;
 }
-
-/* Style the title of each feed item */
-title {
-    font-size: 18px;
+item title {
+    display: block; /* Put each title and link on separate line. Consider also "display: flex" for fine tuned ordering of elements*/
     font-weight: bold;
-    margin-bottom: 10px;
 }
 
-/* Style the description or content of each feed item */
-description {
-    font-size: 14px;
-}
-
-/* Style the link to the full article */
 link {
     color: #0077cc;
     text-decoration: none;
 }
 
-/* Style the date of each feed item */
-pubDate {
-    font-size: 12px;
-    color: #999999;
+language {
+    margin-bottom: 10px;
+    background: white;
+
 }
+
+webMaster {
+    margin-top: 30px;
+    background: white;
+    padding: 5px;
+}
+top {
+    display: list-item;
+    list-style-type: none; /* Optional if you want bullet points. Consider disclosure-closed */
+    margin-top: 0.2rem; /* Optional */
+    margin-bottom: 0.2rem; /* Optional */
+    line-height: 40px;
+    padding: 10px;
+    background: pink;
+}
+
+top title {
+
+    display: block; /* Put each title and link on separate line. Consider also "display: flex" for fine tuned ordering of elements*/
+    font-size: 46px;
+    font-weight: bold;
+}
+
+top description {
+
+    display: block; /* Put each title and link on separate line. Consider also "display: flex" for fine tuned ordering of elements*/
+}
+
