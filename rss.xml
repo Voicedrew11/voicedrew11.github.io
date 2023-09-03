@@ -54,5 +54,12 @@
             <guid>https://voicedrew.xyz/articles/trolley-problem.html</guid>
             <pubDate>Thu, 31 Aug 2023 22:00:00 EST</pubDate>
         </item>
+        <item>
+            <title>Markdown Madness</title>
+            <description>Using python to save (probably) thousands of hours</description>
+            <link>https://voicedrew.xyz/articles/markdown-madness.html</link>
+            <guid>https://voicedrew.xyz/articles/markdown-madness.html</guid>
+            <pubDate>Sun, 03 Sep 2023 15:00:00 EST</pubDate>
+        </item>
     </channel>
 </rss>
