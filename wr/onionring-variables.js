@@ -38,6 +38,7 @@ var sites = [
 'https://yuiui.moe/',
 'https://dc-blog.neocities.org/',
 'https://splashy.neocities.org/',
+'https://purplehello98.neocities.org/',
 ];
 
 // 'https://nhkcafe.neocities.org/',
