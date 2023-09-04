@@ -28,7 +28,7 @@ try:
 <head>
 	<meta charset="utf-8">
 	<title>{first_line}</title>
-	<link rel="stylesheet" href="meta.css">
+	<link rel="stylesheet" href="index.css">
 	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 
