@@ -7,61 +7,462 @@
         <ttl>60</ttl>
         <!-- LB -->
 
-        <item>
-            <title>What is 5/10 exactly?</title>
-            <description>Insane ramblings about the meaning of 'average'.</description>
-            <link>https://voicedrew.xyz/articles/average.html</link>
-            <guid>https://voicedrew.xyz/articles/average.html</guid>
-            <pubDate>Mon, 12 Jun 2023 03:30:00 EST</pubDate>
-        </item>
-        <item>
-            <title>Acer Aspire Vero (Antichrist)</title>
-            <description>The only thing more stupid than making a laptop out of cheap recycled plastic is the idea that anyone would buy it.</description>
-            <link>https://voicedrew.xyz/articles/vero.html</link>
-            <guid>https://voicedrew.xyz/articles/vero.html</guid>
-            <pubDate>Wed, 14 Jun 2023 22:53:00 EST</pubDate>
-        </item>
-        <item>
-            <title>Paradisus-Paradoxum Collection</title>
-            <description>It's an undeniable fact that i'm the worlds biggest fan of MYTH &amp; ROID's hit 2016 single Paradisus-Paradoxum. I've listened to it multiple times every day for around 2.5 years. Naturally, I have come across many covers and variations on the original, for which I have contained on this webpage</description>
-            <link>https://voicedrew.xyz/articles/paradoxum.html</link>
-            <guid>https://voicedrew.xyz/articles/paradoxum.html</guid>
-            <pubDate>Fri, 23 Jun 2023 20:30:00 EST</pubDate>
-        </item>
-        <item>
-            <title>How I Created the Travelers of Agora Road Webring</title>
-            <description>The Travelers of Agora Road webring has grown to 20 members, so I thought I would explain the process of creating it, along with the resources I used.</description>
-            <link>https://voicedrew.xyz/articles/travelers.html</link>
-            <guid>https://voicedrew.xyz/articles/travelers.html</guid>
-            <pubDate>Fri, 30 Jun 2023 11:05:00 EST</pubDate>
-        </item>
-        <item>
-            <title>Yesterweb: Requiem of Silence</title>
-            <description>"Selective use of reason is highly characteristic of ideologues. It is then no wonder why the Yesterweb summary is filled with this sort of politically motivated illogy. It’s no wonder yesterweb remained a fart sniffing contest as opposed to a serious, practical effort to improve anything."</description>
-            <link>https://voicedrew.xyz/articles/yesterweb-requiem.html</link>
-            <guid>https://voicedrew.xyz/articles/yesterweb-requiem.html</guid>
-            <pubDate>Wed, 12 Jul 2023 18:17:00 EST</pubDate>
-        </item>
-        <item>
-            <title>God Does Not Accept Second Rate Sacrifices</title>
-            <description>"I propose that you fully commit to what matters to you, since it's much more rewarding to receive full compensation for your complete efforts than to receive no reward, or even punishment, for putting in not enough effort. God, after all, does not accept second-rate sacrifices."</description>
-            <link>https://voicedrew.xyz/articles/try-your-hardest.html</link>
-            <guid>https://voicedrew.xyz/articles/try-your-hardest.html</guid>
-            <pubDate>Fri, 18 Aug 2023 15:00:00 EST</pubDate>
-        </item>
-        <item>
-            <title>Schizo-Ramblings About The Trolley Problem</title>
-            <description>"With the realization that allowing the 5 people to die was actually killing them due to omission, my view has changed on the trolley problem. I now believe ontology and consequentialism play a very mute role in this variation. Truly, if in both situations I am killing people, either by commission or omission, then indeed, the ontological belief that life is sacred, and that it should be preserved in the greatest numbers possible holds supreme."</description>
-            <link>https://voicedrew.xyz/articles/trolley-problem.html</link>
-            <guid>https://voicedrew.xyz/articles/trolley-problem.html</guid>
-            <pubDate>Thu, 31 Aug 2023 22:00:00 EST</pubDate>
-        </item>
-        <item>
-            <title>Markdown Madness</title>
-            <description>Using python to save (probably) thousands of hours</description>
-            <link>https://voicedrew.xyz/articles/markdown-madness.html</link>
-            <guid>https://voicedrew.xyz/articles/markdown-madness.html</guid>
-            <pubDate>Sun, 03 Sep 2023 15:00:00 EST</pubDate>
-        </item>
+<item>
+<title>	Markdown Madness</title>
+<guid>https://voicedrew.xyz//articles/markdown-madness.html</guid>
+<link>https://voicedrew.xyz//articles/markdown-madness.html</link>
+<pubDate>Sat, 09 Sep 2023 06:42:51 -0400</pubDate>
+<description><![CDATA[
+	<div  class="foreground">
+        <article>
+            <h1>Markdown Madness</h1>
+<h3>03/09/2023</h3>
+<p>If you didn't know, I write these blog posts in markdown: An extreamly simple markup language that allows you to format text while also leaving it 'human readable'.</p>
+<p>Since I began, I have been copying my markdown files into an online html coverter, copying a previous blog post's html file to use as a template, and then copying my converted html into the file. This was extreamly annoying, and often lead to mistakes on my part. I wrote a python script to deal with this problem</p>
+<script src="https://gist.github.com/Voicedrew11/0ad60aac17304f8859002a5fe78346e4.js"></script>
+<p>Super simple right? It takes in a markdown file and spits out a complete <a href="https://voicedrew.xyz/">voicedrew.xyz</a> blog post. Header image and all! Of course, feel free to modify this script and use it however you want.</p>
+<hr />
+<a href="https://github.com/Voicedrew11/build-article/blob/main/build-article.py">https://github.com/Voicedrew11/build-article/blob/main/build-article.py</a>
+        </article>
+    </div>
+	
+]]></description>
+</item>
+
+
+<item>
+<title>	Schizo-Ramblings About The Trolley Problem</title>
+<guid>https://voicedrew.xyz//articles/trolley-problem.html</guid>
+<link>https://voicedrew.xyz//articles/trolley-problem.html</link>
+<pubDate>Sat, 09 Sep 2023 06:42:44 -0400</pubDate>
+<description><![CDATA[
+	<div  class="foreground">
+		<article>
+<h1 id="schizo-ramblings-about-the-trolley-problem">Schizo-Ramblings About The Trolley Problem</h1>
+<h3 id="31-08-2023">31/08/2023</h3>
+<p>EFAP, a podcast related to film, game, and critic criticism, recently had its 250th episode; it’s five-year anniversary. I’ve been a big fan of the show for years, so naturally, I tuned in.</p>
+<p>On the show, they played <a href="https://neal.fun/absurd-trolley-problems/">Absurd Trolley Problems</a>... A game where one chooses either to pull or not pull the lever in an increasingly absurd set of trolley problems.</p>
+<p>When they started playing the game, I found it extremely appalling that the cast almost unanimously agreed that diverting the train was the most moral action in the classic trolley problem. Here was my reasoning:</p>
+<p>1) The train heading towards the 5 people is the state of nature.</p>
+<p>2) By pulling, not pulling the lever, I am allowing them to die; not killing them.</p>
+<p>3) Pulling the lever, and the subsequent death of the 1 person, is not the state of the world, but rather a consequence of my direct actions.</p>
+<p>Here is the thought that put a monkey wrench into my reasoning: Is inaction an action? Or rather, ‘is it true that I am not killing anybody when I decide to do nothing?’ Here is the Oxford Dictionary definition of “inaction”</p>
+<blockquote>
+<p>“lack of action where some is expected or appropriate:”</p>
+</blockquote>
+<p>To further illustrate the problem, here is an absurd version of the trolley problem:</p>
+<blockquote>
+<p>"The trolley is headed towards one person. You can pull the lever to divert it to the other track, killing nobody instead. What do you do?"</p>
+</blockquote>
+<p>In this instance, would you not say that by allowing the train to continue in its path, you are killing the person on the tracks through your inaction?</p>
+<h2 id="commission-vs-omission">Commission vs Omission</h2>
+<p>I believe a key part of understanding the trolley problem is understanding the difference between crimes of commission, and crimes of omission. Crimes of commission constitute acts in which evil is caused as a consequence of malice, whereas crimes of omission are evils which are caused by a lack of action.</p>
+<p>My error, then, was not recognizing crimes of omission as crimes at all.</p>
+<h2 id="my-skin-in-the-game">My Skin In The Game</h2>
+<p>Before coming to my previous realization, I believed that pulling the lever constituted a consequentialist action, whereas not pulling the lever was ontological. My ontological belief was essentially, “It is wrong to kill an innocent person, even if it’s a net positive”.</p>
+<p>With the realization that allowing the 5 people to die <em>was</em> actually killing them due to omission, my view has changed on the trolley problem. I now believe ontology and consequentialism play a very mute role in this variation. Truly, if in both situations I am killing people, either by commission or omission, then indeed, the ontological belief that life is sacred, and that it should be preserved in the greatest numbers possible holds supreme.</p>
+<hr>
+<p>This post is a part of <a href="https://forum.agoraroad.com/index.php?threads/agora-road-travelouge-august-blogging.5966/">Agora Road's Travelouge</a>, an effort to promote blogging.</p>
+    </div>
+</article>
+]]></description>
+</item>
+
+
+<item>
+<title>	God Does Not Accept Second Rate Sacrifices</title>
+<guid>https://voicedrew.xyz//articles/try-your-hardest.html</guid>
+<link>https://voicedrew.xyz//articles/try-your-hardest.html</link>
+<pubDate>Sat, 09 Sep 2023 06:42:31 -0400</pubDate>
+<description><![CDATA[
+	<div  class="foreground">
+	<article>
+<h1 id="god-does-not-accept-second-rate-sacrifices">God Does Not Accept Second Rate Sacrifices</h1>
+<h3 id="18-06-2023">18/06/2023</h3>
+<p>This blog post originally started its life as an account of my last year of school, and how because I did not try my best, I got a second rate reward for my minimal efforts. As a began to wrap up that post with a conclusion, I noticed that I was directly contradicting my thesis. Even though I had failed to get into a specific university program, I had also grown tremendously over the year, and so I had nothing to be ashamed about. It is from the ashes of that post that I write this one.</p>
+<p>I propose that you fully commit to what matters to you, since it&#39;s much more rewarding to receive full compensation for your complete efforts than to receive no reward, or even punishment, for putting in not enough effort. God, after all, does not accept second-rate sacrifices.</p>
+<p>I’ve recently started going to the gym again. I had been going previously in the year, but I fell off hard around the time school ended. I ended up losing a lot of my muscle, and my body fat shot up; my level of exercise had changed, but my diet had not.</p>
+<p>Before I stopped, I had been going 3 times a week, working the same muscles every time. Biceps, Triceps, Shoulders, and Chest. My diet was almost completely carbohydrates, and not particularly conducive to muscle growth. I did see changes in my body, but they were not fast, nor particularly impressive. It is no wonder then that I stopped. I was not particularly invested in fitness, because I was hardly seeing any of the benefits of that lifestyle.</p>
+<p>I am doing things completely differently this time around. I am putting in the work and making the necessary sacrifices that someone who <em>deserves</em> to have a nice body would make. I cook simple, wholesome, protein rich meals for myself. I’m in the gym 6 days a week, running a push pull legs split. I try to train the same muscles with different, more interesting lifts, such that I won&#39;t simply fall into a routine and get bored. I do drop sets to get every last bit of growth I can out of my time.</p>
+<p>It has only been like two weeks, and I can already say, I’m super impressed. I managed to get to the same bench press that took me 4 months previously in an eighth the time. There is none of that dread that I used to feel as a consequence of going three days a week. Now, it is simply a thing I do every day at a specific time, making it very hard to justify skipping workouts. The ends, now, justify the means.</p>
+<p>Few regret failure after an honest effort, but all regret not trying enough and getting exactly what they deserve. </p>
+<hr>
+<p>This post is a part of <a href="https://forum.agoraroad.com/index.php?threads/agora-road-travelouge-august-blogging.5966/">Agora Road's Travelouge</a>, an effort to promote blogging.</p>
+</article>
+    </div>
+	
+]]></description>
+</item>
+
+
+<item>
+<title>	Yesterweb: Requiem of Silence</title>
+<guid>https://voicedrew.xyz//articles/yesterweb-requiem.html</guid>
+<link>https://voicedrew.xyz//articles/yesterweb-requiem.html</link>
+<pubDate>Sat, 09 Sep 2023 06:42:17 -0400</pubDate>
+<description><![CDATA[
+	<div  class="foreground">
+		<article>
+	<h1>Yesterweb: Requiem of Silence</h1>
+	<h3>12/07/2023</h3>
+		<p>
+There have been many attempts in the past to prop up web revival. One of the more popular groups was
+			<a href=”https://yesterweb.org/”>yesterweb</a>, a neocities(?) focused community that rejects the web as it currently exists in favour of a more decentralized, personal one.
+			<br/>
+			<br/>
+I must admit, I am not the greatest fan of yesterweb, especially since they moved away from the purehearted goal of website creation towards manifestos and Marxism. The group has also struggled with many issues that, in my opinion, have completely crippled their “movement”. But before we talk about an illness, it can be useful to identify the symptoms.
+			<br/>
+			</p>
+			<h2>Webring</h2>
+			<p>
+Firstly, the Yesterweb webring was shut down. According to
+			<a href=”https://sadgrl.online/”>sadgrl</a>, this is because of issues of extreme demand and a lack of moderators to sort through applicants. While I can sympathize with the reasoning, I do not agree with the decision. Given the limitations that the moderation team at yesterweb faced, the reasonable thing to do was halting all new applicants, NOT blowing up their whole project.
+			<br/>
+			<br/>
+I myself run
+			<a href=”https://voicedrew.xyz/wr/”>Travelers of Agora Road</a>, a webring for the users of
+			<a href=”https://forum.agoraroad.com/index.php”>Agora Road’s Macintosh Cafe</a>. I can tell you how much the individual members value their place in it. Several members have voluntarily gone above and beyond to contribute to the project.
+			<br/>
+			<br/>
+Sizeof(cat) made an awesome script that lets you subscribe to all the RSS feeds in the webring with the click of a button. I-330 has reimplemented the client side webring code in PHP. Many members created their websites for the explicit purpose of being able to participate.
+			<br/>
+			<br/>
+My point is, people
+			<b>really</b> care about these kinds of projects. Why take that away from them? Someone MUST have noticed the webring was getting too large, long before they reached 800 members. Why was no initiative taken to pause and consolidate the current group?
+			<br/>
+			<br/>
+			</p>
+			<h2>Discord</h2>
+			<p>
+There is something terribly ironic about a community focused on the importance of web autonomy, anti commercialization, and repelling the influence of massive corporations using DISCORD.
+			<br/>
+			<br/>
+Don’t get me wrong, Discord is quite useful: It has a very low barrier to entry, takes minimal effort to set up, and allows you to quickly disseminate information. It is however, from my perspective, completely unacceptable that discord was ever a home for yesterweb. Discord is completely antithetical to any values that group claims to have.
+			<br/>
+			<br/>
+			<center>
+			<img src="img/image1.png">
+			</center>
+			<br/>
+			<br/>
+In February, yesterweb decided to shut down the discord server in favor of putting more resources into their forum. I agree with most of their criticisms of discord as a medium. I do however find their reason for shutting it down quite dubious?
+			<br/>
+			<br/>
+Once again, it’s moderation. How much effort does it take to moderate a discord server exactly? This is foreshadowing for what's to come.
+			<br/>
+			<br/>
+“The only systemic issue is bad leadership. This is a good reminder that just because you start a Discord server doesn't mean you have what it takes to lead a community. ” - Regal
+			<br/>
+			</p>
+			<h2>Forum</h2>
+			<p>
+The forum getting shut down is as bizarre as it gets. Nothing screams “old web” quite like a web forum.
+			<br/>
+			<br/>
+Of course, a principle problem with setting up a web forum is that participation takes effort. Probably significantly more effort than your average yesterweb member is willing to put in.
+			<br/>
+			<br/>
+The webring? Submit and forget.
+			<br/>
+Discord? Join and send a message when you're taking a shit.
+			<br/>
+Forum? Oftentimes hours of collective effort get put in to a single thread.
+			<br/>
+			<br/>
+Forums require a higher tier of engagement than other platforms for the reason that the expectations put on the users of said forum are higher. It’s quite simple. If the quality of the threads are low on a forum, people will stop visiting.
+			<br/>
+			<br/>
+Therefore, the community that yesterweb had been fostering up until that point (one of low effort engagements) was not suited to the new format, and as such, the YW forum was doomed before it started.
+			<br/>
+			</p>
+			<h2>The Commissary</h2>
+			<p>
+When a community begins to immolate itself with purity tests, its ultimate demise will soon follow. This characteristic of more left leaning activist(?) groups invokes the eternal image of the ouroboros; The snake that eats its own tail, and suffocates to death as a consequence.
+			<br/>
+			<br/>
+I’ll save the contemporary political analysis of autocannibalistic snakes for another time. What’s important is understanding the dangers this sort of behaviour poses towards a “movement”.
+			<br/>
+			<br/>
+Yesterweb *was* an unnecessarily political group. Many members of the top brass are explicitly Marxists. That is not necessarily an issue, but it becomes one when you push your personal ideology onto an otherwise apolitical movement (web revival).
+			<br/>
+			<br/>
+Despite my distaste for big tech social media, it is important to give the devil his due. It is not any corporation's fault that the web is as it is today. Rather, “fault” lies with the individual who decides to forfeit control over both his content and how it is presented in exchange for convenience. Although it is undeniably expedient, this arrangement is the prevailing reality. These corporations have simply facilitated the ease of laziness; the sloth of their customers is hardly their fault.
+			<br/>
+			<br/>
+Therefore, the connection between marxism and personal website creation is
+			<i>exclusionary</i>, and does web revival no good.
+			<b>Facebook is NOT stopping you from making your own website.</b> Instead of complaining about how awful social media is,
+			<i>make something better.</i> If what you have done is compelling enough, others will follow.
+			<br/><br/>
+			<center>
+			<img src="img/image2.png">
+			<br />
+			<small>Hope you made your site, bob</small>
+			</center>
+			<br/>
+			<br/>
+If you have not read Yesterweb’s dying words (the dreaded “summary”), I would not recommend it. It is pretentious and verbose. The very existence of this 13,000-word document also calls into question the claim that yesterweb shut down due to a lack of organizers. Writing a 13,000 word anything takes
+			<b>a lot</b> of effort. If the kind of effort put into writing manifestos and postmortems had been put into the project, maybe it would still be around today.
+			<br/>
+			<br/>
+By the way, I am not implying that the misplaced effort known as “the summary” is any good, take this for example:
+			<br/>
+			<br/>
+			<blockquote>“The regressive solution identifies the problem as a concentrated effort by a political elite, such as liberals, globalists, socialists, communists, and the like.
+				<br/><br/>
+The progressive solution identifies the problem as one or many social systems, such as capitalism, imperialism, and the like.”
+			</blockquote>
+			<br/>
+This excerpt from their summary is truly telling. The essential argument is that blaming an identity group for an issue is
+			<i>regressive</i>, whereas blaming the system itself is progressive.
+			<br/>
+			<br/>
+Excusing the use of the term “regressive” and “progressive” to describe what you do and don’t approve of, the exclusionary nature of yesterweb reveals itself.
+			<br/>
+			<br/>
+I do not even seriously believe the writer of this section even believes the above statement about how blaming individuals is regressive. After all, the inverse, ‘The regressive solution identifies the problem as a concentrated effort by a political elite, such as Capitalists, Imperialists, and the like.’ is a statement I speculate the author would disapprove of. Thereby disproving the original statement.
+			<br/>
+			<br/>
+Selective use of reason is highly characteristic of ideologues. It is then no wonder why the Yesterweb summary is filled with this sort of politically motivated
+			<i>illogy</i>. It’s no wonder yesterweb remained a fart sniffing contest as opposed to a serious, practical effort to improve anything.
+			<br/>
+		</p>
+		<hr>
+		<p>ERRATA: </p>
+	</article>
+    </div>
+  
+]]></description>
+</item>
+
+
+<item>
+<title>	voicedrew.xyz</title>
+<guid>https://voicedrew.xyz//articles/travelers.html</guid>
+<link>https://voicedrew.xyz//articles/travelers.html</link>
+<pubDate>Sat, 09 Sep 2023 06:41:57 -0400</pubDate>
+<description><![CDATA[<!DOCTYPE html>
+<html lang="">
+<head>
+	<meta charset="utf-8">
+	<title>voicedrew.xyz</title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<header>
+	<a href="https://voicedrew.xyz/"><img src="https://voicedrew.xyz/images/bannerT.png"></a>
+</header>
+<body class="crt">
+<div class="foreground">
+<article>
+		<h1>How I Created the Travelers of Agora Road Webring</h1>
+		<h3>30/06/2023</h3>
+		<p>The Travelers of Agora Road webring has grown to 20 members, so I thought I would explain the process of creating it, along with the resources I used.
+			<br/>
+			<br/>
+It started when <a href="https://forum.agoraroad.com/index.php?members/%E9%9B%A8%E3%80%81some_porcupine%E3%80%81-%E9%80%83%E3%81%92%E5%87%BA%E3%81%97%E3%81%9F%E5%BE%8C.5424/">Some_Porcupine</a> on Agora asked if I wanted to start a webring. I certainly did, but I also knew nothing about how I might go about doing such a thing. I had various concerns, like: What would we call this webring? What infrastructure would be required to get it working? What criteria would be necessary to join? Where are we getting our graphics from?
+			<br/>
+			<br/>
+I impulsively suggested the name “Travelers of Agora Road”. I don’t regret that name, but I do wonder if it was the best choice. As risingthumb pointed out, it bears a lot of similarity to the list of Agora users listed on the webring page of the site. I was split between this choice and “Macintosh Cafe Webring”, and in the end decided on the former.
+			<br/>
+			<br/>
+The webring system itself could have brought this project to its knees. Fortunately, a very simple framework for this sort of thing already exists called <a href="https://garlic.garden/onionring/">‘onionring.js’</a>. Due to this existing script, I managed to get a basic implementation of the webring done in about 20 minutes on the morning I started.
+			<br/>
+			<br/>
+			<img width=100% src="https://forum.agoraroad.com/index.php?attachments/screenshot_20230613_075953-png.64838/">
+				<br/>
+				<br/>
+Wonderful! It is, however, still quite ugly; a problem which needed to be addressed immediately. Porcupine then came up with this mockup, which inspired the final design.
+				<br/>
+				<br/>
+				<img width=100% src="https://forum.agoraroad.com/index.php?attachments/1686669458919-png.64854/">
+					<br/>
+					<br/>
+After about an hour of fooling around with the widget CSS. I got to our final design:
+					<br/>
+					<br/>
+					<img width=100% src="https://forum.agoraroad.com/index.php?attachments/screenshot_20230613_140631-png.64886/">
+						<br/>
+						<br/>
+With that out of the way, we needed to decide on admission requirements, and potential rules for the webring. An initially proposed rule was zero politics, but this was scraped due to a lack of clarity on what exactly was ‘political’. We decided to trust our members to be reasonable.
+						<br/>
+						<br/>
+I-330 (chad that he is), decided to reimplement the JS components of the webring in PHP. Check out his <a href="https://i330.dev/posts/no_js/">blog post</a> about it.
+						<br/>
+						<br/>
+Finally, I had the idea of aggregating our member’s RSS feeds into a single feed for convenience. Sizeofcat made a script for me that creates a dynamically generated OPML file for this purpose. <a href="https://sizeof.cat/so.cl/1687262601/">Read about that here.</a>
+						<br/>
+						<br/>
+Thank you to all the members, I really enjoy being a ringmaster and hope more great things will come out of this.
+		</p>
+		<hr>
+		<p>If you are interested in joining, check out the <a href="https://voicedrew.xyz/wr/tag.html">index</a> page for further instruction.</p>
+		</article>
+</div>
+]]></description>
+</item>
+
+
+<item>
+<title>	Paradisus-Paradoxum Collection</title>
+<guid>https://voicedrew.xyz//articles/paradoxum.html</guid>
+<link>https://voicedrew.xyz//articles/paradoxum.html</link>
+<pubDate>Sat, 09 Sep 2023 06:41:37 -0400</pubDate>
+<description><![CDATA[<!DOCTYPE html>
+<html lang="">
+<head>
+	<meta charset="utf-8">
+	<title>Paradisus-Paradoxum Collection</title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<header>
+	<a href="https://voicedrew.xyz/"><img src="https://voicedrew.xyz/images/bannerT.png"></a>
+</header>
+<body class="crt">
+<div class="foreground">
+    <article>x
+		<h1>Paradisus-Paradoxum Collection</h1>
+		<h3>23/06/2023</h3>
+		<p>It's an undeniable fact that i'm the worlds biggest fan of MYTH & ROID's hit 2016 single Paradisus-Paradoxum. I've listened to it multiple times every day for around 2.5 years.
+		<br>
+		<br>
+        Naturally, I have come across many covers and variations on the original, for which I have contained on this webpage
+		</p>
+		<h3>Offical:</h3>
+            <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/Yc8pu8TC7IM?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;"></iframe></div>
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/992777215&color=%237c5894&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <div style="padding-bottom: 56.25%; position: relative;"><iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" src="https://www.youtube.com/embed/17wMWuP3pW8" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"  width="100%" height="100%" frameborder="0"></iframe></div>
+        <h3>Fan Covers:</h3>
+        <div style="padding-bottom: 56.25%; position: relative;"><iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" src="https://www.youtube.com/embed/TSWSXIvv4fI" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"  width="100%" height="100%" frameborder="0"><small>Powered by <a href="https://embed.tube/embed-code-generator/youtube/">youtube embed video</a> generator</small></iframe></div>
+        <div style="padding-bottom: 56.25%; position: relative;"><iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" src="https://www.youtube.com/embed/FBaZIgVYEBY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"  width="100%" height="100%" frameborder="0"><small>Powered by <a href="https://embed.tube/embed-code-generator/youtube/">youtube embed video</a> generator</small></iframe></div>
+        <div style="padding-bottom: 56.25%; position: relative;"><iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" src="https://www.youtube.com/embed/XQ9d_wlJG4U" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"  width="100%" height="100%" frameborder="0"><small>Powered by <a href="https://embed.tube/embed-code-generator/youtube/">youtube embed video</a> generator</small></iframe></div>
+        <div style="padding-bottom: 56.25%; position: relative;"><iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" src="https://www.youtube.com/embed/_2LIje5SxfA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"  width="100%" height="100%" frameborder="0"><small>Powered by <a href="https://embed.tube/embed-code-generator/youtube/">youtube embed video</a> generator</small></iframe></div>
+        <div style="padding-bottom: 56.25%; position: relative;"><iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" src="https://www.youtube.com/embed/k9ERmC4emkg" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"  width="100%" height="100%" frameborder="0"><small>Powered by <a href="https://embed.tube/embed-code-generator/youtube/">youtube embed video</a> generator</small></iframe></div>
+        <div style="padding-bottom: 56.25%; position: relative;"><iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" src="https://www.youtube.com/embed/oMqYtM73MF4" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"  width="100%" height="100%" frameborder="0"><small>Powered by <a href="https://embed.tube/embed-code-generator/youtube/">youtube embed video</a> generator</small></iframe></div>
+        <div style="padding-bottom: 56.25%; position: relative;"><iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" src="https://www.youtube.com/embed/wyfgfT66-ME" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"  width="100%" height="100%" frameborder="0"><small>Powered by <a href="https://embed.tube/embed-code-generator/youtube/">youtube embed video</a> generator</small></iframe></div>
+        <div style="padding-bottom: 56.25%; position: relative;"><iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" src="https://www.youtube.com/embed/jvF9EdE5CtY?end=197&start=165" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"  width="100%" height="100%" frameborder="0"><small>Powered by <a href="https://embed.tube/embed-code-generator/youtube/">youtube embed video</a> generator</small></iframe></div>
+       <h3>Piano:</h3>
+            <div style="padding-bottom: 56.25%; position: relative;"><iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" src="https://www.youtube.com/embed/ehE5Wo1fPEo?rel=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"  width="100%" height="100%" frameborder="0"></iframe></div>
+            <div style="padding-bottom: 56.25%; position: relative;"><iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" src="https://www.youtube.com/embed/-F2DiPvSsKM?rel=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"  width="100%" height="100%" frameborder="0"></iframe></div>
+            <div style="padding-bottom: 56.25%; position: relative;"><iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" src="https://www.youtube.com/embed/jBIRGnQqjYU?rel=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"  width="100%" height="100%" frameborder="0"></iframe></div>
+            <div style="padding-bottom: 56.25%; position: relative;"><iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" src="https://www.youtube.com/embed/01pVT5zAwmQ?rel=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"  width="100%" height="100%" frameborder="0"></iframe></div>
+            <div style="padding-bottom: 56.25%; position: relative;"><iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" src="https://www.youtube.com/embed/2N69G76aZrk?rel=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"  width="100%" height="100%" frameborder="0"></iframe></div>
+            <div style="padding-bottom: 56.25%; position: relative;"><iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" src="https://www.youtube.com/embed/s0wtoBReLgI?rel=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"  width="100%" height="100%" frameborder="0"></iframe></div>
+            <div style="padding-bottom: 56.25%; position: relative;"><iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" src="https://www.youtube.com/embed/_-NLhY2OAbc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"  width="100%" height="100%" frameborder="0"><small>Powered by <a href="https://embed.tube/embed-code-generator/youtube/">youtube embed video</a> generator</small></iframe></div>
+		<hr>
+    </article>
+</div>
+]]></description>
+</item>
+
+
+<item>
+<title>	voicedrew.xyz</title>
+<guid>https://voicedrew.xyz//articles/vero.html</guid>
+<link>https://voicedrew.xyz//articles/vero.html</link>
+<pubDate>Sat, 09 Sep 2023 06:41:18 -0400</pubDate>
+<description><![CDATA[<!DOCTYPE html>
+<html lang="">
+<head>
+	<meta charset="utf-8">
+	<title>voicedrew.xyz</title>
+	<link rel="stylesheet" href="meta.css">
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<header>
+	<a href="https://voicedrew.xyz/"><img src="https://voicedrew.xyz/images/bannerT.png"></a>
+</header>
+<body class="crt">
+<div class="foreground">
+		<h2>Acer Aspire Vero (Antichrist)</h2>
+		<h3>14/06/2023</h3>
+		<p>On the shelves of my local Staples exists an anomalous artifact; A crime against both man and nature; The antichrist himself.
+			<br/>
+			<br/>
+The Acer Aspire Vero. A laptop that’s chassis is made of recycled plastic, the trackpad is made of ocean glass and the packaging is 100% recyclable, but what of the components? <strong>NOPE.</strong> All the parts are brand new. Here are some excerpts from the website¹:
+			<br/>
+			<br/>
+“By adopting recycled plastic in the creation of Aspire Vero, we [Acer] are demonstrating our commitment to reducing carbon emissions. This year, we have increased our reduction of CO2 emissions from 21% to 30%, in our quest for a greater positive impact on the environment.”
+			<br/>
+			<br/>
+So this laptop is a “demonstration” of Acer’s commitment to carbon emissions? How about we take a look at the marketing for the various colourschemes?
+			<br/>
+			<br/>
+“Recalling the idyllic tree—the colour [of the laptop] acts as a subtle tribute to eco-conscious living.”
+			<br/>
+			<br/>
+Translated: 「 The colour of this laptop will constantly remind you of how good of a person you are.」
+			<br/>
+			<br/>
+“Designed to evoke considerations for our oceans, such as the Mariana Trench.”
+			<br/>
+			<br/>
+Translated:「 Look at how much I care about the turtles!」
+			<br/>
+			<br/>
+“The name itself implies what Vero’s purpose is—to act as a building block for sustainability.”
+			<br/>
+			<br/>
+Right from the mouth of the dragon. This laptop’s purpose is not to act as a portable computer (like one might accept), but rather as a statement. This is a fad product.
+			<br/>
+			<br/>
+I am not (in principle) against such a device, but do not be fooled. If Acer really cared about the environment, they would have included the option of a replaceable battery and upgradable CPU. Clearly Acer didn’t get the <i>reduce</i> and <i>reuse</i> part of the memo.
+			<br/>
+			<br/>
+It fills me with great pain knowing some environmentalist schmuck got suckered into buying this. If you really want a laptop that's good for the environment, go give a used ThinkPad a new home. It won’t even cost you $900!
+			<br/>
+		</p>
+		<hr>
+		1. <a href="https://www.acer.com/ca-en/laptops/aspire/aspire-vero">https://www.acer.com/ca-en/laptops/aspire/aspire-vero</a>
+</div>
+]]></description>
+</item>
+
+
+<item>
+<title>	voicedrew.xyz</title>
+<guid>https://voicedrew.xyz//articles/average.html</guid>
+<link>https://voicedrew.xyz//articles/average.html</link>
+<pubDate>Sat, 09 Sep 2023 06:40:25 -0400</pubDate>
+<description><![CDATA[
+<div class="foreground">
+		<h2>The meaning of 5/10. "What is average"?</h2>
+		<h3>12/06/2023</h3>
+		<p>A few months back, my friends and I partook in a game (a rather masochistic game, might I add). One friend collected picture’s from each of us and asked girls on an app called “Wizz” to rate our appearance out of 10. The results were not surprising, if not less disheartening.
+			<br/>
+			<br/>
+With few exceptions, my friends and I consistently got scores between 4-7.
+			<br/>
+			<br/>
+I was, as you can imagine, a little bummed about this for a couple of days. I went into the experiment wanting to have some fun, but came out with a massive dose of reality.
+			<br/>
+			<br/>
+But then it hit me. ~5/10? That’s average, is it not?
+			<br/>
+			<br/>
+A tangent (I promise it’s important): Anime data basing websites have a perplexing score distribution. For instance, on myanimelist, a 5 is meant to be considered an “average” score, yet, the mean rating of all anime on the site is 6.46¹. How could this be?
+			<br/>
+			<br/>
+I believe that the main cause of this phenomenon is the education system. In school, a 5/10 is not an indication of “average” performance, it is instead an indication of being on the cusp of failure. Therefore, by rating a show 5/10, you're not judging it as decent or average, you're actually assessing it as barely acceptable; a much more severe assessment.
+			<br/>
+			<br/>
+<strong>~So maybe I should feel bad about that 5/10 rating!</strong>
+			<br/>
+			<br/>
+Another explanation may reveal itself using the idea of the PDP (positive drive principle); The PDP states that people will do whatever they believe they will get the most happiness/enjoyment/satisfaction out of. It even explains activities which are not necessarily enjoyable, like working a job. You work your job because you believe you will be happier with the funds that job will accrue than without. According to this principle, watching an anime with a very low score is something that is unlikely to happen; Therefore, people will generally watch shows with higher scores rather than lower scores; Therefore, the mean score of all myanimelist users will tend towards higher scores.
+			<br/>
+			<br/>
+So what can we learn from this? Perhaps the most important take-away is the power of association. The simple association between 5 and failure makes it an unthinkable choice for all but the minimum viable product.
+			<br/>
+			<br/>
+Also, don’t give your friends goofy ass pictures of yourself to send to girls on Wizz. Also, don’t use Wizz.
+		</p>
+		<hr>
+		1. <a href="https://anime.plus/s/globals">https://anime.plus/s/globals</a>
+</div>
+]]></description>
+</item>
+
     </channel>
 </rss>
