@@ -36,7 +36,7 @@ var sites = [
 'https://skeleg.org',
 'https://no56.neocities.org/',
 'https://yuiui.moe/',
-'https://dc-blog.neocities.org/',
+'https://dc.venith.net/',
 'https://splashy.neocities.org/',
 'https://purplehello98.neocities.org/',
 'https://vulonkaaz.zip/',
