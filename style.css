@@ -17,6 +17,8 @@ font-size: 133%;
 .center {
   display: flex;
   justify-content: center;
+  width: 1037px;
+  margin: 0 auto;
 }
 
 #header-image {
