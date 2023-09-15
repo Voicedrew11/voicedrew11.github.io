@@ -8,6 +8,7 @@ background-image: url('images/CDE.png');
   font-family: "W95FA";
 }*/
 body {
+background-image: url("macintosh.bmp");
 background-color: #008080;
 background-repeat: repeat;
 font-family: "W95FA";
@@ -153,7 +154,7 @@ width: 35%;
 cursor:pointer;
 }
 
-
+/*
 @media (max-width: 1080px) {
    .basecontainer {
   flex-direction: column;
@@ -194,9 +195,9 @@ footer {
 }
 
 .sidebar {
-  position: auto; /* Fix the header position */
+  position: auto; 
   width: 100%;
-  display: flex; /* Use flexbox for horizontal layout */
+  display: flex;
   justify-content: center;
 
   max-width: 100%;
@@ -208,7 +209,7 @@ footer {
 .sidebar .title-bar {
   display: none;
 }
-
+*\
 
 
 
