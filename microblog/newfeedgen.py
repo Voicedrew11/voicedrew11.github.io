@@ -1,67 +1,65 @@
-import argparse
-import markdown2
-import re
-from datetime import datetime
-from feedgen.feed import FeedGenerator  # Install the feedgen library if you haven't already
+from bs4 import BeautifulSoup
+from feedgen.feed import FeedGenerator
 
-# Create an argument parser
-parser = argparse.ArgumentParser(description='Generate a microblog from a Markdown file and insert it under <!--insert_here--> in index.html.')
+# Step 1: Read the HTML file
+try:
+    with open("index.html", "r") as file:
+        html_data = file.read()
+except FileNotFoundError:
+    print("HTML file not found. Please check the file path.")
+    exit(1)
 
-# Add a positional argument for the Markdown file
-parser.add_argument('markdown_file', help='Path to the Markdown file')
+# Step 2: Parse the HTML
+try:
+    soup = BeautifulSoup(html_data, 'html.parser')
+except Exception as e:
+    print("Error occurred while parsing HTML:", str(e))
+    exit(1)
 
-# Parse the command-line arguments
-args = parser.parse_args()
+# Step 3: Find the first article tag
+try:
+    article_tag = soup.find('article')
+    if article_tag is None:
+        raise ValueError("Article tag not found")
+except ValueError as e:
+    print(str(e))
+    exit(1)
 
-# Read the Markdown file
-with open(args.markdown_file, 'r') as md_file:
-    markdown_content = md_file.read()
-
-# Convert Markdown to HTML
-html_content = markdown2.markdown(markdown_content)
-
-# Extract the first line of the Markdown content
-first_line = markdown_content.split('\n', 1)[0]
-
-# Sanitize the first line to create a valid ID (remove spaces and special characters)
-id_from_first_line = re.sub(r'[^a-zA-Z0-9_-]', '', first_line.lower())
-
-# Create the HTML content with the <article> tag and the ID
-article_html = f'<article id="{id_from_first_line}">{html_content}<p class="timestamp">Posted on {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}</p></article>'
-
-# Read the existing 'index.html' file
-with open('index.html', 'r') as html_file:
-    existing_html = html_file.read()
-
-# Define the placeholder where you want to insert the HTML
-placeholder = '<!--insert_here-->'
-
-# Split the HTML content using the placeholder
-parts = existing_html.split(placeholder, 1)
-
-# Check if the placeholder was found
-if len(parts) > 1:
-    # Insert the HTML content after the placeholder with two line breaks
-    modified_html = parts[0] + placeholder + '\n\n' + article_html + parts[1]
+# Step 4: Extract relevant information
+try:
+    title_element = article_tag.find('h1')
+    description_element = article_tag.find('p')
+    link_element = article_tag.find('a')
+    if title_element is None or description_element is None or link_element is None:
+        raise ValueError("Required child element(s) not found")
     
-    # Save the modified HTML back to 'index.html'
-    with open('index.html', 'w') as html_file:
-        html_file.write(modified_html)
+    title = title_element.text
+    description = description_element.text.strip()
+    link = link_element['href']
+except ValueError as e:
+    print(str(e))
+    exit(1)
+except Exception as e:
+    print("Error occurred while extracting information:", str(e))
+    exit(1)
 
-    print(f'Content from {args.markdown_file} has been inserted under <!--insert_here--> in index.html with ID: {id_from_first_line}')
-else:
-    print(f'Error: <!--insert_here--> not found in index.html.')
-
-# Append to RSS feed
+# Step 5: Create the RSS element
 fg = FeedGenerator()
-fg.load('feed.xml')  # Load the existing RSS feed
+fg.id(link)
+fg.title(title)
+fg.description(description)
+fg.link(href=link)
 
-# Create a new RSS feed entry
-fe = fg.add_entry()
-fe.title('Your Markdown Title')  # Replace with the actual title
-fe.description(html_content)  # Use the HTML content as the description
-fe.link(href=f'your_microblog_url/{id_from_first_line}.html')  # Link to the HTML file
-fe.pubDate(datetime.now())  # Use the current date and time
+# Step 6: Add any additional information to the RSS element
 
-# Save the updated RSS feed
-fg.rss_file('feed.xml')
+# Step 7: Generate the RSS feed
+rss_string = fg.rss_str(pretty=True)
+
+# Step 8: Save the RSS feed to a file
+try:
+    with open("output.xml", "w") as file:
+        file.write(rss_string)
+    print("RSS feed created successfully.")
+except Exception as e:
+    print("Error occurred while saving the RSS feed:", str(e))
+    exit(1)
