@@ -40,6 +40,7 @@ var sites = [
 'https://splashy.neocities.org/',
 'https://purplehello98.neocities.org/',
 'https://vulonkaaz.zip/',
+'https://genosadness.neocities.org/',
 ];
 
 // 'https://nhkcafe.neocities.org/',
