@@ -3,6 +3,7 @@
 body {
   background-color: black;
   background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages2.alphacoders.com%2F497%2F497194.png&f=1&nofb=1&ipt=bf099212100c42e71b1db9b2ca6bc8788a1a306bed11c5728e788d3a2e32571a&ipo=images");
+  font-family: "W95FA";
   margin: 0 auto;
   padding:0;
   min-width: 800px;
@@ -14,7 +15,7 @@ body {
 }
 aside {
     margin-bottom: 100%;
-    width: 88px;
+    width: 190px;
     padding:1rem;
     background-color: #c0c0c0;
     border: 3px solid #ffffff; 
@@ -49,10 +50,14 @@ section summary {
   font-weight: bold;
   display: flex;
   justify-content: space-between;
-   width: 100%;
+   width: 99%;
+   padding-left: 5px;
 }
 
-
+p {
+  padding: 10px;
+  margin: 0px;
+}
 
 aside img {
   width: 88px;
@@ -86,3 +91,7 @@ section + .title-bar {
     padding: 0;
 }
 
+p img {
+  float: left;
+  margin-right: 10px;
+}
