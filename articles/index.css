@@ -1,15 +1,12 @@
-@font-face {
-    font-family: 'JetBrains';
-    src: url('JetBrainsMono.woff2') format('woff2'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-         url('JetBrainsMono.ttf') format('truetype'); /*   Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+body {
+  color: black;
+  background-color: white;
+  background: url("https://sadhost.neocities.org/images/tiles/paper.jpg");
+  font-family: "Times New Roman",serif;
 }
 
-body {
-  color: #cdd6f4;
-  background-color: black;
-  background-image: url('https://sadhost.neocities.org/images/tiles/purpskybg.jpg');
-  font-family: 'JetBrains','Helvetica', 'Arial', sans-serif;;
-  font-size: 133%;
+h1,h2,h3,h4,h5,h6 {
+  text-align: center;
 }
 
 header img {
@@ -19,34 +16,25 @@ top: 0;
 right: 0;
 }
 p {
-  color: #ffffff;
+  color: black;
 }
 hr {
-  border-top: 1px solid #c731a2;
+  border-top: 1px solid blue;
 }
-h1{
-  color: #ffffff;
-}
-h2{
-  color: #ffffff;
-}
-h3{
-  color: #ffffff;
-}
+
 a {
-  color: #2a7ec4;
+  color: blue;
   text-decoration: none;
 }
 a:hover {
   color: #fefefe;
-  background: #d85dc4;
+  background: blue;
 }
 
 article {
   max-width: 50vw;
   min-width: 600px;
   margin: 0 auto;
-  background: rgba(0,0,0,0.5);
   padding: 5px 20px;
 }
 
