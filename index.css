@@ -8,7 +8,7 @@ body {
   padding:0;
   min-width: 800px;
   width: 60vw;
-  font-size: 133%;
+  
 }
 .container {
   display: flex;
@@ -16,7 +16,8 @@ body {
 }
 aside {
     margin-bottom: 100%;
-    width: 190px;
+    min-width: 190px;
+    width: 200px;
     padding:1rem;
     background-color: #c0c0c0;
     border: 3px solid #ffffff; 
@@ -31,6 +32,9 @@ aside {
     margin: 20px;
 }
 
+section {
+  padding-bottom: 20px;
+}
 
 main {
   flex-grow: 5;
@@ -95,4 +99,15 @@ section + .title-bar {
 p img {
   float: left;
   margin-right: 10px;
+}
+
+.directorium {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  width: 33.3%;
+  padding: 10px;
+}
+.directorium:hover {
+   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
 }
