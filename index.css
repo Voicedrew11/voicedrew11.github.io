@@ -104,10 +104,16 @@ p img {
 .directorium {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
-  width: 33.3%;
-  padding: 10px;
+  min-width: 25%;
+  margin: 5px;
+  
 }
 .directorium:hover {
    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
+}
+
+.directorium img {
+  border-radius: 25px;
+  width: 100%;
 }
