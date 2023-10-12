@@ -59,7 +59,7 @@ else {
   <table>
     <tr>
       <td class='webring-prev'><a href='${sites[previousIndex]}'>← previous</a></td>
-      <td class='webring-info'>This site is part of the <strong>${ringName}</strong> webring</br>
+      <td class='webring-info'><strong>${ringName}</strong> webring</br>
       <span class='webring-links'>
         ${randomText}
         ${indexText}
