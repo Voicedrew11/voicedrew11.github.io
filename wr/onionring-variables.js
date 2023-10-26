@@ -11,7 +11,7 @@ var sites = [
 'https://voicedrew.xyz/',
 'https://myyolo1999.blogspot.com/p/ja.html',
 'https://i330.dev',
-'https://idelides.neocities.org/',
+'https://idelides.xyz/',
 'https://risingthumb.xyz/',
 'https://foreverliketh.is/',
 'https://whitevhs.xyz/',
