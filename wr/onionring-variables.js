@@ -41,6 +41,7 @@ var sites = [
 'https://purplehello98.neocities.org/',
 'https://vulonkaaz.zip/',
 'https://genosadness.neocities.org/',
+'https://kodeb8.neocities.org/',
 ];
 
 // 'https://nhkcafe.neocities.org/',
