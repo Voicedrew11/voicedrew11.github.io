@@ -14,3 +14,5 @@
 12. Forums!
 13. Your site ought not to be not meerly a destination, but a stop on a longer journey. 
 14. A webring with hundreds of members, who are not catagorized nor segregated in any way, is just as pointless as an actual keyring that holds 800 keys.
+
+## 
