@@ -42,6 +42,7 @@ var sites = [
 'https://vulonkaaz.zip/',
 'https://genosadness.neocities.org/',
 'https://kodeb8.neocities.org/',
+'http://76.214.98.162/',
 ];
 
 // 'https://nhkcafe.neocities.org/',
