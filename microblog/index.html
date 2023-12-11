@@ -1,22 +1,40 @@
 <!DOCTYPE html>
-
-<html lang="">
+<html lang="en">
 <head>
-<meta charset="utf-8"/>
-<link href="index.css" rel="stylesheet" type="text/css"/>
-<title>Voicedrew's Microblog</title>
+    <meta charset="UTF-8">
+    <title>{title}</title>
+    <link rel="stylesheet" href="index.css">
 </head>
+
+<style>
+body {
+    font-family: monospace;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+header {
+    display:inline-block;
+}
+
+article {
+}
+</style>
+
+<header>
+   <a href="../index.html">Home</a> 
+   <a href="../articles/index.html">Blog</a> 
+   <a href="../index.html">Subscribe</a> 
+</header>
+
+
 <body>
-<header>Voicedrew's Microblog</header>
-<main>
-<!--insert_here-->
-
-<article id="firstarticle"><h1>First Article</h1>
-
-<p>Hello everyone, this is my microblog!!!</p>
-<p class="timestamp">Posted on 2023-09-16 21:47:49</p></article>
-
-</main>
-<footer></footer>
+    <h1>{title}</h1>
+    <hr>
+    <p>{contents}</p>
+    <small>Publised on {time}</small>
 </body>
 </html>
+
+
