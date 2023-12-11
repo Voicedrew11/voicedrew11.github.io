@@ -30,7 +30,7 @@ final = f"""
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{title}</title>
+    <title>Voicedrew's Microblog</title>
     <link rel="stylesheet" href="index.css">
 </head>
 
