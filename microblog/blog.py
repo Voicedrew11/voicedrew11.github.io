@@ -37,7 +37,7 @@ final = f"""
 <header>
    <a href="../index.html">Home</a> 
    <a href="../articles/index.html">Blog</a> 
-   <a href="../microblog/feed.rss">Subscribe</a> 
+   <a href="../microblog/feed.xml">Subscribe</a> 
 </header>
 
 
