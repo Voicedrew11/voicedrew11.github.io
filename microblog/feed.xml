@@ -11,6 +11,21 @@
 <!-- LB -->
 
 <item>
+<title>    Voicedrew's Microblog</title>
+<guid>https://voicedrew.xyz/microblog/Microblog-1741.html</guid>
+<link>https://voicedrew.xyz/microblog/Microblog-1741.html</link>
+<pubDate>Mon, 11 Dec 2023 17:18:23 -0500</pubDate>
+<description><![CDATA[
+    <h1>Microblog</h1>
+    <hr>
+    <p>So I spent most of the day setting up this microblogging system rather than studying. It works by creating a 2 temporary files, one for the title and another for the content of the post. It then opens neovim and allows me to edit the files. Once that is complete, the files are parsed, deleted, and then the page is generated. I use Luke Smith's sup script to update the RSS feed. <br><br>
+I think I will keep this microblog as RSS exclusive, at least for the moment. The individual pages will always be available, of course.</p>
+    <small>Published on 2023-12-11 at 17:18:17</small>
+]]></description>
+</item>
+
+
+<item>
 <title>    Progress</title>
 <guid>https://voicedrew.xyz/microblog/Progress.html</guid>
 <link>https://voicedrew.xyz/microblog/Progress.html</link>
