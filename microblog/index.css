@@ -5,6 +5,10 @@ body {
     padding: 10px;
 }
 
+img {
+    width: 100%;
+}
+
 header {
     display:inline-block;
 }
