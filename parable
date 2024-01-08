@@ -1,0 +1,8 @@
+PARABLE OF THE SHELL SCRIPTER:
+
+​
+
+A young programmer is looking to accomplish a task on his computer, so he writes a few commands into his terminal, and it seems to get the job done. The next week, he finds that he has to do that task again, so he writes the series of commands out again, but this time, he also saves the script as a file on his computer. Now, every time he encounters that task, he runs the script. 
+
+
+After a number of months using the script, he does not even remember how the script works or why he wrote it that way; All he knows that if he runs it when he encounters his task, the task will be complete. One day, however, after an update, the script suddenly stops working. The programmer looks into the code only to be befuddled by the logic of the script, barely recognizing it as his own. He wonders how he could have ever written such a thing, and is then forced to write a completely new script.

@@ -45,6 +45,7 @@ var sites = [
 'http://76.214.98.162/',
 'https://b4rkod.net.tr/',
 'https://psychcool.neocities.org/',
+'https://georgemoody.envs.net/',
 ];
 
 // 'https://nhkcafe.neocities.org/',
