@@ -1,8 +1,8 @@
 body {
-  color: black;
-  background-color: white;
-  background: url("https://sadhost.neocities.org/images/tiles/paper.jpg");
-  font-family: "Times New Roman",serif;
+  color: #cdd6f4;
+  background-color: #1e1e2e;
+  /*background: url("https://sadhost.neocities.org/images/tiles/paper.jpg");*/
+  font-family: mono;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -16,23 +16,26 @@ top: 0;
 right: 0;
 }
 p {
-  color: black;
+  color: #cdd6f4;
 }
 hr {
-  border-top: 1px solid blue;
+  border-top: 1px solid #b4befe;
 }
 
 a {
-  color: blue;
+  color: #b4befe;
   text-decoration: none;
+  font-weight: bold;
+
 }
 a:hover {
-  color: #fefefe;
-  background: blue;
+  color: ;
+  background: ;
+  text-decoration: underline;
 }
 
 article {
-  max-width: 50vw;
+  max-width: 800px;
   min-width: 600px;
   margin: 0 auto;
   padding: 5px 20px;
