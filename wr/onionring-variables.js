@@ -46,6 +46,7 @@ var sites = [
 'https://b4rkod.net.tr/',
 'https://psychcool.neocities.org/',
 'https://georgemoody.envs.net/',
+'https://chrysalism.neocities.org/',
 ];
 
 // 'https://nhkcafe.neocities.org/',

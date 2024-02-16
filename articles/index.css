@@ -48,6 +48,10 @@ bottom: 0;
 margin: 10px;
 }
 
+li {
+  list-style-type: "↪ "; 
+}
+
 .metadiv{
 text-align: center;
 display: flex;

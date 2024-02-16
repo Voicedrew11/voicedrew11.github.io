@@ -1,0 +1,33 @@
+body {
+  background: linear-gradient(90deg, #a487e6, #f2bfe3);
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc.wallhere.com%2Fphotos%2Fd1%2F35%2Fanime_white_skin_anime_girls_cat_girl_fan_art_vaporwave_Re_Zero_Re_Zero_Kara_Hajimeru_Isekai_Seikatsu-1487411.jpg!d&f=1&nofb=1&ipt=6efed1ead76639a84c20919114793b9ed6700e3c2c3bcba68020c60c5436b78f&ipo=images");
+  /*font-family: mono;*/
+}
+
+img {
+  margin: 0 auto;
+}
+
+audio {
+  margin: 0 auto;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.layout {
+  width: 100%;
+  margin: 0 auto;
+
+  display: grid;
+  grid:
+    "sidebar body rightbar" 1fr
+    / 1.5fr 5fr 1fr;
+  gap: 22px;
+}
+
+.glass {background: white; padding: 10px;}
+.sidebar { grid-area: sidebar;}
+.body { grid-area: body;}

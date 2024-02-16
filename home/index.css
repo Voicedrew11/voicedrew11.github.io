@@ -1,0 +1,53 @@
+body {
+  background: linear-gradient(90deg, #a487e6, #f2bfe3);
+  background-image: url("https://sadhost.neocities.org/images/tiles/purpskybg.jpg");
+  font-family: mono;
+  color: white;
+  max-height: 1vh;
+}
+
+img {
+  margin: 0 auto;
+}
+
+audio {
+  margin: 0 auto;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+    color: #fff;
+  font-size: 32px;
+}
+
+.layout {
+  width: 100%;
+  margin: 0 auto;
+
+  display: grid;
+  grid:
+    "sidebar body rightbar" 1fr
+    / 1.2fr 4fr 1.2fr;
+  gap: 22px;
+}
+
+.glass {
+margin: 10px;
+padding: 10px;
+/*    background-color: #c0c0c0;
+    border: 3px solid #ffffff; 
+    border-color: #fff #808080 #808080 #fff;
+*/
+
+background: rgba(0, 0, 0, 0.4);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.25);
+
+
+}
+.sidebar { grid-area: sidebar;}
+.body { grid-area: body;}
