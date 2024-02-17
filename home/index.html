@@ -1,5 +1,21 @@
 <html>
 
+<style> .loader {
+  position: fixed;
+  background-color: #FFF;
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+</style>
+
+<div class="loader">
+  Your Content For Load Screen
+</div>
+
 <head>
 	<title>Voicedrew</title>
 	<link rel="stylesheet" href="index.css">
@@ -7,25 +23,62 @@
 	<link rel="stylesheet" href="https://voicedrew.xyz/wr/onionring.css">
 </head>
 
+<audio id="hover-sound" src="mouse.ogg"></audio>
+
+<script>
+  function playHoverSound() {
+    var sound = document.getElementById("hover-sound");
+    sound.currentTime = 0; // Reset playback time to start
+    sound.play();
+  }
+</script>
+
+<body>
 <section class="layout">
   <aside class="sidebar">
 
   	<section class="glass">
   		<img width=100% src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F53%2Ff6%2F64%2F53f66405991fc64a6f27451c54c410c4.jpg&f=1&nofb=1&ipt=0d0c6ed274938f86575c3b0efc63574a46ec80ba169fae64cf84328e52e4b6ba&ipo=images" alt="">	
-  		<audio controls>
+  		<audio autoplay controls>
   			<source src="Paradisus-Paradoxum.mp3" type="audio/mpeg">
   		</audio>
-  		<p>Canadian individual; Literally Ryan Gosling. Anglican Catechuman(?), also studying Information Technology at Fork University. #1 Emilia fan. While you're here, feel free to check out my blog, or some of my friends' websites (see the sidebar)</p>
+  		<p>This is Andrew (Goslingpilled Sigma-male Canadian IT student), and you are on my website (big mistake). When i'm not browsing Agora Road, i'm gamin', weebin', or going on unhinged rants in favor of monarchy (unironically). Make your own damn website too, it's not very hard!</p>
+  		<center>
+  			<img src="buttons/voicedrew.xyz.gif" alt="">
+  		<a href="https://users.smartgb.com/g/g.php?a=s&i=g19-00875-a6">
+  			<img width=88 height=31 src="buttons/guestbook.gif" alt=""></a>
+  			<img src="buttons/arizona.gif" alt="">
+  		<a href="mailto:voicedrew11@gmail.com">
+  			<img src="buttons/email.gif" alt=""></a>
+  			<img src="buttons/1080p.gif" alt="">
+  			<a href="https://www.biblegateway.com/passage/?search=Luke+7%3A+1-10&version=NKJV" target="_blank"><img src="buttons/hediedforyou.gif" alt=""></a>
+  			<a href="https://www.bitview.net/user/Voicedrew"><img src="buttons/bitview.jpg" width=88 height=31 alt=""></a>
+  			<a href="https://voicedrew.xyz/rss.xml">
+  				<img src="buttons/rss.png" alt="Subscribe with RSS"></a>
+
+  		</center>
   	</section>
 
-  	<section>
-  		<a href="../articles/Kings-Field.html" target="demo">King's Field Review</a>
+  	<section id="blog" class="glass">
+  		<small>
+  		<ul>
+
+<li><a href="../articles/Kings-Field.html" target="demo">King's Field (US) Review</a></li>
+<li><a href="../articles/cat-s22-review.html" target="demo">Cat S22 Flip: Experience and Review</a></li>
+<li><a href="../articles/small-web-connectivity.html" target="demo">Small Web Connectivity</a></li>
+<li><a href="../articles/trolley-problem.html" target="demo">Schizo-Ramblings About The Trolley Problem</a></li>
+<li><a href="../articles/try-your-hardest.html" target="demo">God Does Not Accept Second Rate Sacrifices</a></li>
+<li><a href="../articles/yesterweb-requiem.html" target="demo">Yesterweb: Requiem of Silence</a></li>
+<li><a href="../articles/travelers.html" target="demo">How I Created the Travelers of Agora Road Webring</a></li>
+<li><a href="../articles/vero.html" target="demo">Acer Aspire Vero (Antichrist)</a></li>
+</ul>
+</small>
   	</section>
 
   </aside>
   <main class="body">
-  	<section class="glass">
-		<iframe width=100% height=100% name="demo" src=""></iframe>
+  	<section class="glass parent">
+		<iframe class="child" style="overflow-x: hidden;" frameborder="0" width=100% name="demo" src=""></iframe>
   	</section>
   </main>
   <aside class="rightbar">
@@ -42,53 +95,44 @@
   		</center>
   	</section>
 
-  	<section class="glass">
+  	<section id="buttonbox" class="glass">
   		<center>
-  			<a href="https://foreverliketh.is/" >
-					<img  src="buttons/eden.png" alt="Eden"></a>
-				<a href="https://idelides.neocities.org/">
-					<img src="buttons/ideles.png"></a>
-				<a href="https://dorgon.neocities.org/"><img alt="dorgon button" target="_blank"
-						src="buttons/dorgongif.gif"></a>
-				<a href="https://risingthumb.xyz"><img src="buttons/risingthumb.png"
-						alt="RisingThumb's site"></a>
-				<a href="https://tilde.team/~zinricky/"><img src="buttons/zinbutton.png"
-						alt="~zinricky" title="~zinricky’s webpage" style="image-rendering: pixelated;"></a>
-				<a href="https://starbreaker.org/" target="_blank">
-					<img alt="starbreaker.org button (nsfw)" width="88" height="31"
-						src="buttons/starbreaker.gif"></a>
-				<a href="https://freckleskies.neocities.org/"><img
-						src="buttons/skybutton.gif"></a>
-				<a href="https://myyolo1999.blogspot.com/" target="_blank"><img
-						src="buttons/porcupine.jpg"></a>
-				<a href="https://whitevhs.xyz/">
-					<img alt="white VHS" src="buttons/whiteVHS.gif"></a>
-				<a href="https://www.devastatia.com/home"><img src="buttons/devastatia.png" alt="Dev"></a>
-				<a href="https://forum.agoraroad.com/index.php">
-					<img src="buttons/agoraroad.gif" alt="Agora Road's Macintosh Cafe"></a>
-				<a href="https://falsememories.neocities.org/"><img src="buttons/falsememories.gif" alt="Vaporweeb"></a>
-				<a href="https://i330.dev/"><img src="buttons/i330.gif" alt="i330"></a>
-				<a href="https://sizeof.cat/"><img src="buttons/sizeofcat.jpg" alt="sizeofcat"></a>
-				<a href="https://no56.neocities.org/"><img src="buttons/no56.png" alt="no56"></a>
-				<a href="https://blog.shr4pnel.com/"><img src="buttons/blog.shr4pnel.com.gif" alt="shr4pnel"></a>
-				<a href="https://www.cozynet.org/"><img src="buttons/cozynet.org.gif" alt="cozynet"></a>
-				<a href="https://bluedwarf.top/cackle/index.php"><img src="buttons/bluedwarf.top.gif" alt="bluedwarf"></a>
-				<a href="https://melonland.net/"><img src="buttons/melonland.net.gif" alt="melonland"></a>
-				<a href="https://commodorian.org/"><img src="buttons/commodorian.org.png" alt="commodorian"></a>
-				<a href="https://genosadness.neocities.org/"><img src="buttons/genosad.png" alt="genosad"></a>
-				<a href="https://purplehello98.neocities.org/main?z=/frame"><img src="buttons/purplehello98.gif" alt="purplehello98"></a>
-				<a href="https://aralsheart.ichi.city/"><img src="buttons/aral.png" alt=""></a>
-				<a href="https://andrei.xyz/"><img src="buttons/andreixyz.gif" alt=""></a>
-				<a href="https://nhkhq.neocities.org/"><img src="buttons/nhk.png" alt=""></a>
-				<a href="https://insomniac.ichi.city/"><img src="buttons/insomniac.png" alt=""></a>
-				<a href="https://www.linklane.net/buttons.php"><img src="buttons/linklane.gif" alt=""></a>
-				<a href="https://koshka.love/"><img src="buttons/Koshkabutton.gif" alt=""></a>
-				<a href="https://itapun.bearblog.dev/"><img src="buttons/itapun.png" alt=""></a>
-				<a href="https://wiby.me/"><img src="buttons/wiby.gif" alt=""></a>
-				<a href="https://adilene.net/"><img src="buttons/adilene.png" alt=""></a>
-				<a href="https://rgbteahouse.neocities.org/home"><img src="buttons/rgbteahouse.jpg" alt=""></a>
-				<a href="https://dimden.dev/"><img src="https://dimden.dev/images/88x31.gif"></a>
-				<a href="https://humanityisnotbeautiful.neocities.org"><img src="https://files.catbox.moe/vltthb.png" alt="Velvet Blue"></a>
+
+<a href="https://foreverliketh.is/" target="_blank"><img src="buttons/eden.png" alt="Eden"></a>
+<a href="https://idelides.neocities.org/" target="_blank"><img src="buttons/ideles.png"></a>
+<a href="https://dorgon.neocities.org/" target="_blank"><img alt="dorgon button" src="buttons/dorgongif.gif"></a>
+<a href="https://risingthumb.xyz" target="_blank"><img src="buttons/risingthumb.png" alt="RisingThumb's site"></a>
+<a href="https://tilde.team/~zinricky/" target="_blank"><img src="buttons/zinbutton.png" alt="~zinricky" title="~zinricky’s webpage" style="image-rendering: pixelated;"></a>
+<a href="https://starbreaker.org/" target="_blank"><img alt="starbreaker.org button (nsfw)" width="88" height="31" src="buttons/starbreaker.gif"></a>
+<a href="https://freckleskies.neocities.org/" target="_blank"><img src="buttons/skybutton.gif"></a>
+<a href="https://myyolo1999.blogspot.com/" target="_blank"><img src="buttons/porcupine.jpg"></a>
+<a href="https://whitevhs.xyz/" target="_blank"><img alt="white VHS" src="buttons/whiteVHS.gif"></a>
+<a href="https://www.devastatia.com/home" target="_blank"><img src="buttons/devastatia.png" alt="Dev"></a>
+<a href="https://forum.agoraroad.com/index.php" target="_blank"><img src="buttons/agoraroad.gif" alt="Agora Road's Macintosh Cafe"></a>
+<a href="https://falsememories.neocities.org/" target="_blank"><img src="buttons/falsememories.gif" alt="Vaporweeb"></a>
+<a href="https://i330.dev/" target="_blank"><img src="buttons/i330.gif" alt="i330"></a>
+<a href="https://sizeof.cat/" target="_blank"><img src="buttons/sizeofcat.jpg" alt="sizeofcat"></a>
+<a href="https://no56.neocities.org/" target="_blank"><img src="buttons/no56.png" alt="no56"></a>
+<a href="https://blog.shr4pnel.com/" target="_blank"><img src="buttons/blog.shr4pnel.com.gif" alt="shr4pnel"></a>
+<a href="https://www.cozynet.org/" target="_blank"><img src="buttons/cozynet.org.gif" alt="cozynet"></a>
+<a href="https://bluedwarf.top/cackle/index.php" target="_blank"><img src="buttons/bluedwarf.top.gif" alt="bluedwarf"></a>
+<a href="https://melonland.net/" target="_blank"><img src="buttons/melonland.net.gif" alt="melonland"></a>
+<a href="https://commodorian.org/" target="_blank"><img src="buttons/commodorian.org.png" alt="commodorian"></a>
+<a href="https://genosadness.neocities.org/" target="_blank"><img src="buttons/genosad.png" alt="genosad"></a>
+<a href="https://purplehello98.neocities.org/main?z=/frame" target="_blank"><img src="buttons/purplehello98.gif" alt="purplehello98"></a>
+<a href="https://aralsheart.ichi.city/" target="_blank"><img src="buttons/aral.png" alt=""></a>
+<a href="https://andrei.xyz/" target="_blank"><img src="buttons/andreixyz.gif" alt=""></a>
+<a href="https://nhkhq.neocities.org/" target="_blank"><img src="buttons/nhk.png" alt=""></a>
+<a href="https://insomniac.ichi.city/" target="_blank"><img src="buttons/insomniac.png" alt=""></a>
+<a href="https://www.linklane.net/buttons.php" target="_blank"><img src="buttons/linklane.gif" alt=""></a>
+<a href="https://koshka.love/" target="_blank"><img src="buttons/Koshkabutton.gif" alt=""></a>
+<a href="https://itapun.bearblog.dev/" target="_blank"><img src="buttons/itapun.png" alt=""></a>
+<a href="https://wiby.me/" target="_blank"><img src="buttons/wiby.gif" alt=""></a>
+<a href="https://adilene.net/" target="_blank"><img src="buttons/adilene.png" alt=""></a>
+<a href="https://rgbteahouse.neocities.org/home" target="_blank"><img src="buttons/rgbteahouse.jpg" alt=""></a>
+<a href="https://dimden.dev/" target="_blank"><img src="https://dimden.dev/images/88x31.gif"></a>
+<a href="https://humanityisnotbeautiful.neocities.org" target="_blank"><img src="https://files.catbox.moe/vltthb.png" alt="Velvet Blue"></a>
+
 				</center>
   	</section>
 
@@ -100,6 +144,39 @@
   	</section>
   </aside>
 </section>
+</body>
 
+<style>
+.loader {
+    -webkit-animation: load-out 1s;
+    animation: load-out 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes load-out {
+    from {
+        top: 0;
+        opacity: 1;
+    }
+
+    to {
+        top: 100%;
+        opacity: 0;
+    }
+}
+
+@keyframes load-out {
+    from {
+        top: 0;
+        opacity: 1;
+    }
+
+    to {
+        top: 100%;
+        opacity: 0;
+    }
+}
+</style>
 
 </html>

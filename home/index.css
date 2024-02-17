@@ -1,15 +1,60 @@
+html, body {
+  height: 100%;
+  max-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+aside {
+    display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+    display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#blog {
+    flex: 1; /* This makes the div expand to fill remaining space */
+  max-height: calc(100vh - 20px); /* Adjust 20px to accommodate for any margin or padding */
+  overflow-y: auto; /* Add scrollbar if content exceeds the viewport height */
+}
+
+#frame {
+  flex: 1; /* This makes the div expand to fill remaining space */
+  max-height: calc(100vh - 20px); /* Adjust 20px to accommodate for any margin or padding */
+  overflow-y: auto; /* Add scrollbar if content exceeds the viewport height */
+}
+
+li {
+  list-style-type: "↪ "; 
+}
+
 body {
   background: linear-gradient(90deg, #a487e6, #f2bfe3);
   background-image: url("https://sadhost.neocities.org/images/tiles/purpskybg.jpg");
   font-family: mono;
   color: white;
-  max-height: 1vh;
+}
+
+a {
+  background: #CE9FE2;
+background: linear-gradient(to right, #CE9FE2 0%, #FFFFFF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
 }
 
 img {
   margin: 0 auto;
 }
 
+#buttonbox img:hover {
+    transform: scale(1.1) rotate(5deg);
+  }
 audio {
   margin: 0 auto;
   width: 100%;
@@ -21,6 +66,19 @@ h1 {
   font-size: 32px;
 }
 
+.parent {
+
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.child {
+  flex: 1; /* Allow child to grow and take up remaining space */
+  max-height: calc(100vh - 20px); /* Adjust 20px to accommodate for any margin or padding */
+  overflow-y: auto; /* Add scrollbar if content exceeds the viewport height */
+}
+
 .layout {
   width: 100%;
   margin: 0 auto;
@@ -28,8 +86,7 @@ h1 {
   display: grid;
   grid:
     "sidebar body rightbar" 1fr
-    / 1.2fr 4fr 1.2fr;
-  gap: 22px;
+    / 1.5fr 4fr 1.5fr;
 }
 
 .glass {
@@ -46,8 +103,49 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.25);
-
-
 }
 .sidebar { grid-area: sidebar;}
 .body { grid-area: body;}
+
+iframe body {
+    /* Reset body styles */
+    margin: 0;
+    padding: 0;
+    font-family: inherit; /* Use the same font as the parent */
+    font-size: inherit;   /* Use the same font size as the parent */
+}
+
+@media (max-height: 768px) {
+html, body {
+  height: auto;
+  max-height: auto;
+  margin: 0;
+  padding: 0;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+#blog {
+  height: 200px;  overflow-y: auto;   flex: auto; /* This makes the div expand to fill remaining space */
+  max-height: auto; /* Adjust 20px to acco/* Add scrollbar if content exceeds the viewport height */
+}
+
+
+.parent {
+
+  display: flex;
+  flex-direction: column;
+  height: 200vh;
+}
+
+.child {
+  flex: 1; /* Allow child to grow and take up remaining space */
+  max-height: calc(200vh - 20px); /* Adjust 20px to accommodate for any margin or padding */
+  overflow-y: auto; /* Add scrollbar if content exceeds the viewport height */
+}
+
+
+
+  }

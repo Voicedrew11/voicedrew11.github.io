@@ -9,6 +9,23 @@
 	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    if (window.self !== window.top) {
+        console.log("Document is being accessed from within an iframe.");
+        
+      	var headerImgs = document.querySelectorAll("header img");
+        headerImgs.forEach(function(img) {
+        	img.style.display = "none";
+        });
+
+    } else {
+        document.body.style.backgroundColor = "#1e1e2e"; // Set your desired background color
+        console.log("Document is not being accessed from within an iframe.");
+    }
+});
+</script>
+
 <header>
 	<a href="https://voicedrew.xyz/"><img src="https://voicedrew.xyz/images/bannerT.png"></a>
 </header>
