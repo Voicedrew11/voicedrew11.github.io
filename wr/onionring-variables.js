@@ -48,6 +48,7 @@ var sites = [
 'https://georgemoody.envs.net/',
 'https://chrysalism.neocities.org/',
 'https://crunglechamp.neocities.org/',
+'https://alixx.ichi.city/',
 ];
 
 // 'https://nhkcafe.neocities.org/',
