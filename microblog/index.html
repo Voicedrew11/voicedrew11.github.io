@@ -12,11 +12,25 @@
 
 body {
     font-family: monospace;
-    width: 50vw;
     margin: 0 auto;
     padding: 10px;
 }
+
+    hr {
+        display: none;
+    }
 </style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    if (window.self !== window.top) {
+        document.body.style.color = "#fff";
+    } else {
+        document.body.style.backgroundColor = "#1e1e2e"; // Set your desired background color
+    }
+});
+</script>
+
 
 <body>
 <script src="https://nerdiedad.com/tools/rss-to-html/?url=https%3A%2F%2Fvoicedrew.xyz%2Fmicroblog%2Ffeed.xml&limit=10&showtitle=false&type=js"></script>    
