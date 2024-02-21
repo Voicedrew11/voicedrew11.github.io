@@ -49,6 +49,7 @@ var sites = [
 'https://chrysalism.neocities.org/',
 'https://crunglechamp.neocities.org/',
 'https://alixx.ichi.city/',
+'https://omnipresence.neocities.org/',
 ];
 
 // 'https://nhkcafe.neocities.org/',
