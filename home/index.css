@@ -35,15 +35,14 @@ li {
 }
 
 body {
-  background: linear-gradient(90deg, #a487e6, #f2bfe3);
-  background-image: url("https://sadhost.neocities.org/images/tiles/purpskybg.jpg");
+  background-image: url("images/purpskybg.jpg");
   font-family: mono;
   color: white;
 }
 
 a {
-  background: #CE9FE2;
-background: linear-gradient(to right, #CE9FE2 0%, #FFFFFF 100%);
+  background: orange;
+background: linear-gradient(to right, orange 0%, #FFFFFF 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 
