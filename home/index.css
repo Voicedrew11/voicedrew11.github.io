@@ -1,21 +1,42 @@
 
 html, body {
   height: 100%;
-  max-height: 100vh;
+  /*! max-height: 100vh; */
   margin: 0;
-  padding: 0;
+  /*! padding: 0; */
+  overflow: hidden;
 }
 
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul {
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.navbar {
+  grid-area: navbar;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333; /* Change the background color as needed */
+  color: white; /* Change the text color as needed */
+  padding: 10px;
+
+}
+
+
 aside {
-    display: flex;
-  flex-direction: column;
   height: 100vh;
 }
 
 main {
     display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
 }
 
 #blog {
@@ -35,14 +56,20 @@ li {
 }
 
 body {
-  background-image: url("images/purpskybg.jpg");
+  background-image: url("http://i.imgur.com/aub1ktR.png");
+  -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover; 
+                background-size: 100% 100%;
   font-family: mono;
   color: white;
 }
 
 a {
+  text-decoration: none;
   background: orange;
-background: linear-gradient(to right, orange 0%, #FFFFFF 100%);
+background: linear-gradient(to right, #8e77c1 0%, #FFFFFF 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 
@@ -70,21 +97,22 @@ h1 {
 
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: calc(100vh - 150px);
 }
 
 .child {
   flex: 1; /* Allow child to grow and take up remaining space */
-  max-height: calc(100vh - 20px); /* Adjust 20px to accommodate for any margin or padding */
+  max-height: calc(100vh - 50px); /* Adjust 20px to accommodate for any margin or padding */
   overflow-y: auto; /* Add scrollbar if content exceeds the viewport height */
 }
 
 .layout {
   width: 100%;
   margin: 0 auto;
-
+  height: 100vh;
   display: grid;
   grid:
+    "navbar navbar navbar" auto
     "sidebar body rightbar" 1fr
     / 1.5fr 4fr 1.5fr;
 }
@@ -97,8 +125,8 @@ padding: 10px;
     border-color: #fff #808080 #808080 #fff;
 */
 
-background: rgba(0, 0, 0, 0.4);
-border-radius: 16px;
+background: rgba(0, 0, 0, 0.7);
+border-radius: 4px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
