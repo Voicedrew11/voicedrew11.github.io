@@ -114,7 +114,7 @@ h1 {
   grid:
     "navbar navbar navbar" auto
     "sidebar body rightbar" 1fr
-    / 1.5fr 4fr 1.5fr;
+    / 1fr 4fr 1fr;
 }
 
 .glass {
@@ -177,3 +177,5 @@ aside {
 
 
   }
+
+
