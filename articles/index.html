@@ -1,43 +1,111 @@
 <!DOCTYPE html>
-<html lang="">
-
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Voicedrew's Blog</title>
-	<link rel="stylesheet" href="index.css">
-	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Grid</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap" rel="stylesheet">
+
+
+    <style>
+        body {
+            font-family: "Fontdiner Swanky", serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        article {
+            position: relative;
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        article img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .article-content {
+            padding: 20px;
+        }
+
+        .article-title {
+            margin-top: auto;
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+
+        }
+
+        .new-indicator {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #ff0000;
+            color: #ffffff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+
+    </style>
 </head>
-
-<header>
-	<a href="https://voicedrew.xyz/"><img src="https://voicedrew.xyz/images/bannerT.png"></a>
-</header>
-
 <body>
-
-<div class="foreground">
-
-<h1 style="text-align: center; margin-bottom: 0;">Voicedrew's Blog</h1>
-<p style="text-align: center; margin-top: 0;">Stay up to date with <a href="../rss.xml">RSS</a></p>
-
-<ul>
-<li><a href="Kings-Field.html">King's Field (US) Review</a> - February 1, 2024</li>
-<br>
-<li><a href="the-jar.html">The Jar</a> - November 22, 2023</li>
-<li><a href="cat-s22-review.html">Cat S22 Flip: Experience and Review</a> - November 1, 2023</li>
-<br>
-<li><a href="small-web-connectivity.html">Small Web Connectivity</a> - September 11, 2023</li>
-<li><a href="markdown-madness.html">Markdown Madness</a> - September 3, 2023</li>
-<br>
-<li><a href="trolley-problem.html">Schizo-Ramblings About The Trolley Problem</a> - August 31, 2023</li>
-<li><a href="try-your-hardest.html">God Does Not Accept Second Rate Sacrifices</a> - August 18, 2023</li>
-<br>
-<li><a href="yesterweb-requiem.html">Yesterweb: Requiem of Silence</a> - July 12, 2023</li>
-<br>
-<li><a href="travelers.html">How I Created the Travelers of Agora Road Webring</a> - June 30, 2023</li>
-<li><a href="paradoxum.html">Paradisus-Paradoxum Collection</a> - June 26, 2023 </li>
-<li><a href="vero.html">Acer Aspire Vero (Antichrist)</a> - June 14, 2023</li>
-<li><a href="average.html">What is 5/10 exactly?</a> - June 12, 2023</li>
-</ul>
-</div>
-<footer><h1><a href="../index.html">◄ Back</a></h1></footer>
+    <div class="grid-container">
+        <!-- Article 1 -->
+        <article>
+            <a href="Kings-Field.html">
+                <img src="img/kingsfield.png" alt="King's Field (US) Review">
+                <div class="article-content">
+                    <h2 class="article-title">King's Field (US) Review</h2>
+                    <span class="new-indicator">NEW</span>
+                </div>
+            </a>
+        </article>
+        <!-- Article 2 -->
+        <article>
+            <a href="cat-s22-review.html">
+                <img src="img/sigma.png" alt="Cat S22 Flip: Experience and Review">
+                <div class="article-content">
+                    <h2 class="article-title">Cat S22 Flip: Experience and Review</h2>
+                </div>
+            </a>
+        </article>
+        <!-- Add more articles here -->
+        <article>
+            <a href="yesterweb-requiem.html">
+                <img src="img/sadness.png" alt="Yesterweb: Requiem of Silence">
+                <div class="article-content">
+                    <h2 class="article-title">Yesterweb: Requiem of Silence</h2>
+                </div>
+            </a>
+        </article>
+        <article>
+            <a href="vero.html">
+                <img src="img/vero.png" alt="Acer Aspire Vero (Antichrist)">
+                <div class="article-content">
+                    <h2 class="article-title">Acer Aspire Vero (Antichrist)</h2>
+                </div>
+            </a>
+        </article>
+    </div>
 </body>
+</html>
+
