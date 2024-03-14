@@ -56,7 +56,7 @@ li {
 }
 
 body {
-  background-image: url("http://i.imgur.com/aub1ktR.png");
+  background-image: url("images/dsbg.jpg");
   -webkit-background-size: cover;
                 -moz-background-size: cover;
                 -o-background-size: cover;
@@ -68,8 +68,7 @@ body {
 
 a {
   text-decoration: none;
-  background: orange;
-background: linear-gradient(to right, #8e77c1 0%, #FFFFFF 100%);
+  background: yellow;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 
@@ -130,7 +129,7 @@ border-radius: 4px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.25);
+border: 1px solid rgba(255, 255, 0, 1);
 }
 .sidebar { grid-area: sidebar;}
 .body { grid-area: body;}
