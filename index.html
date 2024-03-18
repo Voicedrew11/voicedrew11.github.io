@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="en" data-lt-installed="true"><head>
     <title></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <link rel="icon" type="image/x-icon" href="images/ds.ico">
     <link href="css/style.css" rel="stylesheet">
-  </head>
-
-<style>
+  <style>
 html {
   max-height: 80vh;
 
@@ -18,7 +14,8 @@ body {
 /*  background-color: black;
   background-image: url('background.png');
 background-repeat:no-repeat; background-size:100%;*/
-  background-image: url("https://sadhost.neocities.org/images/tiles/purpskybg.jpg");
+background-size: cover;
+  background-image: url("bg.png");
   margin: 0;
 }
 
@@ -37,6 +34,7 @@ a {
 
 .column {
   flex: 1; /* This allows both columns to take up equal width */
+  padding-right: 10vw;
 }
 
 center {
@@ -47,20 +45,29 @@ center {
     height: 100vh; /* or any desired height */
 flex-direction: column;
 }
+</style></head>
 
-</style>
+
 
 
   <body>
 
 
 
- <div class="column">
+
+
+<div class="container">
+  <div class="column">
+    <center></center>
+  </div>
+  <div class="column">
     <center>
-      <img src="images/banner.png" alt="">
+      <img src="images/banner.png" alt="" style="width: 100%;/*! padding: 100px; */">
       <a href="home/"><h1>E N T E R</h1></a>
     </center>
   </div>
+</div>
 
-  </body>
-</html>
+  
+
+</body></html>
