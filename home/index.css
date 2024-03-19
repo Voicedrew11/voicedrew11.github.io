@@ -1,9 +1,10 @@
+:root {
+--clr: LightYellow;
+}
 
 html, body {
   height: 100%;
-  /*! max-height: 100vh; */
   margin: 0;
-  /*! padding: 0; */
   overflow: hidden;
 }
 
@@ -22,8 +23,8 @@ nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333; /* Change the background color as needed */
-  color: white; /* Change the text color as needed */
+  background-color: #333; 
+  color: white;
   padding: 10px;
 
 }
@@ -40,9 +41,9 @@ main {
 }
 
 #blog {
-    flex: 1; /* This makes the div expand to fill remaining space */
-  max-height: calc(100vh - 20px); /* Adjust 20px to accommodate for any margin or padding */
-  overflow-y: auto; /* Add scrollbar if content exceeds the viewport height */
+  flex: 1; 
+  max-height: calc(100vh - 20px); 
+  overflow-y: auto; 
 }
 
 #frame {
@@ -68,7 +69,7 @@ body {
 
 a {
   text-decoration: none;
-  background: yellow;
+  background: var(--clr);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 
@@ -129,7 +130,7 @@ border-radius: 4px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 0, 1);
+border: 1px solid var(--clr);
 }
 .sidebar { grid-area: sidebar;}
 .body { grid-area: body;}
