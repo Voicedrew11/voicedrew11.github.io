@@ -23,6 +23,8 @@
 	<link rel="stylesheet" href="https://voicedrew.xyz/wr/onionring.css">
 </head>
 
+
+
 <body>
 
 
@@ -181,5 +183,13 @@
     }
 }
 </style>
+
+<script>
+    if (window.location.hash === '#about') {
+        document.getElementsByName('demo')[0].src = 'about.html';
+    } else if (window.location.hash === '#links') {
+        document.getElementsByName('demo')[0].src = 'links.html';
+    }
+</script>
 
 </html>
