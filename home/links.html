@@ -47,12 +47,19 @@
     #forums li:nth-child(3) {
       list-style-image: url('images/lain.png');
     }
+    #rss li {
+      list-style: none;
+    }
+    #rss li:nth-child(even) {
+      color: var(--clr);
+    }
   </style>
 
 <div class="topbar">
 <a href="#forums">Forums</a>
 <a href="#webrings">Webring</a>
 <a href="#chatrooms">Chatrooms</a>
+<a href="#rss">RSS Feeds</a>
 </div>
 
 <section id="forums">
@@ -64,6 +71,13 @@
   </ul>
 </section>    
 
+ <section id="cool">
+   <h1>Cool Websites</h1>
+<ul>
+  <li><a href="https://wiby.me/">Wiby</a><small> - A search engine for the personal web.</small></li>
+  <li><a href="https://plaza.one/">Nightwave Plaza</a><small> - Online vaporwave radio.</small></li>
+</ul>
+ </section>
  <section id="webrings">
    <h1>Webrings</h1>                                                                                
    
@@ -301,5 +315,60 @@
     <li><a target="_blank" href="https://forum.agoraroad.com/index.php?chat/fullpage">Macintosh Cafe Chatrooms</a></li>
   </ul>
  </section>
- 
+
+  <h1>RSS</h1>
+  <p>Want to have my collection for yourself? Use this command in your terminal:</p>
+  <pre>
+    <code>(curl https://voicedrew.xyz/home/links.html | awk '/&lt;section id="rss"&gt;/,/&lt;\/section&gt;/' | sed 's/&lt;[^&gt;]*&gt;//g' | awk NF) &gt;&gt; ~/.newsboat/urls</code>
+  </pre>
+<section id="rss">
+<ul>
+<li>---Blogs---</li>
+<li>"query:Blogs Meta:tags # \"blog\""</li>
+<li>https://foreverliketh.is/blog/index.xml blog "~Foreverlikethis"</li>
+<li>https://risingthumb.xyz/Writing/Blog/index.rss blog "~Aaron Leonard"</li>
+<li>https://starbreaker.org/feeds/recent.xml blog "~Starbreaker"</li>
+<li>https://sizeof.cat/index.xml blog "~Sizeofcat"</li>
+<li>https://whitevhs.xyz/articles/atom.xml blog "~WhiteVHS"</li>
+<li>https://deurachavich.moe/rss.xml blog "~Deurachavich"</li>
+<li>https://lukesmith.xyz/index.xml blog "~Luke Smith"</li>
+<li>https://psychcool.neocities.org/index.xml blog "~Psychcool"</li>
+<li>https://andrei.xyz/index.xml blog "~Andrei"</li>
+<li>https://manpaint.neocities.org/rss.xml blog "~Manpaint"</li>
+<li>https://devastatia.com/rss blog "~Devastatia (NSFW)"</li>
+<li>https://blog.shr4pnel.com/rss.xml blog "~Shrapnel"</li>
+<li>https://microbyte.neocities.org/index.xml blog "~Microbyte"</li>
+<li>https://kuro-neko.xyz/rss.xml blog "~Kuro Neko"</li>
+<li>https://www.cozynet.org/feed/feed.xml blog "~CozyNet"</li>
+<li>https://i330.dev/posts.rss blog "~I-330"</li>
+<li>https://voicedrew.xyz/rss.xml blog "~Voicedrew"</li>
+<li>---Microblogs---</li>
+<li>https://whitevhs.xyz/microblog/atom.xml microblog "~WhiteVHS Microblog"</li>
+<li>https://voicedrew.xyz/microblog/feed.xml microblog "~Voicedrew's Microblog"</li>
+<li>https://sizeof.cat/notes.xml microblog "~Sizeofcat's Microblog"</li>
+<li>---YouTube---</li>
+<li>https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA youtube lifestyle linux "~Luke Smith"   </li>
+<li>https://www.youtube.com/feeds/videos.xml?channel_id=UCzREuchzOqiawpEpvEM0Tyg youtube "~Apostate Prophet"             </li>
+<li>https://www.youtube.com/feeds/videos.xml?channel_id=UCePbPbJ96WvMeMm_VuDkOJA youtube christianity "~David Wood"      </li>
+<li>https://www.youtube.com/feeds/videos.xml?channel_id=UCzV6vMfIjrMoHU2GC7QuYHw youtube christianity history "~Sub Umbra"</li>
+<li>https://www.youtube.com/feeds/videos.xml?channel_id=UCiLqiXa5O85APUBQV7X5w9Q youtube christianity "~Redeemed Zoomer" </li>
+<li>https://www.youtube.com/feeds/videos.xml?channel_id=UCAb3uSEMDdLDhfS-KbdSH0w youtube christianity "~Crossbearer"     </li>
+<li>https://www.youtube.com/feeds/videos.xml?channel_id=UCadiEsTZ0hNxs5OxwGiyELQ youtube christianity history "~Testify" </li>
+<li>https://www.youtube.com/feeds/videos.xml?channel_id=UC5mef9-G9MHdGR4F3MXXk6g youtube lifestyle "~Jay: Quit PMO"      </li>
+<li>https://www.youtube.com/feeds/videos.xml?channel_id=UCCgK6peZI5-FKDCWzMIFk2A youtube comedy "~Almost Friday TV"      </li>
+<li>https://www.youtube.com/feeds/videos.xml?channel_id=UCY6VZZo9MZCyIIozTs0khNA youtube comedy "~Easy, Actually"        </li>
+<li>https://www.youtube.com/feeds/videos.xml?channel_id=UCo_qOsi_-M5cNgNvMB6vPuw youtube comedy "~Japanalysis"           </li>
+<li>https://www.youtube.com/feeds/videos.xml?channel_id=UCqL-oPQEozYkqef04_O47sQ youtube "~Leather Apron Club"           </li>
+<li>https://www.youtube.com/feeds/videos.xml?channel_id=UCfCKvREB11-fxyotS1ONgww youtube history "~Mark Felton"          </li>
+<li>https://www.youtube.com/feeds/videos.xml?channel_id=UC5qTSu1G4FEUQhsIgjpIP4g youtube "~Intellectual Meathead"        </li>
+<li>https://www.youtube.com/feeds/videos.xml?channel_id=UCld68syR8Wi-GY_n4CaoJGA youtube linux "~Broadie Robertson"</li>
+<li>---Other---</li>
+<li>https://witchculttranslation.com/feed/ other "~Witch Cult Translations (Re:Zero)"</li>
+<li>---Podcasts---</li>
+<li>https://media.rss.com/efapme/feed.xml podcast "~Every Frame A Pause"</li>
+<li>https://notrelated.xyz/rss podcast "~Not Related"</li>
+<li>https://www.lotuseaters.com/feed/category/podcast "~Lotus Eaters"</li>
+</ul>
+
+</section> 
 </html>
