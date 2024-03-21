@@ -1,13 +1,13 @@
+@import url("../var.css");
+
 body {
-  color: #cdd6f4;
-  /*background-color: #1e1e2e;*/
-  /*background: url("https://sadhost.neocities.org/images/tiles/paper.jpg");*/
   background-color: rgba(0,0,0,0);
-  font-family: mono;
+  font-family: serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
   text-align: center;
+  color: var(--clr);
 }
 
 header img {
@@ -17,14 +17,12 @@ top: 0;
 right: 0;
 }
 p {
-  color: #cdd6f4;
-}
-hr {
-  border-top: 1px solid #b4befe;
+  color: white;
+  text-align: justify;
 }
 
 a {
-  color: #b4befe;
+  color: var(--clr);
   text-decoration: none;
   font-weight: bold;
 
@@ -36,8 +34,7 @@ a:hover {
 }
 
 article {
-  max-width: 1000px;
-  min-width: 600px;
+  max-width: 70vw;
   margin: 0 auto;
   padding: 5px 20px;
 }
