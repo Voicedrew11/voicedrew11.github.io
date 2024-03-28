@@ -70,6 +70,15 @@
 
     </style>
 </head>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    if (window.self !== window.top) {
+        document.body.style.color = "#fff";
+    } else {
+        document.body.style.backgroundColor = "white"; // Set your desired background color
+    }
+});
+</script>
 <body>
     <div class="grid-container">
         <!-- Article 1 -->
