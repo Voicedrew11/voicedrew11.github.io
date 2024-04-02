@@ -5,6 +5,7 @@
   --li: #458588;
 }
 
+
 body {
   max-width: 600px;
   margin: 0 auto;
@@ -24,6 +25,8 @@ a {
   text-decoration: none;
 }
 
+
 a:hover {
   color: var(--hl)
+  text-decoration: none; 
 }
