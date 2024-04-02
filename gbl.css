@@ -1,0 +1,29 @@
+:root {
+  --bg: #fbf1c7;
+  --fg: #3c3836;
+  --hl: #cc241d;
+  --li: #458588;
+}
+
+body {
+  max-width: 600px;
+  margin: 0 auto;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: var(--li);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--hl)
+}
