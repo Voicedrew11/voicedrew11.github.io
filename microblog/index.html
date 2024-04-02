@@ -1,42 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Voicedrew's Microblog</title>
+    <title>~/Microblog</title>
+    <link rel="stylesheet" href="../gbl.css">
 </head>
 
-<style>
-.feed-item-title {
-    visibility: hidden;
-}
+<nav>
+    <a href="/index.html">/About</a>
+    <a href="/articles/">/Blog</a>
+    <a href="/bookshelf">/Bookshelf</a>
+    <a href="/microblog/">/Microblog</a>
+    <a href="/links.html">/Links</a>
+</nav>
 
-body {
-    font-family: monospace;
-    margin: 0 auto;
-    padding: 10px;
-}
+<style>
+    .feed-item-title {
+        visibility: hidden;
+    }
+
+    iframe {
+        max-width: 100%;
+        !important
+    }
 
     hr {
         display: none;
     }
 </style>
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    if (window.self !== window.top) {
-        document.body.style.color = "#fff";
-    } else {
-        document.body.style.backgroundColor = "white"; // Set your desired background color
-    }
-});
-</script>
-
-
 <body>
-<script src="https://nerdiedad.com/tools/rss-to-html/?url=https%3A%2F%2Fvoicedrew.xyz%2Fmicroblog%2Ffeed.xml&limit=10&showtitle=false&type=js"></script>    
+    <script
+        src="https://nerdiedad.com/tools/rss-to-html/?url=https%3A%2F%2Fvoicedrew.xyz%2Fmicroblog%2Ffeed.xml&limit=10&showtitle=false&type=js"></script>
 </body>
 
-
 </html>
-
-
