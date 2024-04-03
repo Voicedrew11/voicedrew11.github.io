@@ -4,10 +4,10 @@
   /*--hl: #cc241d;*/
   /*--li: #458588;*/
 
-  --bg: #24283b;
-  --fg: #c0caf5;
-  --hl: #f7768e;
-  --li: #9ece6a;
+  --bg: #282828;
+  --fg: #ebdbb2;
+  --hl: #fb4943;
+  --li: #b8bb26;
 }
 
 body {
@@ -17,10 +17,15 @@ body {
   color: var(--fg);
 }
 
+h1 {
+  text-align: center;
+}
+
 nav {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  position: absolute;
+  left: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -33,4 +38,8 @@ a {
 a:hover {
   color: var(--hl);
   text-decoration: none;
+}
+
+li {
+  list-style: "=> ";
 }
