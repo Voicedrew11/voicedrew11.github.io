@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 :root {
   /*--bg: #fbf1c7;*/
   /*--fg: #3c3836;*/
@@ -11,6 +13,8 @@
 }
 
 body {
+  text-align: justify;
+  font-family: "JetBrains Mono", monospace;
   max-width: 600px;
   margin: 0 auto;
   background: var(--bg);
