@@ -28,22 +28,21 @@ try:
 <head>
 	<meta charset="utf-8">
 	<title>{first_line}</title>
-	<link rel="stylesheet" href="index.css">
-	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+	<link rel="stylesheet" href="../gbl.css">
 </head>
 
-<header>
-	<a href="https://voicedrew.xyz/"><img src="https://voicedrew.xyz/images/bannerT.png"></a>
-</header>
+<nav>
+  <a href="/index.html">/About</a>
+  <a href="/articles/">/Blog</a>
+  <a href="/bookshelf">/Bookshelf</a>
+  <a href="/microblog/">/Microblog</a>
+  <a href="/links.html">/Links</a>
+</nav>
 
 	<body>
-	<div  class="foreground">
         <article>
             {html}
         </article>
-    </div>
-
-<footer><h1><a href="index.html">◄ Back</a></h1></footer>
 	</body>
 </html>
 """

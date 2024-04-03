@@ -8,6 +8,83 @@
         <!-- LB -->
 
 <item>
+<title>  Radical Redesign</title>
+<guid>https://voicedrew.xyz/articles/radical-redesign.html</guid>
+<link>https://voicedrew.xyz/articles/radical-redesign.html</link>
+<pubDate>Wed, 03 Apr 2024 04:40:35 -0400</pubDate>
+<description><![CDATA[
+  <article>
+    <h1>Radical Redesign</h1>
+    <p>Not long ago, I redesigned my entire website. I did away with my classic <a
+        href="https://aesthetics.fandom.com/wiki/Y2K">Y2K</a> aestetic in favor of a more modern frosted glass look in
+      conjunction with a <a href="https://en.wikipedia.org/wiki/Holy_grail_(web_design)">holy grail layout</a>. At the
+      time, I was extremly impressed with my work, and I would still agree that it was technically impressive. I have,
+      however, decided to tear it down in favor of something more simple.</p>
+    <h2>Iframes</h2>
+    <p>One of my primary goals in my redesign was to have the entire page fit on a single viewport height; sort of like
+      a <a href="https://en.wikipedia.org/wiki/Single-page_application">single page web app</a>. To pull this off, I
+      made use of a central <a href="https://www.w3schools.com/tags/tag_iframe.asp">iframe</a> of restricted height that
+      would have content loaded into it when hyperlinks in the navbar were clicked by the user.</p>
+    <p>One thing that sucks about this approach is that the experience of using the website varies significantly
+      depending on the user's resolution. On a very small screen (~720p or less), elements in the sidebars would be
+      forced off screen while the iframe in the center still maintained it's proper height.</p>
+    <p>You definitely can do iframes correctly, but I definitely did not. here are what I think are some (((better)))
+      examples:</p>
+    <ul>
+      <li><a href="https://purplehello98.neocities.org/main?z=/frame">PurpleHello98</a></li>
+      <li><a href="https://melonking.net/melon?z=%2Fhome">MelonKing</a></li>
+    </ul>
+    <p>Although, to push back on these two sites, they are both virtually unuseable in non-gui browsers (ie. <a
+        href="https://en.wikipedia.org/wiki/Lynx_(web_browser)">Lynx</a>, <a
+        href="https://w3m.sourceforge.net/">w3m</a>). To offer some conjecture, if your website can't reasonably be used
+      in such a browser, it's probably too complicated.</p>
+    <blockquote>
+      <p>"If it doesn’t work in Lynx, it doesn’t work at all." - <a
+          href="https://starbreaker.org/blog/tech/personal-web-accessibility-march-2024/index.html">Starbreaker</a></p>
+    </blockquote>
+    <h2>JavaScript</h2>
+    <p>So like, I'm not as autistic about JavaScript usage as some other people on the Personal Web™, but I definitely
+      like to follow the philosophy of "less is more". One of the great disadvantages of having an iframe dependent
+      layout is that even quite basic functionality of your website becomes JavaScript dependent.</p>
+    <p>Lets say, for example, you wanted to link somebody to a blog post I had written. The process of doing this is
+      already more complicated than normal, requiring you to right click on the frame and open it in a new tab. There
+      is, however, an additional problem; On the page you've just opened there is no background color; which means white
+      text is being shown on a white background. What a mess!</p>
+    <p>The reason for this is that the page in question has to have a blank background so that when it is loaded into
+      the iframe, it appears seamless. </p>
+    <p>But in this context, it's all wrong, so to combat this I wrote a bit of JavaScript to detect if the page was
+      being accessed from an iframe, and, if it was not, to change the background color to something sensible like gray.
+    </p>
+    <p>Now, in my opinion, that is a pretty ingenious solution, somebody should definitely pay me for it, but it does
+      raise some questions about the efficacy of the "single page application" I was going for. Have I not just created
+      this problem for myself? A problem which did not previously exist? A problem which is only solved with JavaScript?
+    </p>
+    <p>This was not an isolated problem either, for a second example, if I wanted the iframe to start with a particular
+      page loaded (so that I may link somebody a page other than the default one), I would need to use JavaScript to
+      read a tag in the URL and change the page loaded into the iframe.</p>
+    <h2>What next?</h2>
+    <p>Okay, so I've explained the problems I had with my previous site, but what now? Is your new design not too
+      radical in the other direction? </p>
+    <p>In some ways it definitely is. Besides the use of <a href="https://github.com/morhetz/gruvbox">gruvbox</a>, there
+      is very little character in the visuals of the site. </p>
+    <p>But for all the visual character I've given up, I hope to replace it with substance. I'd like to have more on my
+      website than hyperlinks and images. I'd like to put a lot more focus on writing. As such, I hope the design of my
+      site somewhat reflects that.</p>
+    <p>Here are some folks I took queues from when designing my new site:</p>
+    <ul>
+      <li><a href="https://risingthumb.xyz/">Risingthumb</a></li>
+      <li><a href="https://starbreaker.org/">Starbreaker</a></li>
+      <li><a href="https://commodorian.org/blog/index.html">Commodorian</a></li>
+    </ul>
+    <h2>Plus Something</h2>
+    <p>You might be under the impression that I've used an SSG to make my new site. truth be told, I just use a shell
+      script to keep the navbar on each page the same. You'll never re-cuck me into using HUGO.</p>
+  </article>
+]]></description>
+</item>
+
+
+<item>
 <title>	The Bitter Cold</title>
 <guid>https://voicedrew.xyz/articles/the-bitter-cold.html</guid>
 <link>https://voicedrew.xyz/articles/the-bitter-cold.html</link>
