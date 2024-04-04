@@ -13,7 +13,6 @@
 }
 
 body {
-  text-align: justify;
   font-family: "JetBrains Mono", monospace;
   max-width: 600px;
   margin: 0 auto;
@@ -46,4 +45,27 @@ a:hover {
 
 li {
   list-style: "=> ";
+}
+
+@media only screen and (max-height: 768px) {
+  nav {
+    position: relative;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 25px;
+    max-width: 100%;
+    font-size: 36px;
+  }
+
+  nav {
+    font-size: 200%;
+    position: relative;
+    flex-direction: column;
+    margin-top: 20px;
+  }
 }
