@@ -8,14 +8,18 @@
 </head>
 
 <nav>
-    <a href="/index.html">/About</a>
-    <a href="/articles/">/Blog</a>
-    <a href="/bookshelf">/Bookshelf</a>
-    <a href="/microblog/">/Microblog</a>
-    <a href="/links.html">/Links</a>
+    <a href="/index.html"><img class="icon" src="/images/index.png"></a>
+    <a href="/articles/"><img class="icon" src="/images/note.png"></a>
+    <a href="/bookshelf"><img class="icon" src="/images/about.png"></a>
+    <a href="/microblog/"><img class="icon" src="/images/microblog.png"></a>
+    <a href="/links.html"><img class="icon" src="/images/links.png"></a>
 </nav>
 
 <style>
+    body {
+        background-image: url("https://sadhost.neocities.org/images/tiles/misc255.gif");
+    }
+
     .feed-item-title {
         visibility: hidden;
     }
@@ -28,17 +32,25 @@
     hr {
         display: none;
     }
+
+    img {
+        width: 100%;
+    }
 </style>
 
 <body>
-    <h1 style="margin-bottom: 0px;">Voicedrew's Microblog</h1>
-    <center>
-        <small>
-            [Subscribe with <a href="feed.xml">RSS</a>]
-        </small>
-    </center>
-    <script
-        src="https://nerdiedad.com/tools/rss-to-html/?url=https%3A%2F%2Fvoicedrew.xyz%2Fmicroblog%2Ffeed.xml&limit=10&showtitle=false&type=js"></script>
+
+    <div id="content">
+        <h1 style="margin-bottom: 0px;">Voicedrew's Microblog</h1>
+        <center>
+            <small>
+                [Subscribe with <a href="feed.xml">RSS</a>]
+            </small>
+        </center>
+        <script
+            src="https://nerdiedad.com/tools/rss-to-html/?url=https%3A%2F%2Fvoicedrew.xyz%2Fmicroblog%2Ffeed.xml&limit=10&showtitle=false&type=js"></script>
+
+    </div>
 
 </body>
 
