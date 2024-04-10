@@ -1,36 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+@font-face {
+  font-family: pixel;
+  src: url('fonts/W95FA.otf');
+}
+
+@font-face {
+  font-family: alagard;
+  src: url('fonts/alagard.ttf');
+}
+
 :root {
   /*--bg: #fbf1c7;*/
   /*--fg: #3c3836;*/
   /*--hl: #cc241d;*/
   /*--li: #458588;*/
 
-  --bg: black;
-  --fg: white;
+  --bg: teal;
+  --fg: black;
   --hl: #b8bb26;
-  --li: yellow;
+  --li: blue;
 }
 
 body {
   /* font-family: "JetBrains Mono", monospace; */
-  font-family: serif;
+  font-family: pixel;
+  font-size: 18px;
   max-width: 600px;
   margin: 0 auto;
   background: var(--bg);
   color: var(--fg);
-  background-image: url("https://sadhost.neocities.org/images/tiles/aquagalaxy_small.gif");
 }
 
 h1 {
   text-align: center;
+  font-family: alagard;
 }
 
 nav {
-  position: absolute;
-  left: 20px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icon {
+  background-color: silver;
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+  padding: 8px;
+  width: 64px;
+  height: 64px;
+  image-rendering: pixelated;
 }
 
 a {
@@ -40,12 +59,17 @@ a {
 
 
 a:hover {
-  color: var(--hl);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 li {
   list-style: "=> ";
+}
+
+#content {
+  background-color: silver;
+  padding: 20px;
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
 }
 
 @media only screen and (max-height: 768px) {
