@@ -49,6 +49,7 @@ var sites = [
 'https://alixx.ichi.city/',
 'https://omnipresence.neocities.org/',
 'https://manpaint.neocities.org/',
+'https://kyurems-webroom.neocities.org/',
 ];
 
 // 'https://nhkcafe.neocities.org/',
