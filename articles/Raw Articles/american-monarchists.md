@@ -8,3 +8,6 @@ I suppose this does raise a good question though. Who would be the American Mona
 
 Much to my surprise, it seems that Donny is a rather unpopular candidate for this position, the reasons cited being: His poor moral character, his divisiveness, his *unbecoming* attitude, and his use of Christianity as a political tool. I definitely agree with this assessment, but there is a certain ironic sense in which I think out of everybody I will mention, Donald Trump has the *highest* likelihood of becoming a Despot (not to imply that this is a likely occurrence in the first place).
 
+Another option would be a decendant of King George III. This would certainly not be popular amongst populists, but in terms of legitimacy this group has the most going for it. The group that comes to mind first is the Windsors, but that certainly is not the only family that is eligable. 
+
+There are some considereations though, like, for example, most of these people have no actually experience in government and as such would probably make for bad leaders (one of the advantages of monarchy).
