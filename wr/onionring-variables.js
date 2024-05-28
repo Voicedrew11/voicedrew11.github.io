@@ -46,7 +46,7 @@ var sites = [
 'https://georgemoody.envs.net/',
 'https://chrysalism.neocities.org/',
 'https://crunglechamp.neocities.org/',
-'https://alixx.ichi.city/',
+'https://alixxd.neocities.org/',
 'https://omnipresence.neocities.org/',
 'https://manpaint.neocities.org/',
 'https://kyurems-webroom.neocities.org/',
