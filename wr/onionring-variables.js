@@ -43,7 +43,6 @@ var sites = [
 'https://www.scitzoe.com/',
 'https://b4rkod.net.tr/',
 'https://psychcool.neocities.org/',
-'https://georgemoody.envs.net/',
 'https://chrysalism.neocities.org/',
 'https://crunglechamp.neocities.org/',
 'https://alixxd.neocities.org/',
