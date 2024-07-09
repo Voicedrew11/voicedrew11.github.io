@@ -50,6 +50,7 @@ var sites = [
 'https://manpaint.neocities.org/',
 'https://kyurems-webroom.neocities.org/',
 'https://lainwired.net/',
+'https://thecozy.cat/',
 ];
 
 // 'https://nhkcafe.neocities.org/',
