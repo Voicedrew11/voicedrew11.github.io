@@ -51,6 +51,7 @@ var sites = [
 'https://kyurems-webroom.neocities.org/',
 'https://lainwired.net/',
 'https://thecozy.cat/',
+'https://regirock.net/',
 ];
 
 // 'https://nhkcafe.neocities.org/',
