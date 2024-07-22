@@ -18,8 +18,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1db04384df2c1622",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
+          },
+          {
+            "id": "ad643f71fee9c036",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Jayden.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "from-zero.md",
+                "file": "Jayden.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "from-zero.md",
+                "file": "Jayden.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "from-zero.md"
+                "file": "Jayden.md"
               }
             }
           }
@@ -146,8 +169,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a7d1eefaf0b5a430",
+  "active": "ad643f71fee9c036",
   "lastOpenFiles": [
+    "Jayden.md",
     "soulseek-now.md",
     "thinkmaxxing.md",
     "Complete/Yesterweb: Requiem of Silence.md"

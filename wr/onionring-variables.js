@@ -52,6 +52,7 @@ var sites = [
 'https://lainwired.net/',
 'https://thecozy.cat/',
 'https://regirock.net/',
+'https://bluntsmoker.neocities.org/',
 ];
 
 // 'https://nhkcafe.neocities.org/',
