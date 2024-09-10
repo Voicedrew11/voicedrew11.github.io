@@ -40,9 +40,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a9bb6452bbbf44ac",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -108,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Jayden.md",
+                "file": "from-zero.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Jayden.md",
+                "file": "from-zero.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,16 +156,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Jayden.md"
+                "file": "from-zero.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,7 +177,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ad643f71fee9c036",
+  "active": "203bf465114c72c0",
   "lastOpenFiles": [
     "Jayden.md",
     "soulseek-now.md",

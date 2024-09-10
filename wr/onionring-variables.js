@@ -53,6 +53,7 @@ var sites = [
 'https://thecozy.cat/',
 'https://regirock.net/',
 'https://bluntsmoker.neocities.org/',
+'https://schizopunk-media.neocities.org/',
 ];
 
 // 'https://nhkcafe.neocities.org/',
