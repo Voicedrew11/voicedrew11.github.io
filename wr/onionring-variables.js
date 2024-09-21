@@ -52,6 +52,7 @@ var sites = [
 'https://regirock.net/',
 'https://bluntsmoker.neocities.org/',
 'https://schizopunk-media.neocities.org/',
+'https://goeshard.org/',
 ];
 
 // 'https://nhkcafe.neocities.org/',
