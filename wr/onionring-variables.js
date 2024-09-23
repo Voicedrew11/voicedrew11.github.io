@@ -53,6 +53,7 @@ var sites = [
 'https://bluntsmoker.neocities.org/',
 'https://schizopunk-media.neocities.org/',
 'https://goeshard.org/',
+'https://sunkud.neocities.org/',
 ];
 
 // 'https://nhkcafe.neocities.org/',
